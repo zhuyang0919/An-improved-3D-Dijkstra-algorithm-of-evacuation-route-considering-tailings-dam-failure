@@ -1,0 +1,2228 @@
+ information extracted from: flsgrf.120
+ 05/31/2022
+ 21:11:2300    1    1    3    2
+     5770953120  (length of data file in words)
+  hydr3d   version  11.2.0.16 win64     11/21/2016                              
+ number of mesh blocks:    3
+ global spatial limits:
+   gxmin    -0.800000E+03
+   gxmax     0.900000E+03
+   gymin    -0.650000E+03
+   gymax     0.200000E+04
+   gzmin    -0.900000E+02
+   gzmax     0.600000E+01
+
+ Component information:
+   nobs                      6
+   ifsin                     0
+   ithrmst                   0
+  
+            icomp ifsi    Name
+  
+   Component   1   0     packed sediment comp. 1                           
+   Component   2   0     component 2                                       
+   Component   3   0     component 3                                       
+   Component   4   0     component 4                                       
+   Component   5   0     component 5                                       
+   Component   6   0     component 6                                       
+
+ mesh block correspondence:
+    1
+    2
+    3
+
+ n_options    22     physical model and geometry options for mesh block  1
+ nobs          6
+ imobs         1
+ nbafs         0
+ nccs          0
+ idrg          0
+ iswat         0
+ nmat          1
+ itb           1
+ np            2
+ ifenrg        0
+ ifsld         0
+ icyl          0
+ ifrho         1
+ icmprs        0
+ units        si
+ tunits        k
+ wl            1
+ wr            1
+ wf            9
+ wbk           1
+ wb            2
+ wt            5
+
+ x_grid      340     x coordinate system for mesh block  1
+ -7.97500000E+02 -7.92500000E+02 -7.87500000E+02 -7.82500000E+02 -7.77500000E+02
+ -7.72500000E+02 -7.67500000E+02 -7.62500000E+02 -7.57500000E+02 -7.52500000E+02
+ -7.47500000E+02 -7.42500000E+02 -7.37500000E+02 -7.32500000E+02 -7.27500000E+02
+ -7.22500000E+02 -7.17500000E+02 -7.12500000E+02 -7.07500000E+02 -7.02500000E+02
+ -6.97500000E+02 -6.92500000E+02 -6.87500000E+02 -6.82500000E+02 -6.77500000E+02
+ -6.72500000E+02 -6.67500000E+02 -6.62500000E+02 -6.57500000E+02 -6.52500000E+02
+ -6.47500000E+02 -6.42500000E+02 -6.37500000E+02 -6.32500000E+02 -6.27500000E+02
+ -6.22500000E+02 -6.17500000E+02 -6.12500000E+02 -6.07500000E+02 -6.02500000E+02
+ -5.97500000E+02 -5.92500000E+02 -5.87500000E+02 -5.82500000E+02 -5.77500000E+02
+ -5.72500000E+02 -5.67500000E+02 -5.62500000E+02 -5.57500000E+02 -5.52500000E+02
+ -5.47500000E+02 -5.42500000E+02 -5.37500000E+02 -5.32500000E+02 -5.27500000E+02
+ -5.22500000E+02 -5.17500000E+02 -5.12500000E+02 -5.07500000E+02 -5.02500000E+02
+ -4.97500000E+02 -4.92500000E+02 -4.87500000E+02 -4.82500000E+02 -4.77500000E+02
+ -4.72500000E+02 -4.67500000E+02 -4.62500000E+02 -4.57500000E+02 -4.52500000E+02
+ -4.47500000E+02 -4.42500000E+02 -4.37500000E+02 -4.32500000E+02 -4.27500000E+02
+ -4.22500000E+02 -4.17500000E+02 -4.12500000E+02 -4.07500000E+02 -4.02500000E+02
+ -3.97500000E+02 -3.92500000E+02 -3.87500000E+02 -3.82500000E+02 -3.77500000E+02
+ -3.72500000E+02 -3.67500000E+02 -3.62500000E+02 -3.57500000E+02 -3.52500000E+02
+ -3.47500000E+02 -3.42500000E+02 -3.37500000E+02 -3.32500000E+02 -3.27500000E+02
+ -3.22500000E+02 -3.17500000E+02 -3.12500000E+02 -3.07500000E+02 -3.02500000E+02
+ -2.97500000E+02 -2.92500000E+02 -2.87500000E+02 -2.82500000E+02 -2.77500000E+02
+ -2.72500000E+02 -2.67500000E+02 -2.62500000E+02 -2.57500000E+02 -2.52500000E+02
+ -2.47500000E+02 -2.42500000E+02 -2.37500000E+02 -2.32500000E+02 -2.27500000E+02
+ -2.22500000E+02 -2.17500000E+02 -2.12500000E+02 -2.07500000E+02 -2.02500000E+02
+ -1.97500000E+02 -1.92500000E+02 -1.87500000E+02 -1.82500000E+02 -1.77500000E+02
+ -1.72500000E+02 -1.67500000E+02 -1.62500000E+02 -1.57500000E+02 -1.52500000E+02
+ -1.47500000E+02 -1.42500000E+02 -1.37500000E+02 -1.32500000E+02 -1.27500000E+02
+ -1.22500000E+02 -1.17500000E+02 -1.12500000E+02 -1.07500000E+02 -1.02500000E+02
+ -9.75000000E+01 -9.25000000E+01 -8.75000000E+01 -8.25000000E+01 -7.75000000E+01
+ -7.25000000E+01 -6.75000000E+01 -6.25000000E+01 -5.75000000E+01 -5.25000000E+01
+ -4.75000000E+01 -4.25000000E+01 -3.75000000E+01 -3.25000000E+01 -2.75000000E+01
+ -2.25000000E+01 -1.75000000E+01 -1.25000000E+01 -7.50000000E+00 -2.50000000E+00
+  2.50000000E+00  7.50000000E+00  1.25000000E+01  1.75000000E+01  2.25000000E+01
+  2.75000000E+01  3.25000000E+01  3.75000000E+01  4.25000000E+01  4.75000000E+01
+  5.25000000E+01  5.75000000E+01  6.25000000E+01  6.75000000E+01  7.25000000E+01
+  7.75000000E+01  8.25000000E+01  8.75000000E+01  9.25000000E+01  9.75000000E+01
+  1.02500000E+02  1.07500000E+02  1.12500000E+02  1.17500000E+02  1.22500000E+02
+  1.27500000E+02  1.32500000E+02  1.37500000E+02  1.42500000E+02  1.47500000E+02
+  1.52500000E+02  1.57500000E+02  1.62500000E+02  1.67500000E+02  1.72500000E+02
+  1.77500000E+02  1.82500000E+02  1.87500000E+02  1.92500000E+02  1.97500000E+02
+  2.02500000E+02  2.07500000E+02  2.12500000E+02  2.17500000E+02  2.22500000E+02
+  2.27500000E+02  2.32500000E+02  2.37500000E+02  2.42500000E+02  2.47500000E+02
+  2.52500000E+02  2.57500000E+02  2.62500000E+02  2.67500000E+02  2.72500000E+02
+  2.77500000E+02  2.82500000E+02  2.87500000E+02  2.92500000E+02  2.97500000E+02
+  3.02500000E+02  3.07500000E+02  3.12500000E+02  3.17500000E+02  3.22500000E+02
+  3.27500000E+02  3.32500000E+02  3.37500000E+02  3.42500000E+02  3.47500000E+02
+  3.52500000E+02  3.57500000E+02  3.62500000E+02  3.67500000E+02  3.72500000E+02
+  3.77500000E+02  3.82500000E+02  3.87500000E+02  3.92500000E+02  3.97500000E+02
+  4.02500000E+02  4.07500000E+02  4.12500000E+02  4.17500000E+02  4.22500000E+02
+  4.27500000E+02  4.32500000E+02  4.37500000E+02  4.42500000E+02  4.47500000E+02
+  4.52500000E+02  4.57500000E+02  4.62500000E+02  4.67500000E+02  4.72500000E+02
+  4.77500000E+02  4.82500000E+02  4.87500000E+02  4.92500000E+02  4.97500000E+02
+  5.02500000E+02  5.07500000E+02  5.12500000E+02  5.17500000E+02  5.22500000E+02
+  5.27500000E+02  5.32500000E+02  5.37500000E+02  5.42500000E+02  5.47500000E+02
+  5.52500000E+02  5.57500000E+02  5.62500000E+02  5.67500000E+02  5.72500000E+02
+  5.77500000E+02  5.82500000E+02  5.87500000E+02  5.92500000E+02  5.97500000E+02
+  6.02500000E+02  6.07500000E+02  6.12500000E+02  6.17500000E+02  6.22500000E+02
+  6.27500000E+02  6.32500000E+02  6.37500000E+02  6.42500000E+02  6.47500000E+02
+  6.52500000E+02  6.57500000E+02  6.62500000E+02  6.67500000E+02  6.72500000E+02
+  6.77500000E+02  6.82500000E+02  6.87500000E+02  6.92500000E+02  6.97500000E+02
+  7.02500000E+02  7.07500000E+02  7.12500000E+02  7.17500000E+02  7.22500000E+02
+  7.27500000E+02  7.32500000E+02  7.37500000E+02  7.42500000E+02  7.47500000E+02
+  7.52500000E+02  7.57500000E+02  7.62500000E+02  7.67500000E+02  7.72500000E+02
+  7.77500000E+02  7.82500000E+02  7.87500000E+02  7.92500000E+02  7.97500000E+02
+  8.02500000E+02  8.07500000E+02  8.12500000E+02  8.17500000E+02  8.22500000E+02
+  8.27500000E+02  8.32500000E+02  8.37500000E+02  8.42500000E+02  8.47500000E+02
+  8.52500000E+02  8.57500000E+02  8.62500000E+02  8.67500000E+02  8.72500000E+02
+  8.77500000E+02  8.82500000E+02  8.87500000E+02  8.92500000E+02  8.97500000E+02
+
+ y_grid      361     y coordinate system for mesh block  1
+  1.97500000E+02  2.02500000E+02  2.07500000E+02  2.12500000E+02  2.17500000E+02
+  2.22500000E+02  2.27500000E+02  2.32500000E+02  2.37500000E+02  2.42500000E+02
+  2.47500000E+02  2.52500000E+02  2.57500000E+02  2.62500000E+02  2.67500000E+02
+  2.72500000E+02  2.77500000E+02  2.82500000E+02  2.87500000E+02  2.92500000E+02
+  2.97500000E+02  3.02500000E+02  3.07500000E+02  3.12500000E+02  3.17500000E+02
+  3.22500000E+02  3.27500000E+02  3.32500000E+02  3.37500000E+02  3.42500000E+02
+  3.47500000E+02  3.52500000E+02  3.57500000E+02  3.62500000E+02  3.67500000E+02
+  3.72500000E+02  3.77500000E+02  3.82500000E+02  3.87500000E+02  3.92500000E+02
+  3.97500000E+02  4.02500000E+02  4.07500000E+02  4.12500000E+02  4.17500000E+02
+  4.22500000E+02  4.27500000E+02  4.32500000E+02  4.37500000E+02  4.42500000E+02
+  4.47500000E+02  4.52500000E+02  4.57500000E+02  4.62500000E+02  4.67500000E+02
+  4.72500000E+02  4.77500000E+02  4.82500000E+02  4.87500000E+02  4.92500000E+02
+  4.97500000E+02  5.02500000E+02  5.07500000E+02  5.12500000E+02  5.17500000E+02
+  5.22500000E+02  5.27500000E+02  5.32500000E+02  5.37500000E+02  5.42500000E+02
+  5.47500000E+02  5.52500000E+02  5.57500000E+02  5.62500000E+02  5.67500000E+02
+  5.72500000E+02  5.77500000E+02  5.82500000E+02  5.87500000E+02  5.92500000E+02
+  5.97500000E+02  6.02500000E+02  6.07500000E+02  6.12500000E+02  6.17500000E+02
+  6.22500000E+02  6.27500000E+02  6.32500000E+02  6.37500000E+02  6.42500000E+02
+  6.47500000E+02  6.52500000E+02  6.57500000E+02  6.62500000E+02  6.67500000E+02
+  6.72500000E+02  6.77500000E+02  6.82500000E+02  6.87500000E+02  6.92500000E+02
+  6.97500000E+02  7.02500000E+02  7.07500000E+02  7.12500000E+02  7.17500000E+02
+  7.22500000E+02  7.27500000E+02  7.32500000E+02  7.37500000E+02  7.42500000E+02
+  7.47500000E+02  7.52500000E+02  7.57500000E+02  7.62500000E+02  7.67500000E+02
+  7.72500000E+02  7.77500000E+02  7.82500000E+02  7.87500000E+02  7.92500000E+02
+  7.97500000E+02  8.02500000E+02  8.07500000E+02  8.12500000E+02  8.17500000E+02
+  8.22500000E+02  8.27500000E+02  8.32500000E+02  8.37500000E+02  8.42500000E+02
+  8.47500000E+02  8.52500000E+02  8.57500000E+02  8.62500000E+02  8.67500000E+02
+  8.72500000E+02  8.77500000E+02  8.82500000E+02  8.87500000E+02  8.92500000E+02
+  8.97500000E+02  9.02500000E+02  9.07500000E+02  9.12500000E+02  9.17500000E+02
+  9.22500000E+02  9.27500000E+02  9.32500000E+02  9.37500000E+02  9.42500000E+02
+  9.47500000E+02  9.52500000E+02  9.57500000E+02  9.62500000E+02  9.67500000E+02
+  9.72500000E+02  9.77500000E+02  9.82500000E+02  9.87500000E+02  9.92500000E+02
+  9.97500000E+02  1.00250000E+03  1.00750000E+03  1.01250000E+03  1.01750000E+03
+  1.02250000E+03  1.02750000E+03  1.03250000E+03  1.03750000E+03  1.04250000E+03
+  1.04750000E+03  1.05250000E+03  1.05750000E+03  1.06250000E+03  1.06750000E+03
+  1.07250000E+03  1.07750000E+03  1.08250000E+03  1.08750000E+03  1.09250000E+03
+  1.09750000E+03  1.10250000E+03  1.10750000E+03  1.11250000E+03  1.11750000E+03
+  1.12250000E+03  1.12750000E+03  1.13250000E+03  1.13750000E+03  1.14250000E+03
+  1.14750000E+03  1.15250000E+03  1.15750000E+03  1.16250000E+03  1.16750000E+03
+  1.17250000E+03  1.17750000E+03  1.18250000E+03  1.18750000E+03  1.19250000E+03
+  1.19750000E+03  1.20250000E+03  1.20750000E+03  1.21250000E+03  1.21750000E+03
+  1.22250000E+03  1.22750000E+03  1.23250000E+03  1.23750000E+03  1.24250000E+03
+  1.24750000E+03  1.25250000E+03  1.25750000E+03  1.26250000E+03  1.26750000E+03
+  1.27250000E+03  1.27750000E+03  1.28250000E+03  1.28750000E+03  1.29250000E+03
+  1.29750000E+03  1.30250000E+03  1.30750000E+03  1.31250000E+03  1.31750000E+03
+  1.32250000E+03  1.32750000E+03  1.33250000E+03  1.33750000E+03  1.34250000E+03
+  1.34750000E+03  1.35250000E+03  1.35750000E+03  1.36250000E+03  1.36750000E+03
+  1.37250000E+03  1.37750000E+03  1.38250000E+03  1.38750000E+03  1.39250000E+03
+  1.39750000E+03  1.40250000E+03  1.40750000E+03  1.41250000E+03  1.41750000E+03
+  1.42250000E+03  1.42750000E+03  1.43250000E+03  1.43750000E+03  1.44250000E+03
+  1.44750000E+03  1.45250000E+03  1.45750000E+03  1.46250000E+03  1.46750000E+03
+  1.47250000E+03  1.47750000E+03  1.48250000E+03  1.48750000E+03  1.49250000E+03
+  1.49750000E+03  1.50250000E+03  1.50750000E+03  1.51250000E+03  1.51750000E+03
+  1.52250000E+03  1.52750000E+03  1.53250000E+03  1.53750000E+03  1.54250000E+03
+  1.54750000E+03  1.55250000E+03  1.55750000E+03  1.56250000E+03  1.56750000E+03
+  1.57250000E+03  1.57750000E+03  1.58250000E+03  1.58750000E+03  1.59250000E+03
+  1.59750000E+03  1.60250000E+03  1.60750000E+03  1.61250000E+03  1.61750000E+03
+  1.62250000E+03  1.62750000E+03  1.63250000E+03  1.63750000E+03  1.64250000E+03
+  1.64750000E+03  1.65250000E+03  1.65750000E+03  1.66250000E+03  1.66750000E+03
+  1.67250000E+03  1.67750000E+03  1.68250000E+03  1.68750000E+03  1.69250000E+03
+  1.69750000E+03  1.70250000E+03  1.70750000E+03  1.71250000E+03  1.71750000E+03
+  1.72250000E+03  1.72750000E+03  1.73250000E+03  1.73750000E+03  1.74250000E+03
+  1.74750000E+03  1.75250000E+03  1.75750000E+03  1.76250000E+03  1.76750000E+03
+  1.77250000E+03  1.77750000E+03  1.78250000E+03  1.78750000E+03  1.79250000E+03
+  1.79750000E+03  1.80250000E+03  1.80750000E+03  1.81250000E+03  1.81750000E+03
+  1.82250000E+03  1.82750000E+03  1.83250000E+03  1.83750000E+03  1.84250000E+03
+  1.84750000E+03  1.85250000E+03  1.85750000E+03  1.86250000E+03  1.86750000E+03
+  1.87250000E+03  1.87750000E+03  1.88250000E+03  1.88750000E+03  1.89250000E+03
+  1.89750000E+03  1.90250000E+03  1.90750000E+03  1.91250000E+03  1.91750000E+03
+  1.92250000E+03  1.92750000E+03  1.93250000E+03  1.93750000E+03  1.94250000E+03
+  1.94750000E+03  1.95250000E+03  1.95750000E+03  1.96250000E+03  1.96750000E+03
+  1.97250000E+03  1.97750000E+03  1.98250000E+03  1.98750000E+03  1.99250000E+03
+  1.99750000E+03
+
+ z_grid       36     z coordinate system for mesh block  1
+ -8.90000000E+01 -8.70000000E+01 -8.50000000E+01 -8.30000000E+01 -8.10000000E+01
+ -7.90000000E+01 -7.70000000E+01 -7.50000000E+01 -7.30000000E+01 -7.10000000E+01
+ -6.90000000E+01 -6.70000000E+01 -6.50000000E+01 -6.30000000E+01 -6.10000000E+01
+ -5.90000000E+01 -5.70000000E+01 -5.50000000E+01 -5.30000000E+01 -5.10000000E+01
+ -4.90000000E+01 -4.70000000E+01 -4.50000000E+01 -4.30000000E+01 -4.10000000E+01
+ -3.90000000E+01 -3.70000000E+01 -3.50000000E+01 -3.30000000E+01 -3.10000000E+01
+ -2.90000000E+01 -2.70000000E+01 -2.50000000E+01 -2.30000000E+01 -2.10000000E+01
+ -1.90000000E+01
+
+ spat_time      23     spatial times available for mesh block  1
+  0.00000000E+00  1.00190086E+01  2.00030975E+01  2.99967289E+01  3.99987335E+01
+  5.00019188E+01  6.00037117E+01  6.99936981E+01  7.99933929E+01  9.00047989E+01
+  9.99965134E+01  1.10001343E+02  1.20000031E+02  1.29993240E+02  1.40008255E+02
+  1.49999466E+02  1.59994431E+02  1.70003708E+02  1.80000183E+02  1.90000290E+02
+  1.99999939E+02  2.09998245E+02  2.19134827E+02
+
+ hist_time      75     history times available for mesh block  1
+  9.34832618E-02  3.00587273E+00  6.01391029E+00  8.98686886E+00  1.19802542E+01
+  1.49883108E+01  1.80056210E+01  2.10016537E+01  2.39980145E+01  2.69981956E+01
+  2.99967289E+01  3.30098038E+01  3.59912834E+01  3.90006714E+01  4.20110130E+01
+  4.49962502E+01  4.80046806E+01  5.10009193E+01  5.39972267E+01  5.69958344E+01
+  6.00037117E+01  6.30055962E+01  6.59930038E+01  6.90095367E+01  7.20017166E+01
+  7.49942856E+01  7.80015564E+01  8.10019989E+01  8.40002289E+01  8.70057220E+01
+  9.00047989E+01  9.30047531E+01  9.59968491E+01  9.89961166E+01  1.01996567E+02
+  1.05000366E+02  1.08000572E+02  1.11004036E+02  1.14001030E+02  1.17002060E+02
+  1.20000031E+02  1.22995117E+02  1.25997025E+02  1.28995163E+02  1.31992401E+02
+  1.35000900E+02  1.38002869E+02  1.41007309E+02  1.44002945E+02  1.47003342E+02
+  1.49999466E+02  1.52998505E+02  1.56008713E+02  1.59000443E+02  1.61996658E+02
+  1.64994873E+02  1.67999695E+02  1.70996872E+02  1.73993469E+02  1.77002975E+02
+  1.80000183E+02  1.83001907E+02  1.85992371E+02  1.89000992E+02  1.91999252E+02
+  1.95001038E+02  1.97998367E+02  2.01000778E+02  2.04000122E+02  2.06999710E+02
+  2.09998245E+02  2.12999924E+02  2.16001297E+02  2.18998596E+02  2.19134827E+02
+
+ anim_time      23     animation times available for mesh block  1
+  0.00000000E+00  1.00190086E+01  2.00030975E+01  2.99967289E+01  3.99987335E+01
+  5.00019188E+01  6.00037117E+01  6.99936981E+01  7.99933929E+01  9.00047989E+01
+  9.99965134E+01  1.10001343E+02  1.20000031E+02  1.29993240E+02  1.40008255E+02
+  1.49999466E+02  1.59994431E+02  1.70003708E+02  1.80000183E+02  1.90000290E+02
+  1.99999939E+02  2.09998245E+02  2.19134827E+02
+
+ soli_time       0     solidification times available for mesh block  1
+
+ spat_var     62     spatial variables available for mesh block  1
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ vf        0    1   3    1  342    1  363    1   38    4     volume fraction before AVRCK adjustment 
+ vfa       0    1   3    1  342    1  363    1   38    4     volume fraction after AVRCK adjustment  
+ sfelds    0    1   3    1  342    1  363    1   38    2     terrain elevation   
+ afr       0    1   3    1  342    1  363    1   38    2     area fraction right 
+ afb       0    1   3    1  342    1  363    1   38    2     area fraction back  
+ aft       0    1   3    1  342    1  363    1   38    2     area fraction top   
+ f         0    1   3    1  342    1  363    1   38    2     fraction of fluid   
+ p         0    1   3    1  342    1  363    1   38    1     pressure  
+ rho       0    1   3    1  342    1  363    1   38    2     macroscopic density 
+ mu        0    1   3    1  342    1  363    1   38    2     dynamic viscosity   
+ yplus     0    1   3    1  342    1  363    1   38    1     y+        
+ shrvel    0    1   3    1  342    1  363    1   38    2     shear velocity      
+ tke       0    1   3    1  342    1  363    1   38    2     turbulent energy    
+ trbint    0    1   3    1  342    1  363    1   38    3     turbulence intensity; %       
+ dtke      0    1   3    1  342    1  363    1   38    3     turbulent dissipation         
+ ttime     0    1   3    1  342    1  363    1   38    2     turbulent time scale
+ tlength   0    1   3    1  342    1  363    1   38    3     turbulent length scale        
+ scl1      0    1   3    1  342    1  363    1   38    3     suspended sediment sp 1   conc
+ scl2      0    1   3    1  342    1  363    1   38    4     sediment sp 1   packed vol frac         
+ tsusp     0    1   3    1  342    1  363    1   38    4     sediment; suspended: volume fraction    
+ vfsspk    0    1   3    1  342    1  363    1   38    4     sediment; packed: volume fraction       
+ scrdif    0    1   3    1  342    1  363    1   38    4     sediment; packed: elevation net change  
+ scrate    0    1   3    1  342    1  363    1   38    5     sediment; packed: elevation average change rate   
+ d50       0    1   3    1  342    1  363    1   38    3     sediment; packed: d50         
+ stnr      0    1   3    1  342    1  363    1   38    3     strain rate magnitude         
+ hyfd      0    1   3    1  342    1  363    1   38    1     flow depth
+ mhyfd     0    1   3    1  342    1  363    1   38    2     maximum flow depth  
+ hyel      0    1   3    1  342    1  363    1   38    3     free surface elevation        
+ davel     0    1   3    1  342    1  363    1   38    3     depth-averaged velocity       
+ ofvel     0    1   3    1  342    1  363    1   38    4     velocity at  0.000E+00 above bottom     
+ froude    0    1   3    1  342    1  363    1   38    2     Froude number       
+ shyhd     0    1   3    1  342    1  363    1   38    3     specific hydraulic head       
+ thyhd     0    1   3    1  342    1  363    1   38    2     total hydraulic head
+ prsitr    0    1   3    1  342    1  363    1   38    4     Diagnostics: pressure iteration residual
+ volerr    0    1   3    1  342    1  363    1   38    5     Diagnostics: cumulative fluid fraction error      
+ nf        0    1   3    1  342    1  363    1   38    3     Diagnostics: nf values        
+ drg       0    1   3    1  342    1  363    1   38    3     normalized drag coefficient   
+ u         0    1   3    1  342    1  363    1   38    1     x-velocity
+ v         0    1   3    1  342    1  363    1   38    1     y-velocity
+ w         0    1   3    1  342    1  363    1   38    1     z-velocity
+ ijkmob    0    1   3    1  342    1  363    1   38    2     component number    
+ vbnd      0    1   0    0    0    0    0    0    0    2     boundary velocities 
+ scrp      0    1   3    1  342    1  363    1   38    2     excess shear stress 
+ rough     0    1   3    1  342    1  363    1   38    2     surface roughness   
+ vf2       0    1   3    1  342    1  363    1   38    3     component 2: volume fraction  
+ vf3       0    1   3    1  342    1  363    1   38    3     component 3: volume fraction  
+ vf4       0    1   3    1  342    1  363    1   38    3     component 4: volume fraction  
+ vf5       0    1   3    1  342    1  363    1   38    3     component 5: volume fraction  
+ vf6       0    1   3    1  342    1  363    1   38    3     component 6: volume fraction  
+ icstat    0    1   3    1  342    1  363    1   38    1     cell type 
+ npart15   0    0   0    0    0    0    0    0    0    2     probe particles     
+ xpart15   0    0   0    0    0    0    0    0    0    2     x-coordinate        
+ ypart15   0    0   0    0    0    0    0    0    0    2     y-coordinate        
+ zpart15   0    0   0    0    0    0    0    0    0    2     z-coordinate        
+ upart15   0    0   0    0    0    0    0    0    0    1     x-velocity
+ vpart15   0    0   0    0    0    0    0    0    0    1     y-velocity
+ wpart15   0    0   0    0    0    0    0    0    0    1     z-velocity
+ pstag15   0    0   0    0    0    0    0    0    0    1     probe id  
+ pbtag15   0    0   0    0    0    0    0    0    0    3     associated particle class     
+ idspc15   0    0   0    0    0    0    0    0    0    3     associated particle species   
+ motn15    0    0   0    0    0    0    0    0    0    2     motion attribute    
+ tpart15   0    0   0    0    0    0    0    0    0    1     life time 
+
+ hist_var    249     history variables available for mesh block  1
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ dt        0    0   0    0    0    0    0    0    0    3     Diagnostics: time-step size   
+ elt       0    0   0    0    0    0    0    0    0    4     Diagnostics: elapsed clock time         
+ elt_cyc   0    0   0    0    0    0    0    0    0    5     Diagnostics: elapsed clock time per time step     
+ peff      0    0   0    0    0    0    0    0    0    4     Diagnostics: % parallel efficiency      
+ f         1    0   0    0    0    0    0    0    0    2     1: fraction of fluid
+ p         1    0   0    0    0    0    0    0    0    2     1: pressure         
+ rho       1    0   0    0    0    0    0    0    0    3     1: macroscopic density        
+ mu        1    0   0    0    0    0    0    0    0    2     1: dynamic viscosity
+ tke       1    0   0    0    0    0    0    0    0    2     1: turbulent energy 
+ dtke      1    0   0    0    0    0    0    0    0    3     1: turbulent dissipation      
+ stnr      1    0   0    0    0    0    0    0    0    3     1: strain rate magnitude      
+ scl1      1    0   0    0    0    0    0    0    0    4     1: suspended sediment sp 1   conc       
+ scl2      1    0   0    0    0    0    0    0    0    4     1: sediment sp 1   packed vol frac      
+ drg       1    0   0    0    0    0    0    0    0    3     1: normalized drag coefficient
+ hyfd      1    0   0    0    0    0    0    0    0    2     1: flow depth       
+ mhyfd     1    0   0    0    0    0    0    0    0    3     1: maximum flow depth         
+ hyel      1    0   0    0    0    0    0    0    0    3     1: free surface elevation     
+ davel     1    0   0    0    0    0    0    0    0    3     1: depth-averaged velocity    
+ ofvel     1    0   0    0    0    0    0    0    0    4     1: velocity at  0.00000E+00 above bottom
+ froude    1    0   0    0    0    0    0    0    0    2     1: Froude number    
+ shyhd     1    0   0    0    0    0    0    0    0    3     1: specific hydraulic head    
+ thyhd     1    0   0    0    0    0    0    0    0    3     1: total hydraulic head       
+ x         1    0   0    0    0    0    0    0    0    2     1: x-coordinate     
+ y         1    0   0    0    0    0    0    0    0    2     1: y-coordinate     
+ z         1    0   0    0    0    0    0    0    0    2     1: z-coordinate     
+ u         1    0   0    0    0    0    0    0    0    2     1: fluid x-velocity 
+ v         1    0   0    0    0    0    0    0    0    2     1: fluid y-velocity 
+ w         1    0   0    0    0    0    0    0    0    2     1: fluid z-velocity 
+ vmag      1    0   0    0    0    0    0    0    0    3     1: fluid velocity magnitude   
+ upr       1    0   0    0    0    0    0    0    0    2     1: probe x-velocity 
+ vpr       1    0   0    0    0    0    0    0    0    2     1: probe y-velocity 
+ wpr       1    0   0    0    0    0    0    0    0    2     1: probe z-velocity 
+ vprmag    1    0   0    0    0    0    0    0    0    3     1: probe velocity magnitude   
+ f         2    0   0    0    0    0    0    0    0    2     2: fraction of fluid
+ p         2    0   0    0    0    0    0    0    0    2     2: pressure         
+ rho       2    0   0    0    0    0    0    0    0    3     2: macroscopic density        
+ mu        2    0   0    0    0    0    0    0    0    2     2: dynamic viscosity
+ tke       2    0   0    0    0    0    0    0    0    2     2: turbulent energy 
+ dtke      2    0   0    0    0    0    0    0    0    3     2: turbulent dissipation      
+ stnr      2    0   0    0    0    0    0    0    0    3     2: strain rate magnitude      
+ scl1      2    0   0    0    0    0    0    0    0    4     2: suspended sediment sp 1   conc       
+ scl2      2    0   0    0    0    0    0    0    0    4     2: sediment sp 1   packed vol frac      
+ drg       2    0   0    0    0    0    0    0    0    3     2: normalized drag coefficient
+ hyfd      2    0   0    0    0    0    0    0    0    2     2: flow depth       
+ mhyfd     2    0   0    0    0    0    0    0    0    3     2: maximum flow depth         
+ hyel      2    0   0    0    0    0    0    0    0    3     2: free surface elevation     
+ davel     2    0   0    0    0    0    0    0    0    3     2: depth-averaged velocity    
+ ofvel     2    0   0    0    0    0    0    0    0    4     2: velocity at  0.00000E+00 above bottom
+ froude    2    0   0    0    0    0    0    0    0    2     2: Froude number    
+ shyhd     2    0   0    0    0    0    0    0    0    3     2: specific hydraulic head    
+ thyhd     2    0   0    0    0    0    0    0    0    3     2: total hydraulic head       
+ x         2    0   0    0    0    0    0    0    0    2     2: x-coordinate     
+ y         2    0   0    0    0    0    0    0    0    2     2: y-coordinate     
+ z         2    0   0    0    0    0    0    0    0    2     2: z-coordinate     
+ u         2    0   0    0    0    0    0    0    0    2     2: fluid x-velocity 
+ v         2    0   0    0    0    0    0    0    0    2     2: fluid y-velocity 
+ w         2    0   0    0    0    0    0    0    0    2     2: fluid z-velocity 
+ vmag      2    0   0    0    0    0    0    0    0    3     2: fluid velocity magnitude   
+ upr       2    0   0    0    0    0    0    0    0    2     2: probe x-velocity 
+ vpr       2    0   0    0    0    0    0    0    0    2     2: probe y-velocity 
+ wpr       2    0   0    0    0    0    0    0    0    2     2: probe z-velocity 
+ vprmag    2    0   0    0    0    0    0    0    0    3     2: probe velocity magnitude   
+ f         3    0   0    0    0    0    0    0    0    2     3: fraction of fluid
+ p         3    0   0    0    0    0    0    0    0    2     3: pressure         
+ rho       3    0   0    0    0    0    0    0    0    3     3: macroscopic density        
+ mu        3    0   0    0    0    0    0    0    0    2     3: dynamic viscosity
+ tke       3    0   0    0    0    0    0    0    0    2     3: turbulent energy 
+ dtke      3    0   0    0    0    0    0    0    0    3     3: turbulent dissipation      
+ stnr      3    0   0    0    0    0    0    0    0    3     3: strain rate magnitude      
+ scl1      3    0   0    0    0    0    0    0    0    4     3: suspended sediment sp 1   conc       
+ scl2      3    0   0    0    0    0    0    0    0    4     3: sediment sp 1   packed vol frac      
+ drg       3    0   0    0    0    0    0    0    0    3     3: normalized drag coefficient
+ hyfd      3    0   0    0    0    0    0    0    0    2     3: flow depth       
+ mhyfd     3    0   0    0    0    0    0    0    0    3     3: maximum flow depth         
+ hyel      3    0   0    0    0    0    0    0    0    3     3: free surface elevation     
+ davel     3    0   0    0    0    0    0    0    0    3     3: depth-averaged velocity    
+ ofvel     3    0   0    0    0    0    0    0    0    4     3: velocity at  0.00000E+00 above bottom
+ froude    3    0   0    0    0    0    0    0    0    2     3: Froude number    
+ shyhd     3    0   0    0    0    0    0    0    0    3     3: specific hydraulic head    
+ thyhd     3    0   0    0    0    0    0    0    0    3     3: total hydraulic head       
+ x         3    0   0    0    0    0    0    0    0    2     3: x-coordinate     
+ y         3    0   0    0    0    0    0    0    0    2     3: y-coordinate     
+ z         3    0   0    0    0    0    0    0    0    2     3: z-coordinate     
+ u         3    0   0    0    0    0    0    0    0    2     3: fluid x-velocity 
+ v         3    0   0    0    0    0    0    0    0    2     3: fluid y-velocity 
+ w         3    0   0    0    0    0    0    0    0    2     3: fluid z-velocity 
+ vmag      3    0   0    0    0    0    0    0    0    3     3: fluid velocity magnitude   
+ upr       3    0   0    0    0    0    0    0    0    2     3: probe x-velocity 
+ vpr       3    0   0    0    0    0    0    0    0    2     3: probe y-velocity 
+ wpr       3    0   0    0    0    0    0    0    0    2     3: probe z-velocity 
+ vprmag    3    0   0    0    0    0    0    0    0    3     3: probe velocity magnitude   
+ f         4    0   0    0    0    0    0    0    0    2     4: fraction of fluid
+ p         4    0   0    0    0    0    0    0    0    2     4: pressure         
+ rho       4    0   0    0    0    0    0    0    0    3     4: macroscopic density        
+ mu        4    0   0    0    0    0    0    0    0    2     4: dynamic viscosity
+ tke       4    0   0    0    0    0    0    0    0    2     4: turbulent energy 
+ dtke      4    0   0    0    0    0    0    0    0    3     4: turbulent dissipation      
+ stnr      4    0   0    0    0    0    0    0    0    3     4: strain rate magnitude      
+ scl1      4    0   0    0    0    0    0    0    0    4     4: suspended sediment sp 1   conc       
+ scl2      4    0   0    0    0    0    0    0    0    4     4: sediment sp 1   packed vol frac      
+ drg       4    0   0    0    0    0    0    0    0    3     4: normalized drag coefficient
+ hyfd      4    0   0    0    0    0    0    0    0    2     4: flow depth       
+ mhyfd     4    0   0    0    0    0    0    0    0    3     4: maximum flow depth         
+ hyel      4    0   0    0    0    0    0    0    0    3     4: free surface elevation     
+ davel     4    0   0    0    0    0    0    0    0    3     4: depth-averaged velocity    
+ ofvel     4    0   0    0    0    0    0    0    0    4     4: velocity at  0.00000E+00 above bottom
+ froude    4    0   0    0    0    0    0    0    0    2     4: Froude number    
+ shyhd     4    0   0    0    0    0    0    0    0    3     4: specific hydraulic head    
+ thyhd     4    0   0    0    0    0    0    0    0    3     4: total hydraulic head       
+ x         4    0   0    0    0    0    0    0    0    2     4: x-coordinate     
+ y         4    0   0    0    0    0    0    0    0    2     4: y-coordinate     
+ z         4    0   0    0    0    0    0    0    0    2     4: z-coordinate     
+ u         4    0   0    0    0    0    0    0    0    2     4: fluid x-velocity 
+ v         4    0   0    0    0    0    0    0    0    2     4: fluid y-velocity 
+ w         4    0   0    0    0    0    0    0    0    2     4: fluid z-velocity 
+ vmag      4    0   0    0    0    0    0    0    0    3     4: fluid velocity magnitude   
+ upr       4    0   0    0    0    0    0    0    0    2     4: probe x-velocity 
+ vpr       4    0   0    0    0    0    0    0    0    2     4: probe y-velocity 
+ wpr       4    0   0    0    0    0    0    0    0    2     4: probe z-velocity 
+ vprmag    4    0   0    0    0    0    0    0    0    3     4: probe velocity magnitude   
+ f         5    0   0    0    0    0    0    0    0    2     5: fraction of fluid
+ p         5    0   0    0    0    0    0    0    0    2     5: pressure         
+ rho       5    0   0    0    0    0    0    0    0    3     5: macroscopic density        
+ mu        5    0   0    0    0    0    0    0    0    2     5: dynamic viscosity
+ tke       5    0   0    0    0    0    0    0    0    2     5: turbulent energy 
+ dtke      5    0   0    0    0    0    0    0    0    3     5: turbulent dissipation      
+ stnr      5    0   0    0    0    0    0    0    0    3     5: strain rate magnitude      
+ scl1      5    0   0    0    0    0    0    0    0    4     5: suspended sediment sp 1   conc       
+ scl2      5    0   0    0    0    0    0    0    0    4     5: sediment sp 1   packed vol frac      
+ drg       5    0   0    0    0    0    0    0    0    3     5: normalized drag coefficient
+ hyfd      5    0   0    0    0    0    0    0    0    2     5: flow depth       
+ mhyfd     5    0   0    0    0    0    0    0    0    3     5: maximum flow depth         
+ hyel      5    0   0    0    0    0    0    0    0    3     5: free surface elevation     
+ davel     5    0   0    0    0    0    0    0    0    3     5: depth-averaged velocity    
+ ofvel     5    0   0    0    0    0    0    0    0    4     5: velocity at  0.00000E+00 above bottom
+ froude    5    0   0    0    0    0    0    0    0    2     5: Froude number    
+ shyhd     5    0   0    0    0    0    0    0    0    3     5: specific hydraulic head    
+ thyhd     5    0   0    0    0    0    0    0    0    3     5: total hydraulic head       
+ x         5    0   0    0    0    0    0    0    0    2     5: x-coordinate     
+ y         5    0   0    0    0    0    0    0    0    2     5: y-coordinate     
+ z         5    0   0    0    0    0    0    0    0    2     5: z-coordinate     
+ u         5    0   0    0    0    0    0    0    0    2     5: fluid x-velocity 
+ v         5    0   0    0    0    0    0    0    0    2     5: fluid y-velocity 
+ w         5    0   0    0    0    0    0    0    0    2     5: fluid z-velocity 
+ vmag      5    0   0    0    0    0    0    0    0    3     5: fluid velocity magnitude   
+ upr       5    0   0    0    0    0    0    0    0    2     5: probe x-velocity 
+ vpr       5    0   0    0    0    0    0    0    0    2     5: probe y-velocity 
+ wpr       5    0   0    0    0    0    0    0    0    2     5: probe z-velocity 
+ vprmag    5    0   0    0    0    0    0    0    0    3     5: probe velocity magnitude   
+ f         6    0   0    0    0    0    0    0    0    2     6: fraction of fluid
+ p         6    0   0    0    0    0    0    0    0    2     6: pressure         
+ rho       6    0   0    0    0    0    0    0    0    3     6: macroscopic density        
+ mu        6    0   0    0    0    0    0    0    0    2     6: dynamic viscosity
+ tke       6    0   0    0    0    0    0    0    0    2     6: turbulent energy 
+ dtke      6    0   0    0    0    0    0    0    0    3     6: turbulent dissipation      
+ stnr      6    0   0    0    0    0    0    0    0    3     6: strain rate magnitude      
+ scl1      6    0   0    0    0    0    0    0    0    4     6: suspended sediment sp 1   conc       
+ scl2      6    0   0    0    0    0    0    0    0    4     6: sediment sp 1   packed vol frac      
+ drg       6    0   0    0    0    0    0    0    0    3     6: normalized drag coefficient
+ hyfd      6    0   0    0    0    0    0    0    0    2     6: flow depth       
+ mhyfd     6    0   0    0    0    0    0    0    0    3     6: maximum flow depth         
+ hyel      6    0   0    0    0    0    0    0    0    3     6: free surface elevation     
+ davel     6    0   0    0    0    0    0    0    0    3     6: depth-averaged velocity    
+ ofvel     6    0   0    0    0    0    0    0    0    4     6: velocity at  0.00000E+00 above bottom
+ froude    6    0   0    0    0    0    0    0    0    2     6: Froude number    
+ shyhd     6    0   0    0    0    0    0    0    0    3     6: specific hydraulic head    
+ thyhd     6    0   0    0    0    0    0    0    0    3     6: total hydraulic head       
+ x         6    0   0    0    0    0    0    0    0    2     6: x-coordinate     
+ y         6    0   0    0    0    0    0    0    0    2     6: y-coordinate     
+ z         6    0   0    0    0    0    0    0    0    2     6: z-coordinate     
+ u         6    0   0    0    0    0    0    0    0    2     6: fluid x-velocity 
+ v         6    0   0    0    0    0    0    0    0    2     6: fluid y-velocity 
+ w         6    0   0    0    0    0    0    0    0    2     6: fluid z-velocity 
+ vmag      6    0   0    0    0    0    0    0    0    3     6: fluid velocity magnitude   
+ upr       6    0   0    0    0    0    0    0    0    2     6: probe x-velocity 
+ vpr       6    0   0    0    0    0    0    0    0    2     6: probe y-velocity 
+ wpr       6    0   0    0    0    0    0    0    0    2     6: probe z-velocity 
+ vprmag    6    0   0    0    0    0    0    0    0    3     6: probe velocity magnitude   
+ fillfrc   0    0   0    0    0    0    0    0    0    2     fill fraction       
+ slfdfrc   0    0   0    0    0    0    0    0    0    3     solidified volume fraction    
+ dtstbl    0    0   0    0    0    0    0    0    0    4     Diagnostics: time-step stability limit  
+ dtuc      0    0   0    0    0    0    0    0    0    6     Diagnostics: x-direction convective time-step limit         
+ dtvc      0    0   0    0    0    0    0    0    0    6     Diagnostics: y-direction convective time-step limit         
+ dtwc      0    0   0    0    0    0    0    0    0    6     Diagnostics: z-direction convective time-step limit         
+ dtvis     0    0   0    0    0    0    0    0    0    4     Diagnostics: viscous time-step limit    
+ dtsur     0    0   0    0    0    0    0    0    0    5     Diagnostics: free surface time-step limit         
+ dtscr     0    0   0    0    0    0    0    0    0    4     Diagnostics: scour model time-step limit
+ epsi      0    0   0    0    0    0    0    0    0    5     Diagnostics: pressure convergence criterion       
+ omega     0    0   0    0    0    0    0    0    0    4     Diagnostics: pressure relaxation factor 
+ dmx       0    0   0    0    0    0    0    0    0    4     Diagnostics: maximum pressure residual  
+ iter      0    0   0    0    0    0    0    0    0    4     Diagnostics: pressure iteration count   
+ avgoms    0    0   0    0    0    0    0    0    0    2     average vorticity   
+ obsvol    0    0   0    0    0    0    0    0    0    3     solid component volume        
+ vobs      1    0   0    0    0    0    0    0    0    4     packed sediment comp. 1: volume         
+ vobs      2    0   0    0    0    0    0    0    0    2     component 2: volume 
+ vobs      3    0   0    0    0    0    0    0    0    2     component 3: volume 
+ vobs      4    0   0    0    0    0    0    0    0    2     component 4: volume 
+ vobs      5    0   0    0    0    0    0    0    0    2     component 5: volume 
+ vobs      6    0   0    0    0    0    0    0    0    2     component 6: volume 
+ nreg      0    0   0    0    0    0    0    0    0    3     number of void regions        
+ nr        0    0   0    0    0    0    0    0    0    2     void region index   
+ vrvol     0    0   0    0    0    0    0    0    0    2     void region volume  
+ vrp       0    0   0    0    0    0    0    0    0    2     void region pressure
+ tvr       1    0   0    0    0    0    0    0    0    3     void region temperature       
+ xvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - x 
+ yvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - y 
+ zvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - z 
+ arvoid    0    0   0    0    0    0    0    0    0    3     void region surface area      
+ vchgt     0    0   0    0    0    0    0    0    0    4     Diagnostics: convective volume error    
+ vchgp     0    0   0    0    0    0    0    0    0    5     Diagnostics: convective volume error; % lost      
+ vchgtm    0    0   0    0    0    0    0    0    0    5     Diagnostics: interblock boundary volume error     
+ vchgpm    0    0   0    0    0    0    0    0    0    6     Diagnostics: interblock boundary volume error; % lost       
+ fvolt     0    0   0    0    0    0    0    0    0    2     volume of fluid 1   
+ flarea    0    0   0    0    0    0    0    0    0    2     fluid surface area  
+ xcm       0    0   0    0    0    0    0    0    0    4     fluid center of mass x-coordinate       
+ ycm       0    0   0    0    0    0    0    0    0    4     fluid center of mass y-coordinate       
+ zcm       0    0   0    0    0    0    0    0    0    4     fluid center of mass z-coordinate       
+ sf1       0    0   0    0    0    0    0    0    0    4     Diagnostics: fluid 1 volume net influx  
+ avgmke    0    0   0    0    0    0    0    0    0    4     mass-averaged fluid mean kinetic energy 
+ avgtke    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent kinetic energy  
+ avgdke    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent dissipation     
+ avgspr    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent shear production
+ avgboy    0    0   0    0    0    0    0    0    0    5     mass-averaged turbulent buoyant production        
+ tmass     0    0   0    0    0    0    0    0    0    2     total fluid mass    
+ smass     0    0   0    0    0    0    0    0    0    5     Diagnostics: accumulated fluid mass source        
+ tscl1     0    0   0    0    0    0    0    0    0    4     mass of suspended sediment species 1    
+ tscl2     0    0   0    0    0    0    0    0    0    4     mass of packed sediment species 1       
+ npart     1    0   0    0    0    0    0    0    0    3     total number of particles     
+ npart15   1    0   0    0    0    0    0    0    0    2     probe particles     
+ saobs     1    0   0    0    0    0    0    0    0    5     packed sediment comp. 1: open surface area        
+ saobs     2    0   0    0    0    0    0    0    0    3     component 2: open surface area
+ saobs     3    0   0    0    0    0    0    0    0    3     component 3: open surface area
+ saobs     4    0   0    0    0    0    0    0    0    3     component 4: open surface area
+ saobs     5    0   0    0    0    0    0    0    0    3     component 5: open surface area
+ saobs     6    0   0    0    0    0    0    0    0    3     component 6: open surface area
+ vfb1      1    1   0    0    0    0    0    0    0    6     mesh block    1: Xmin boundary fluid 1 volume flow rate     
+ vfb1      2    1   0    0    0    0    0    0    0    6     mesh block    1: Xmax boundary fluid 1 volume flow rate     
+ vfb1      3    1   0    0    0    0    0    0    0    6     mesh block    1: Ymin boundary fluid 1 volume flow rate     
+ vfb1      4    1   0    0    0    0    0    0    0    6     mesh block    1: Ymax boundary fluid 1 volume flow rate     
+ vfb1      5    1   0    0    0    0    0    0    0    6     mesh block    1: Zmin boundary fluid 1 volume flow rate     
+ vfb1      6    1   0    0    0    0    0    0    0    6     mesh block    1: Zmax boundary fluid 1 volume flow rate     
+ pbc       6    1   0    0    0    0    0    0    0    4     mesh block    1: Zmax boundary pressure 
+ fbc       6    1   0    0    0    0    0    0    0    5     mesh block    1: Zmax boundary fluid fraction     
+ ubc       6    1   0    0    0    0    0    0    0    5     mesh block    1: Zmax boundary x-velocity         
+ vbc       6    1   0    0    0    0    0    0    0    5     mesh block    1: Zmax boundary y-velocity         
+ tkebc     6    1   0    0    0    0    0    0    0    5     mesh block    1: Zmax boundary turbulent energy   
+ dtkebc    6    1   0    0    0    0    0    0    0    6     mesh block    1: Zmax boundary turbulent dissipation        
+ sclb1     6    1   0    0    0    0    0    0    0    6     mesh block    1: Zmax boundarysuspended sediment sp 1   conc
+ sclb2     6    1   0    0    0    0    0    0    0    7     mesh block    1: Zmax boundarysediment sp 1   packed vol frac         
+
+ anim_var     40     animation variables available for mesh block  1
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ p        -1    1   3    1  342    1  363    1   38    1     pressure  
+ f        -1    1   3    1  342    1  363    1   38    2     fraction of fluid   
+ rho      -1    1   3    1  342    1  363    1   38    2     macroscopic density 
+ u        -1    1   3    1  342    1  363    1   38    1     x-velocity
+ v        -1    1   3    1  342    1  363    1   38    1     y-velocity
+ w        -1    1   3    1  342    1  363    1   38    1     z-velocity
+ vf       -1    1   3    1  342    1  363    1   38    4     volume fraction before AVRCK adjustment 
+ afr      -1    1   3    1  342    1  363    1   38    2     area fraction right 
+ afb      -1    1   3    1  342    1  363    1   38    2     area fraction back  
+ aft      -1    1   3    1  342    1  363    1   38    2     area fraction top   
+ ijkmob   -1    1   3    1  342    1  363    1   38    2     component number    
+ hyfd     -1    1   3    1  342    1  363    1   38    1     flow depth
+ mhyfd    -1    1   3    1  342    1  363    1   38    2     maximum flow depth  
+ hyel     -1    1   3    1  342    1  363    1   38    3     free surface elevation        
+ davel    -1    1   3    1  342    1  363    1   38    3     depth-averaged velocity       
+ ofvel    -1    1   3    1  342    1  363    1   38    4     velocity at  0.000E+00 above bottom     
+ froude   -1    1   3    1  342    1  363    1   38    2     Froude number       
+ shyhd    -1    1   3    1  342    1  363    1   38    3     specific hydraulic head       
+ thyhd    -1    1   3    1  342    1  363    1   38    2     total hydraulic head
+ sfelds   -1    1   3    1  342    1  363    1   38    2     terrain elevation   
+ scl1     -1    1   3    1  342    1  363    1   38    3     suspended sediment sp 1   conc
+ scl2     -1    1   3    1  342    1  363    1   38    4     sediment sp 1   packed vol frac         
+ tsusp    -1    1   3    1  342    1  363    1   38    4     sediment; suspended: volume fraction    
+ vfsspk   -1    1   3    1  342    1  363    1   38    4     sediment; packed: volume fraction       
+ scrdif   -1    1   3    1  342    1  363    1   38    4     sediment; packed: elevation net change  
+ scrate   -1    1   3    1  342    1  363    1   38    5     sediment; packed: elevation average change rate   
+ d50      -1    1   3    1  342    1  363    1   38    3     sediment; packed: d50         
+ vbnd     -1    1   0    0    0    0    0    0    0    2     boundary velocities 
+ npart15  -1    0   0    0    0    0    0    0    0    2     probe particles     
+ xpart15  -1    0   0    0    0    0    0    0    0    2     x-coordinate        
+ ypart15  -1    0   0    0    0    0    0    0    0    2     y-coordinate        
+ zpart15  -1    0   0    0    0    0    0    0    0    2     z-coordinate        
+ upart15  -1    0   0    0    0    0    0    0    0    1     x-velocity
+ vpart15  -1    0   0    0    0    0    0    0    0    1     y-velocity
+ wpart15  -1    0   0    0    0    0    0    0    0    1     z-velocity
+ pstag15  -1    0   0    0    0    0    0    0    0    1     probe id  
+ pbtag15  -1    0   0    0    0    0    0    0    0    3     associated particle class     
+ idspc15  -1    0   0    0    0    0    0    0    0    3     associated particle species   
+ motn15   -1    0   0    0    0    0    0    0    0    2     motion attribute    
+ tpart15  -1    0   0    0    0    0    0    0    0    1     life time 
+
+ soli_var      0     solidification variables available for mesh block  1
+
+ n_options    22     physical model and geometry options for mesh block  2
+ nobs          6
+ imobs         1
+ nbafs         0
+ nccs          0
+ idrg          0
+ iswat         0
+ nmat          1
+ itb           1
+ np            2
+ ifenrg        0
+ ifsld         0
+ icyl          0
+ ifrho         1
+ icmprs        0
+ units        si
+ tunits        k
+ wl            2
+ wr            2
+ wf            9
+ wbk           9
+ wb            2
+ wt            5
+
+ x_grid      152     x coordinate system for mesh block  2
+ -3.27500000E+02 -3.22500000E+02 -3.17500000E+02 -3.12500000E+02 -3.07500000E+02
+ -3.02500000E+02 -2.97500000E+02 -2.92500000E+02 -2.87500000E+02 -2.82500000E+02
+ -2.77500000E+02 -2.72500000E+02 -2.67500000E+02 -2.62500000E+02 -2.57500000E+02
+ -2.52500000E+02 -2.47500000E+02 -2.42500000E+02 -2.37500000E+02 -2.32500000E+02
+ -2.27500000E+02 -2.22500000E+02 -2.17500000E+02 -2.12500000E+02 -2.07500000E+02
+ -2.02500000E+02 -1.97500000E+02 -1.92500000E+02 -1.87500000E+02 -1.82500000E+02
+ -1.77500000E+02 -1.72500000E+02 -1.67500000E+02 -1.62500000E+02 -1.57500000E+02
+ -1.52500000E+02 -1.47500000E+02 -1.42500000E+02 -1.37500000E+02 -1.32500000E+02
+ -1.27500000E+02 -1.22500000E+02 -1.17500000E+02 -1.12500000E+02 -1.07500000E+02
+ -1.02500000E+02 -9.75000000E+01 -9.25000000E+01 -8.75000000E+01 -8.25000000E+01
+ -7.75000000E+01 -7.25000000E+01 -6.75000000E+01 -6.25000000E+01 -5.75000000E+01
+ -5.25000000E+01 -4.75000000E+01 -4.25000000E+01 -3.75000000E+01 -3.25000000E+01
+ -2.75000000E+01 -2.25000000E+01 -1.75000000E+01 -1.25000000E+01 -7.50000000E+00
+ -2.50000000E+00  2.50000000E+00  7.50000000E+00  1.25000000E+01  1.75000000E+01
+  2.25000000E+01  2.75000000E+01  3.25000000E+01  3.75000000E+01  4.25000000E+01
+  4.75000000E+01  5.25000000E+01  5.75000000E+01  6.25000000E+01  6.75000000E+01
+  7.25000000E+01  7.75000000E+01  8.25000000E+01  8.75000000E+01  9.25000000E+01
+  9.75000000E+01  1.02500000E+02  1.07500000E+02  1.12500000E+02  1.17500000E+02
+  1.22500000E+02  1.27500000E+02  1.32500000E+02  1.37500000E+02  1.42500000E+02
+  1.47500000E+02  1.52500000E+02  1.57500000E+02  1.62500000E+02  1.67500000E+02
+  1.72500000E+02  1.77500000E+02  1.82500000E+02  1.87500000E+02  1.92500000E+02
+  1.97500000E+02  2.02500000E+02  2.07500000E+02  2.12500000E+02  2.17500000E+02
+  2.22500000E+02  2.27500000E+02  2.32500000E+02  2.37500000E+02  2.42500000E+02
+  2.47500000E+02  2.52500000E+02  2.57500000E+02  2.62500000E+02  2.67500000E+02
+  2.72500000E+02  2.77500000E+02  2.82500000E+02  2.87500000E+02  2.92500000E+02
+  2.97500000E+02  3.02500000E+02  3.07500000E+02  3.12500000E+02  3.17500000E+02
+  3.22500000E+02  3.27500000E+02  3.32500000E+02  3.37500000E+02  3.42500000E+02
+  3.47500000E+02  3.52500000E+02  3.57500000E+02  3.62500000E+02  3.67500000E+02
+  3.72500000E+02  3.77500000E+02  3.82500000E+02  3.87500000E+02  3.92500000E+02
+  3.97500000E+02  4.02500000E+02  4.07500000E+02  4.12500000E+02  4.17500000E+02
+  4.22500000E+02  4.27500000E+02
+
+ y_grid      102     y coordinate system for mesh block  2
+ -3.02500000E+02 -2.97500000E+02 -2.92500000E+02 -2.87500000E+02 -2.82500000E+02
+ -2.77500000E+02 -2.72500000E+02 -2.67500000E+02 -2.62500000E+02 -2.57500000E+02
+ -2.52500000E+02 -2.47500000E+02 -2.42500000E+02 -2.37500000E+02 -2.32500000E+02
+ -2.27500000E+02 -2.22500000E+02 -2.17500000E+02 -2.12500000E+02 -2.07500000E+02
+ -2.02500000E+02 -1.97500000E+02 -1.92500000E+02 -1.87500000E+02 -1.82500000E+02
+ -1.77500000E+02 -1.72500000E+02 -1.67500000E+02 -1.62500000E+02 -1.57500000E+02
+ -1.52500000E+02 -1.47500000E+02 -1.42500000E+02 -1.37500000E+02 -1.32500000E+02
+ -1.27500000E+02 -1.22500000E+02 -1.17500000E+02 -1.12500000E+02 -1.07500000E+02
+ -1.02500000E+02 -9.75000000E+01 -9.25000000E+01 -8.75000000E+01 -8.25000000E+01
+ -7.75000000E+01 -7.25000000E+01 -6.75000000E+01 -6.25000000E+01 -5.75000000E+01
+ -5.25000000E+01 -4.75000000E+01 -4.25000000E+01 -3.75000000E+01 -3.25000000E+01
+ -2.75000000E+01 -2.25000000E+01 -1.75000000E+01 -1.25000000E+01 -7.50000000E+00
+ -2.50000000E+00  2.50000000E+00  7.50000000E+00  1.25000000E+01  1.75000000E+01
+  2.25000000E+01  2.75000000E+01  3.25000000E+01  3.75000000E+01  4.25000000E+01
+  4.75000000E+01  5.25000000E+01  5.75000000E+01  6.25000000E+01  6.75000000E+01
+  7.25000000E+01  7.75000000E+01  8.25000000E+01  8.75000000E+01  9.25000000E+01
+  9.75000000E+01  1.02500000E+02  1.07500000E+02  1.12500000E+02  1.17500000E+02
+  1.22500000E+02  1.27500000E+02  1.32500000E+02  1.37500000E+02  1.42500000E+02
+  1.47500000E+02  1.52500000E+02  1.57500000E+02  1.62500000E+02  1.67500000E+02
+  1.72500000E+02  1.77500000E+02  1.82500000E+02  1.87500000E+02  1.92500000E+02
+  1.97500000E+02  2.02500000E+02
+
+ z_grid       49     z coordinate system for mesh block  2
+ -8.90000000E+01 -8.70000000E+01 -8.50000000E+01 -8.30000000E+01 -8.10000000E+01
+ -7.90000000E+01 -7.70000000E+01 -7.50000000E+01 -7.30000000E+01 -7.10000000E+01
+ -6.90000000E+01 -6.70000000E+01 -6.50000000E+01 -6.30000000E+01 -6.10000000E+01
+ -5.90000000E+01 -5.70000000E+01 -5.50000000E+01 -5.30000000E+01 -5.10000000E+01
+ -4.90000000E+01 -4.70000000E+01 -4.50000000E+01 -4.30000000E+01 -4.10000000E+01
+ -3.90000000E+01 -3.70000000E+01 -3.50000000E+01 -3.30000000E+01 -3.10000000E+01
+ -2.90000000E+01 -2.70000000E+01 -2.50000000E+01 -2.30000000E+01 -2.10000000E+01
+ -1.90000000E+01 -1.70000000E+01 -1.50000000E+01 -1.30000000E+01 -1.10000000E+01
+ -9.00000000E+00 -7.00000000E+00 -5.00000000E+00 -3.00000000E+00 -1.00000000E+00
+  1.00000000E+00  3.00000000E+00  5.00000000E+00  7.00000000E+00
+
+ spat_time      23     spatial times available for mesh block  2
+  0.00000000E+00  1.00190086E+01  2.00030975E+01  2.99967289E+01  3.99987335E+01
+  5.00019188E+01  6.00037117E+01  6.99936981E+01  7.99933929E+01  9.00047989E+01
+  9.99965134E+01  1.10001343E+02  1.20000031E+02  1.29993240E+02  1.40008255E+02
+  1.49999466E+02  1.59994431E+02  1.70003708E+02  1.80000183E+02  1.90000290E+02
+  1.99999939E+02  2.09998245E+02  2.19134827E+02
+
+ hist_time      75     history times available for mesh block  2
+  9.34832618E-02  3.00587273E+00  6.01391029E+00  8.98686886E+00  1.19802542E+01
+  1.49883108E+01  1.80056210E+01  2.10016537E+01  2.39980145E+01  2.69981956E+01
+  2.99967289E+01  3.30098038E+01  3.59912834E+01  3.90006714E+01  4.20110130E+01
+  4.49962502E+01  4.80046806E+01  5.10009193E+01  5.39972267E+01  5.69958344E+01
+  6.00037117E+01  6.30055962E+01  6.59930038E+01  6.90095367E+01  7.20017166E+01
+  7.49942856E+01  7.80015564E+01  8.10019989E+01  8.40002289E+01  8.70057220E+01
+  9.00047989E+01  9.30047531E+01  9.59968491E+01  9.89961166E+01  1.01996567E+02
+  1.05000366E+02  1.08000572E+02  1.11004036E+02  1.14001030E+02  1.17002060E+02
+  1.20000031E+02  1.22995117E+02  1.25997025E+02  1.28995163E+02  1.31992401E+02
+  1.35000900E+02  1.38002869E+02  1.41007309E+02  1.44002945E+02  1.47003342E+02
+  1.49999466E+02  1.52998505E+02  1.56008713E+02  1.59000443E+02  1.61996658E+02
+  1.64994873E+02  1.67999695E+02  1.70996872E+02  1.73993469E+02  1.77002975E+02
+  1.80000183E+02  1.83001907E+02  1.85992371E+02  1.89000992E+02  1.91999252E+02
+  1.95001038E+02  1.97998367E+02  2.01000778E+02  2.04000122E+02  2.06999710E+02
+  2.09998245E+02  2.12999924E+02  2.16001297E+02  2.18998596E+02  2.19134827E+02
+
+ anim_time      23     animation times available for mesh block  2
+  0.00000000E+00  1.00190086E+01  2.00030975E+01  2.99967289E+01  3.99987335E+01
+  5.00019188E+01  6.00037117E+01  6.99936981E+01  7.99933929E+01  9.00047989E+01
+  9.99965134E+01  1.10001343E+02  1.20000031E+02  1.29993240E+02  1.40008255E+02
+  1.49999466E+02  1.59994431E+02  1.70003708E+02  1.80000183E+02  1.90000290E+02
+  1.99999939E+02  2.09998245E+02  2.19134827E+02
+
+ soli_time       0     solidification times available for mesh block  2
+
+ spat_var     62     spatial variables available for mesh block  2
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ vf        0    2   3    1  154    1  104    1   51    4     volume fraction before AVRCK adjustment 
+ vfa       0    2   3    1  154    1  104    1   51    4     volume fraction after AVRCK adjustment  
+ sfelds    0    2   3    1  154    1  104    1   51    2     terrain elevation   
+ afr       0    2   3    1  154    1  104    1   51    2     area fraction right 
+ afb       0    2   3    1  154    1  104    1   51    2     area fraction back  
+ aft       0    2   3    1  154    1  104    1   51    2     area fraction top   
+ f         0    2   3    1  154    1  104    1   51    2     fraction of fluid   
+ p         0    2   3    1  154    1  104    1   51    1     pressure  
+ rho       0    2   3    1  154    1  104    1   51    2     macroscopic density 
+ mu        0    2   3    1  154    1  104    1   51    2     dynamic viscosity   
+ yplus     0    2   3    1  154    1  104    1   51    1     y+        
+ shrvel    0    2   3    1  154    1  104    1   51    2     shear velocity      
+ tke       0    2   3    1  154    1  104    1   51    2     turbulent energy    
+ trbint    0    2   3    1  154    1  104    1   51    3     turbulence intensity; %       
+ dtke      0    2   3    1  154    1  104    1   51    3     turbulent dissipation         
+ ttime     0    2   3    1  154    1  104    1   51    2     turbulent time scale
+ tlength   0    2   3    1  154    1  104    1   51    3     turbulent length scale        
+ scl1      0    2   3    1  154    1  104    1   51    3     suspended sediment sp 1   conc
+ scl2      0    2   3    1  154    1  104    1   51    4     sediment sp 1   packed vol frac         
+ tsusp     0    2   3    1  154    1  104    1   51    4     sediment; suspended: volume fraction    
+ vfsspk    0    2   3    1  154    1  104    1   51    4     sediment; packed: volume fraction       
+ scrdif    0    2   3    1  154    1  104    1   51    4     sediment; packed: elevation net change  
+ scrate    0    2   3    1  154    1  104    1   51    5     sediment; packed: elevation average change rate   
+ d50       0    2   3    1  154    1  104    1   51    3     sediment; packed: d50         
+ stnr      0    2   3    1  154    1  104    1   51    3     strain rate magnitude         
+ hyfd      0    2   3    1  154    1  104    1   51    1     flow depth
+ mhyfd     0    2   3    1  154    1  104    1   51    2     maximum flow depth  
+ hyel      0    2   3    1  154    1  104    1   51    3     free surface elevation        
+ davel     0    2   3    1  154    1  104    1   51    3     depth-averaged velocity       
+ ofvel     0    2   3    1  154    1  104    1   51    4     velocity at  0.000E+00 above bottom     
+ froude    0    2   3    1  154    1  104    1   51    2     Froude number       
+ shyhd     0    2   3    1  154    1  104    1   51    3     specific hydraulic head       
+ thyhd     0    2   3    1  154    1  104    1   51    2     total hydraulic head
+ prsitr    0    2   3    1  154    1  104    1   51    4     Diagnostics: pressure iteration residual
+ volerr    0    2   3    1  154    1  104    1   51    5     Diagnostics: cumulative fluid fraction error      
+ nf        0    2   3    1  154    1  104    1   51    3     Diagnostics: nf values        
+ drg       0    2   3    1  154    1  104    1   51    3     normalized drag coefficient   
+ u         0    2   3    1  154    1  104    1   51    1     x-velocity
+ v         0    2   3    1  154    1  104    1   51    1     y-velocity
+ w         0    2   3    1  154    1  104    1   51    1     z-velocity
+ ijkmob    0    2   3    1  154    1  104    1   51    2     component number    
+ vbnd      0    2   0    0    0    0    0    0    0    2     boundary velocities 
+ scrp      0    2   3    1  154    1  104    1   51    2     excess shear stress 
+ rough     0    2   3    1  154    1  104    1   51    2     surface roughness   
+ vf2       0    2   3    1  154    1  104    1   51    3     component 2: volume fraction  
+ vf3       0    2   3    1  154    1  104    1   51    3     component 3: volume fraction  
+ vf4       0    2   3    1  154    1  104    1   51    3     component 4: volume fraction  
+ vf5       0    2   3    1  154    1  104    1   51    3     component 5: volume fraction  
+ vf6       0    2   3    1  154    1  104    1   51    3     component 6: volume fraction  
+ icstat    0    2   3    1  154    1  104    1   51    1     cell type 
+ npart15   0    0   0    0    0    0    0    0    0    2     probe particles     
+ xpart15   0    0   0    0    0    0    0    0    0    2     x-coordinate        
+ ypart15   0    0   0    0    0    0    0    0    0    2     y-coordinate        
+ zpart15   0    0   0    0    0    0    0    0    0    2     z-coordinate        
+ upart15   0    0   0    0    0    0    0    0    0    1     x-velocity
+ vpart15   0    0   0    0    0    0    0    0    0    1     y-velocity
+ wpart15   0    0   0    0    0    0    0    0    0    1     z-velocity
+ pstag15   0    0   0    0    0    0    0    0    0    1     probe id  
+ pbtag15   0    0   0    0    0    0    0    0    0    3     associated particle class     
+ idspc15   0    0   0    0    0    0    0    0    0    3     associated particle species   
+ motn15    0    0   0    0    0    0    0    0    0    2     motion attribute    
+ tpart15   0    0   0    0    0    0    0    0    0    1     life time 
+
+ hist_var    249     history variables available for mesh block  2
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ dt        0    0   0    0    0    0    0    0    0    3     Diagnostics: time-step size   
+ elt       0    0   0    0    0    0    0    0    0    4     Diagnostics: elapsed clock time         
+ elt_cyc   0    0   0    0    0    0    0    0    0    5     Diagnostics: elapsed clock time per time step     
+ peff      0    0   0    0    0    0    0    0    0    4     Diagnostics: % parallel efficiency      
+ f         1    0   0    0    0    0    0    0    0    2     1: fraction of fluid
+ p         1    0   0    0    0    0    0    0    0    2     1: pressure         
+ rho       1    0   0    0    0    0    0    0    0    3     1: macroscopic density        
+ mu        1    0   0    0    0    0    0    0    0    2     1: dynamic viscosity
+ tke       1    0   0    0    0    0    0    0    0    2     1: turbulent energy 
+ dtke      1    0   0    0    0    0    0    0    0    3     1: turbulent dissipation      
+ stnr      1    0   0    0    0    0    0    0    0    3     1: strain rate magnitude      
+ scl1      1    0   0    0    0    0    0    0    0    4     1: suspended sediment sp 1   conc       
+ scl2      1    0   0    0    0    0    0    0    0    4     1: sediment sp 1   packed vol frac      
+ drg       1    0   0    0    0    0    0    0    0    3     1: normalized drag coefficient
+ hyfd      1    0   0    0    0    0    0    0    0    2     1: flow depth       
+ mhyfd     1    0   0    0    0    0    0    0    0    3     1: maximum flow depth         
+ hyel      1    0   0    0    0    0    0    0    0    3     1: free surface elevation     
+ davel     1    0   0    0    0    0    0    0    0    3     1: depth-averaged velocity    
+ ofvel     1    0   0    0    0    0    0    0    0    4     1: velocity at  0.00000E+00 above bottom
+ froude    1    0   0    0    0    0    0    0    0    2     1: Froude number    
+ shyhd     1    0   0    0    0    0    0    0    0    3     1: specific hydraulic head    
+ thyhd     1    0   0    0    0    0    0    0    0    3     1: total hydraulic head       
+ x         1    0   0    0    0    0    0    0    0    2     1: x-coordinate     
+ y         1    0   0    0    0    0    0    0    0    2     1: y-coordinate     
+ z         1    0   0    0    0    0    0    0    0    2     1: z-coordinate     
+ u         1    0   0    0    0    0    0    0    0    2     1: fluid x-velocity 
+ v         1    0   0    0    0    0    0    0    0    2     1: fluid y-velocity 
+ w         1    0   0    0    0    0    0    0    0    2     1: fluid z-velocity 
+ vmag      1    0   0    0    0    0    0    0    0    3     1: fluid velocity magnitude   
+ upr       1    0   0    0    0    0    0    0    0    2     1: probe x-velocity 
+ vpr       1    0   0    0    0    0    0    0    0    2     1: probe y-velocity 
+ wpr       1    0   0    0    0    0    0    0    0    2     1: probe z-velocity 
+ vprmag    1    0   0    0    0    0    0    0    0    3     1: probe velocity magnitude   
+ f         2    0   0    0    0    0    0    0    0    2     2: fraction of fluid
+ p         2    0   0    0    0    0    0    0    0    2     2: pressure         
+ rho       2    0   0    0    0    0    0    0    0    3     2: macroscopic density        
+ mu        2    0   0    0    0    0    0    0    0    2     2: dynamic viscosity
+ tke       2    0   0    0    0    0    0    0    0    2     2: turbulent energy 
+ dtke      2    0   0    0    0    0    0    0    0    3     2: turbulent dissipation      
+ stnr      2    0   0    0    0    0    0    0    0    3     2: strain rate magnitude      
+ scl1      2    0   0    0    0    0    0    0    0    4     2: suspended sediment sp 1   conc       
+ scl2      2    0   0    0    0    0    0    0    0    4     2: sediment sp 1   packed vol frac      
+ drg       2    0   0    0    0    0    0    0    0    3     2: normalized drag coefficient
+ hyfd      2    0   0    0    0    0    0    0    0    2     2: flow depth       
+ mhyfd     2    0   0    0    0    0    0    0    0    3     2: maximum flow depth         
+ hyel      2    0   0    0    0    0    0    0    0    3     2: free surface elevation     
+ davel     2    0   0    0    0    0    0    0    0    3     2: depth-averaged velocity    
+ ofvel     2    0   0    0    0    0    0    0    0    4     2: velocity at  0.00000E+00 above bottom
+ froude    2    0   0    0    0    0    0    0    0    2     2: Froude number    
+ shyhd     2    0   0    0    0    0    0    0    0    3     2: specific hydraulic head    
+ thyhd     2    0   0    0    0    0    0    0    0    3     2: total hydraulic head       
+ x         2    0   0    0    0    0    0    0    0    2     2: x-coordinate     
+ y         2    0   0    0    0    0    0    0    0    2     2: y-coordinate     
+ z         2    0   0    0    0    0    0    0    0    2     2: z-coordinate     
+ u         2    0   0    0    0    0    0    0    0    2     2: fluid x-velocity 
+ v         2    0   0    0    0    0    0    0    0    2     2: fluid y-velocity 
+ w         2    0   0    0    0    0    0    0    0    2     2: fluid z-velocity 
+ vmag      2    0   0    0    0    0    0    0    0    3     2: fluid velocity magnitude   
+ upr       2    0   0    0    0    0    0    0    0    2     2: probe x-velocity 
+ vpr       2    0   0    0    0    0    0    0    0    2     2: probe y-velocity 
+ wpr       2    0   0    0    0    0    0    0    0    2     2: probe z-velocity 
+ vprmag    2    0   0    0    0    0    0    0    0    3     2: probe velocity magnitude   
+ f         3    0   0    0    0    0    0    0    0    2     3: fraction of fluid
+ p         3    0   0    0    0    0    0    0    0    2     3: pressure         
+ rho       3    0   0    0    0    0    0    0    0    3     3: macroscopic density        
+ mu        3    0   0    0    0    0    0    0    0    2     3: dynamic viscosity
+ tke       3    0   0    0    0    0    0    0    0    2     3: turbulent energy 
+ dtke      3    0   0    0    0    0    0    0    0    3     3: turbulent dissipation      
+ stnr      3    0   0    0    0    0    0    0    0    3     3: strain rate magnitude      
+ scl1      3    0   0    0    0    0    0    0    0    4     3: suspended sediment sp 1   conc       
+ scl2      3    0   0    0    0    0    0    0    0    4     3: sediment sp 1   packed vol frac      
+ drg       3    0   0    0    0    0    0    0    0    3     3: normalized drag coefficient
+ hyfd      3    0   0    0    0    0    0    0    0    2     3: flow depth       
+ mhyfd     3    0   0    0    0    0    0    0    0    3     3: maximum flow depth         
+ hyel      3    0   0    0    0    0    0    0    0    3     3: free surface elevation     
+ davel     3    0   0    0    0    0    0    0    0    3     3: depth-averaged velocity    
+ ofvel     3    0   0    0    0    0    0    0    0    4     3: velocity at  0.00000E+00 above bottom
+ froude    3    0   0    0    0    0    0    0    0    2     3: Froude number    
+ shyhd     3    0   0    0    0    0    0    0    0    3     3: specific hydraulic head    
+ thyhd     3    0   0    0    0    0    0    0    0    3     3: total hydraulic head       
+ x         3    0   0    0    0    0    0    0    0    2     3: x-coordinate     
+ y         3    0   0    0    0    0    0    0    0    2     3: y-coordinate     
+ z         3    0   0    0    0    0    0    0    0    2     3: z-coordinate     
+ u         3    0   0    0    0    0    0    0    0    2     3: fluid x-velocity 
+ v         3    0   0    0    0    0    0    0    0    2     3: fluid y-velocity 
+ w         3    0   0    0    0    0    0    0    0    2     3: fluid z-velocity 
+ vmag      3    0   0    0    0    0    0    0    0    3     3: fluid velocity magnitude   
+ upr       3    0   0    0    0    0    0    0    0    2     3: probe x-velocity 
+ vpr       3    0   0    0    0    0    0    0    0    2     3: probe y-velocity 
+ wpr       3    0   0    0    0    0    0    0    0    2     3: probe z-velocity 
+ vprmag    3    0   0    0    0    0    0    0    0    3     3: probe velocity magnitude   
+ f         4    0   0    0    0    0    0    0    0    2     4: fraction of fluid
+ p         4    0   0    0    0    0    0    0    0    2     4: pressure         
+ rho       4    0   0    0    0    0    0    0    0    3     4: macroscopic density        
+ mu        4    0   0    0    0    0    0    0    0    2     4: dynamic viscosity
+ tke       4    0   0    0    0    0    0    0    0    2     4: turbulent energy 
+ dtke      4    0   0    0    0    0    0    0    0    3     4: turbulent dissipation      
+ stnr      4    0   0    0    0    0    0    0    0    3     4: strain rate magnitude      
+ scl1      4    0   0    0    0    0    0    0    0    4     4: suspended sediment sp 1   conc       
+ scl2      4    0   0    0    0    0    0    0    0    4     4: sediment sp 1   packed vol frac      
+ drg       4    0   0    0    0    0    0    0    0    3     4: normalized drag coefficient
+ hyfd      4    0   0    0    0    0    0    0    0    2     4: flow depth       
+ mhyfd     4    0   0    0    0    0    0    0    0    3     4: maximum flow depth         
+ hyel      4    0   0    0    0    0    0    0    0    3     4: free surface elevation     
+ davel     4    0   0    0    0    0    0    0    0    3     4: depth-averaged velocity    
+ ofvel     4    0   0    0    0    0    0    0    0    4     4: velocity at  0.00000E+00 above bottom
+ froude    4    0   0    0    0    0    0    0    0    2     4: Froude number    
+ shyhd     4    0   0    0    0    0    0    0    0    3     4: specific hydraulic head    
+ thyhd     4    0   0    0    0    0    0    0    0    3     4: total hydraulic head       
+ x         4    0   0    0    0    0    0    0    0    2     4: x-coordinate     
+ y         4    0   0    0    0    0    0    0    0    2     4: y-coordinate     
+ z         4    0   0    0    0    0    0    0    0    2     4: z-coordinate     
+ u         4    0   0    0    0    0    0    0    0    2     4: fluid x-velocity 
+ v         4    0   0    0    0    0    0    0    0    2     4: fluid y-velocity 
+ w         4    0   0    0    0    0    0    0    0    2     4: fluid z-velocity 
+ vmag      4    0   0    0    0    0    0    0    0    3     4: fluid velocity magnitude   
+ upr       4    0   0    0    0    0    0    0    0    2     4: probe x-velocity 
+ vpr       4    0   0    0    0    0    0    0    0    2     4: probe y-velocity 
+ wpr       4    0   0    0    0    0    0    0    0    2     4: probe z-velocity 
+ vprmag    4    0   0    0    0    0    0    0    0    3     4: probe velocity magnitude   
+ f         5    0   0    0    0    0    0    0    0    2     5: fraction of fluid
+ p         5    0   0    0    0    0    0    0    0    2     5: pressure         
+ rho       5    0   0    0    0    0    0    0    0    3     5: macroscopic density        
+ mu        5    0   0    0    0    0    0    0    0    2     5: dynamic viscosity
+ tke       5    0   0    0    0    0    0    0    0    2     5: turbulent energy 
+ dtke      5    0   0    0    0    0    0    0    0    3     5: turbulent dissipation      
+ stnr      5    0   0    0    0    0    0    0    0    3     5: strain rate magnitude      
+ scl1      5    0   0    0    0    0    0    0    0    4     5: suspended sediment sp 1   conc       
+ scl2      5    0   0    0    0    0    0    0    0    4     5: sediment sp 1   packed vol frac      
+ drg       5    0   0    0    0    0    0    0    0    3     5: normalized drag coefficient
+ hyfd      5    0   0    0    0    0    0    0    0    2     5: flow depth       
+ mhyfd     5    0   0    0    0    0    0    0    0    3     5: maximum flow depth         
+ hyel      5    0   0    0    0    0    0    0    0    3     5: free surface elevation     
+ davel     5    0   0    0    0    0    0    0    0    3     5: depth-averaged velocity    
+ ofvel     5    0   0    0    0    0    0    0    0    4     5: velocity at  0.00000E+00 above bottom
+ froude    5    0   0    0    0    0    0    0    0    2     5: Froude number    
+ shyhd     5    0   0    0    0    0    0    0    0    3     5: specific hydraulic head    
+ thyhd     5    0   0    0    0    0    0    0    0    3     5: total hydraulic head       
+ x         5    0   0    0    0    0    0    0    0    2     5: x-coordinate     
+ y         5    0   0    0    0    0    0    0    0    2     5: y-coordinate     
+ z         5    0   0    0    0    0    0    0    0    2     5: z-coordinate     
+ u         5    0   0    0    0    0    0    0    0    2     5: fluid x-velocity 
+ v         5    0   0    0    0    0    0    0    0    2     5: fluid y-velocity 
+ w         5    0   0    0    0    0    0    0    0    2     5: fluid z-velocity 
+ vmag      5    0   0    0    0    0    0    0    0    3     5: fluid velocity magnitude   
+ upr       5    0   0    0    0    0    0    0    0    2     5: probe x-velocity 
+ vpr       5    0   0    0    0    0    0    0    0    2     5: probe y-velocity 
+ wpr       5    0   0    0    0    0    0    0    0    2     5: probe z-velocity 
+ vprmag    5    0   0    0    0    0    0    0    0    3     5: probe velocity magnitude   
+ f         6    0   0    0    0    0    0    0    0    2     6: fraction of fluid
+ p         6    0   0    0    0    0    0    0    0    2     6: pressure         
+ rho       6    0   0    0    0    0    0    0    0    3     6: macroscopic density        
+ mu        6    0   0    0    0    0    0    0    0    2     6: dynamic viscosity
+ tke       6    0   0    0    0    0    0    0    0    2     6: turbulent energy 
+ dtke      6    0   0    0    0    0    0    0    0    3     6: turbulent dissipation      
+ stnr      6    0   0    0    0    0    0    0    0    3     6: strain rate magnitude      
+ scl1      6    0   0    0    0    0    0    0    0    4     6: suspended sediment sp 1   conc       
+ scl2      6    0   0    0    0    0    0    0    0    4     6: sediment sp 1   packed vol frac      
+ drg       6    0   0    0    0    0    0    0    0    3     6: normalized drag coefficient
+ hyfd      6    0   0    0    0    0    0    0    0    2     6: flow depth       
+ mhyfd     6    0   0    0    0    0    0    0    0    3     6: maximum flow depth         
+ hyel      6    0   0    0    0    0    0    0    0    3     6: free surface elevation     
+ davel     6    0   0    0    0    0    0    0    0    3     6: depth-averaged velocity    
+ ofvel     6    0   0    0    0    0    0    0    0    4     6: velocity at  0.00000E+00 above bottom
+ froude    6    0   0    0    0    0    0    0    0    2     6: Froude number    
+ shyhd     6    0   0    0    0    0    0    0    0    3     6: specific hydraulic head    
+ thyhd     6    0   0    0    0    0    0    0    0    3     6: total hydraulic head       
+ x         6    0   0    0    0    0    0    0    0    2     6: x-coordinate     
+ y         6    0   0    0    0    0    0    0    0    2     6: y-coordinate     
+ z         6    0   0    0    0    0    0    0    0    2     6: z-coordinate     
+ u         6    0   0    0    0    0    0    0    0    2     6: fluid x-velocity 
+ v         6    0   0    0    0    0    0    0    0    2     6: fluid y-velocity 
+ w         6    0   0    0    0    0    0    0    0    2     6: fluid z-velocity 
+ vmag      6    0   0    0    0    0    0    0    0    3     6: fluid velocity magnitude   
+ upr       6    0   0    0    0    0    0    0    0    2     6: probe x-velocity 
+ vpr       6    0   0    0    0    0    0    0    0    2     6: probe y-velocity 
+ wpr       6    0   0    0    0    0    0    0    0    2     6: probe z-velocity 
+ vprmag    6    0   0    0    0    0    0    0    0    3     6: probe velocity magnitude   
+ fillfrc   0    0   0    0    0    0    0    0    0    2     fill fraction       
+ slfdfrc   0    0   0    0    0    0    0    0    0    3     solidified volume fraction    
+ dtstbl    0    0   0    0    0    0    0    0    0    4     Diagnostics: time-step stability limit  
+ dtuc      0    0   0    0    0    0    0    0    0    6     Diagnostics: x-direction convective time-step limit         
+ dtvc      0    0   0    0    0    0    0    0    0    6     Diagnostics: y-direction convective time-step limit         
+ dtwc      0    0   0    0    0    0    0    0    0    6     Diagnostics: z-direction convective time-step limit         
+ dtvis     0    0   0    0    0    0    0    0    0    4     Diagnostics: viscous time-step limit    
+ dtsur     0    0   0    0    0    0    0    0    0    5     Diagnostics: free surface time-step limit         
+ dtscr     0    0   0    0    0    0    0    0    0    4     Diagnostics: scour model time-step limit
+ epsi      0    0   0    0    0    0    0    0    0    5     Diagnostics: pressure convergence criterion       
+ omega     0    0   0    0    0    0    0    0    0    4     Diagnostics: pressure relaxation factor 
+ dmx       0    0   0    0    0    0    0    0    0    4     Diagnostics: maximum pressure residual  
+ iter      0    0   0    0    0    0    0    0    0    4     Diagnostics: pressure iteration count   
+ avgoms    0    0   0    0    0    0    0    0    0    2     average vorticity   
+ obsvol    0    0   0    0    0    0    0    0    0    3     solid component volume        
+ vobs      1    0   0    0    0    0    0    0    0    4     packed sediment comp. 1: volume         
+ vobs      2    0   0    0    0    0    0    0    0    2     component 2: volume 
+ vobs      3    0   0    0    0    0    0    0    0    2     component 3: volume 
+ vobs      4    0   0    0    0    0    0    0    0    2     component 4: volume 
+ vobs      5    0   0    0    0    0    0    0    0    2     component 5: volume 
+ vobs      6    0   0    0    0    0    0    0    0    2     component 6: volume 
+ nreg      0    0   0    0    0    0    0    0    0    3     number of void regions        
+ nr        0    0   0    0    0    0    0    0    0    2     void region index   
+ vrvol     0    0   0    0    0    0    0    0    0    2     void region volume  
+ vrp       0    0   0    0    0    0    0    0    0    2     void region pressure
+ tvr       1    0   0    0    0    0    0    0    0    3     void region temperature       
+ xvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - x 
+ yvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - y 
+ zvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - z 
+ arvoid    0    0   0    0    0    0    0    0    0    3     void region surface area      
+ vchgt     0    0   0    0    0    0    0    0    0    4     Diagnostics: convective volume error    
+ vchgp     0    0   0    0    0    0    0    0    0    5     Diagnostics: convective volume error; % lost      
+ vchgtm    0    0   0    0    0    0    0    0    0    5     Diagnostics: interblock boundary volume error     
+ vchgpm    0    0   0    0    0    0    0    0    0    6     Diagnostics: interblock boundary volume error; % lost       
+ fvolt     0    0   0    0    0    0    0    0    0    2     volume of fluid 1   
+ flarea    0    0   0    0    0    0    0    0    0    2     fluid surface area  
+ xcm       0    0   0    0    0    0    0    0    0    4     fluid center of mass x-coordinate       
+ ycm       0    0   0    0    0    0    0    0    0    4     fluid center of mass y-coordinate       
+ zcm       0    0   0    0    0    0    0    0    0    4     fluid center of mass z-coordinate       
+ sf1       0    0   0    0    0    0    0    0    0    4     Diagnostics: fluid 1 volume net influx  
+ avgmke    0    0   0    0    0    0    0    0    0    4     mass-averaged fluid mean kinetic energy 
+ avgtke    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent kinetic energy  
+ avgdke    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent dissipation     
+ avgspr    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent shear production
+ avgboy    0    0   0    0    0    0    0    0    0    5     mass-averaged turbulent buoyant production        
+ tmass     0    0   0    0    0    0    0    0    0    2     total fluid mass    
+ smass     0    0   0    0    0    0    0    0    0    5     Diagnostics: accumulated fluid mass source        
+ tscl1     0    0   0    0    0    0    0    0    0    4     mass of suspended sediment species 1    
+ tscl2     0    0   0    0    0    0    0    0    0    4     mass of packed sediment species 1       
+ npart     1    0   0    0    0    0    0    0    0    3     total number of particles     
+ npart15   1    0   0    0    0    0    0    0    0    2     probe particles     
+ saobs     1    0   0    0    0    0    0    0    0    5     packed sediment comp. 1: open surface area        
+ saobs     2    0   0    0    0    0    0    0    0    3     component 2: open surface area
+ saobs     3    0   0    0    0    0    0    0    0    3     component 3: open surface area
+ saobs     4    0   0    0    0    0    0    0    0    3     component 4: open surface area
+ saobs     5    0   0    0    0    0    0    0    0    3     component 5: open surface area
+ saobs     6    0   0    0    0    0    0    0    0    3     component 6: open surface area
+ vfb1      1    2   0    0    0    0    0    0    0    6     mesh block    2: Xmin boundary fluid 1 volume flow rate     
+ vfb1      2    2   0    0    0    0    0    0    0    6     mesh block    2: Xmax boundary fluid 1 volume flow rate     
+ vfb1      3    2   0    0    0    0    0    0    0    6     mesh block    2: Ymin boundary fluid 1 volume flow rate     
+ vfb1      4    2   0    0    0    0    0    0    0    6     mesh block    2: Ymax boundary fluid 1 volume flow rate     
+ vfb1      5    2   0    0    0    0    0    0    0    6     mesh block    2: Zmin boundary fluid 1 volume flow rate     
+ vfb1      6    2   0    0    0    0    0    0    0    6     mesh block    2: Zmax boundary fluid 1 volume flow rate     
+ pbc       6    2   0    0    0    0    0    0    0    4     mesh block    2: Zmax boundary pressure 
+ fbc       6    2   0    0    0    0    0    0    0    5     mesh block    2: Zmax boundary fluid fraction     
+ ubc       6    2   0    0    0    0    0    0    0    5     mesh block    2: Zmax boundary x-velocity         
+ vbc       6    2   0    0    0    0    0    0    0    5     mesh block    2: Zmax boundary y-velocity         
+ tkebc     6    2   0    0    0    0    0    0    0    5     mesh block    2: Zmax boundary turbulent energy   
+ dtkebc    6    2   0    0    0    0    0    0    0    6     mesh block    2: Zmax boundary turbulent dissipation        
+ sclb1     6    2   0    0    0    0    0    0    0    6     mesh block    2: Zmax boundarysuspended sediment sp 1   conc
+ sclb2     6    2   0    0    0    0    0    0    0    7     mesh block    2: Zmax boundarysediment sp 1   packed vol frac         
+
+ anim_var     40     animation variables available for mesh block  2
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ p        -1    2   3    1  154    1  104    1   51    1     pressure  
+ f        -1    2   3    1  154    1  104    1   51    2     fraction of fluid   
+ rho      -1    2   3    1  154    1  104    1   51    2     macroscopic density 
+ u        -1    2   3    1  154    1  104    1   51    1     x-velocity
+ v        -1    2   3    1  154    1  104    1   51    1     y-velocity
+ w        -1    2   3    1  154    1  104    1   51    1     z-velocity
+ vf       -1    2   3    1  154    1  104    1   51    4     volume fraction before AVRCK adjustment 
+ afr      -1    2   3    1  154    1  104    1   51    2     area fraction right 
+ afb      -1    2   3    1  154    1  104    1   51    2     area fraction back  
+ aft      -1    2   3    1  154    1  104    1   51    2     area fraction top   
+ ijkmob   -1    2   3    1  154    1  104    1   51    2     component number    
+ hyfd     -1    2   3    1  154    1  104    1   51    1     flow depth
+ mhyfd    -1    2   3    1  154    1  104    1   51    2     maximum flow depth  
+ hyel     -1    2   3    1  154    1  104    1   51    3     free surface elevation        
+ davel    -1    2   3    1  154    1  104    1   51    3     depth-averaged velocity       
+ ofvel    -1    2   3    1  154    1  104    1   51    4     velocity at  0.000E+00 above bottom     
+ froude   -1    2   3    1  154    1  104    1   51    2     Froude number       
+ shyhd    -1    2   3    1  154    1  104    1   51    3     specific hydraulic head       
+ thyhd    -1    2   3    1  154    1  104    1   51    2     total hydraulic head
+ sfelds   -1    2   3    1  154    1  104    1   51    2     terrain elevation   
+ scl1     -1    2   3    1  154    1  104    1   51    3     suspended sediment sp 1   conc
+ scl2     -1    2   3    1  154    1  104    1   51    4     sediment sp 1   packed vol frac         
+ tsusp    -1    2   3    1  154    1  104    1   51    4     sediment; suspended: volume fraction    
+ vfsspk   -1    2   3    1  154    1  104    1   51    4     sediment; packed: volume fraction       
+ scrdif   -1    2   3    1  154    1  104    1   51    4     sediment; packed: elevation net change  
+ scrate   -1    2   3    1  154    1  104    1   51    5     sediment; packed: elevation average change rate   
+ d50      -1    2   3    1  154    1  104    1   51    3     sediment; packed: d50         
+ vbnd     -1    2   0    0    0    0    0    0    0    2     boundary velocities 
+ npart15  -1    0   0    0    0    0    0    0    0    2     probe particles     
+ xpart15  -1    0   0    0    0    0    0    0    0    2     x-coordinate        
+ ypart15  -1    0   0    0    0    0    0    0    0    2     y-coordinate        
+ zpart15  -1    0   0    0    0    0    0    0    0    2     z-coordinate        
+ upart15  -1    0   0    0    0    0    0    0    0    1     x-velocity
+ vpart15  -1    0   0    0    0    0    0    0    0    1     y-velocity
+ wpart15  -1    0   0    0    0    0    0    0    0    1     z-velocity
+ pstag15  -1    0   0    0    0    0    0    0    0    1     probe id  
+ pbtag15  -1    0   0    0    0    0    0    0    0    3     associated particle class     
+ idspc15  -1    0   0    0    0    0    0    0    0    3     associated particle species   
+ motn15   -1    0   0    0    0    0    0    0    0    2     motion attribute    
+ tpart15  -1    0   0    0    0    0    0    0    0    1     life time 
+
+ soli_var      0     solidification variables available for mesh block  2
+
+ n_options    22     physical model and geometry options for mesh block  3
+ nobs          6
+ imobs         1
+ nbafs         0
+ nccs          0
+ idrg          0
+ iswat         0
+ nmat          1
+ itb           1
+ np            2
+ ifenrg        0
+ ifsld         0
+ icyl          0
+ ifrho         1
+ icmprs        0
+ units        si
+ tunits        k
+ wl            2
+ wr            2
+ wf            2
+ wbk           9
+ wb            2
+ wt            5
+
+ x_grid      146     x coordinate system for mesh block  3
+ -4.77500000E+02 -4.72500000E+02 -4.67500000E+02 -4.62500000E+02 -4.57500000E+02
+ -4.52500000E+02 -4.47500000E+02 -4.42500000E+02 -4.37500000E+02 -4.32500000E+02
+ -4.27500000E+02 -4.22500000E+02 -4.17500000E+02 -4.12500000E+02 -4.07500000E+02
+ -4.02500000E+02 -3.97500000E+02 -3.92500000E+02 -3.87500000E+02 -3.82500000E+02
+ -3.77500000E+02 -3.72500000E+02 -3.67500000E+02 -3.62500000E+02 -3.57500000E+02
+ -3.52500000E+02 -3.47500000E+02 -3.42500000E+02 -3.37500000E+02 -3.32500000E+02
+ -3.27500000E+02 -3.22500000E+02 -3.17500000E+02 -3.12500000E+02 -3.07500000E+02
+ -3.02500000E+02 -2.97500000E+02 -2.92500000E+02 -2.87500000E+02 -2.82500000E+02
+ -2.77500000E+02 -2.72500000E+02 -2.67500000E+02 -2.62500000E+02 -2.57500000E+02
+ -2.52500000E+02 -2.47500000E+02 -2.42500000E+02 -2.37500000E+02 -2.32500000E+02
+ -2.27500000E+02 -2.22500000E+02 -2.17500000E+02 -2.12500000E+02 -2.07500000E+02
+ -2.02500000E+02 -1.97500000E+02 -1.92500000E+02 -1.87500000E+02 -1.82500000E+02
+ -1.77500000E+02 -1.72500000E+02 -1.67500000E+02 -1.62500000E+02 -1.57500000E+02
+ -1.52500000E+02 -1.47500000E+02 -1.42500000E+02 -1.37500000E+02 -1.32500000E+02
+ -1.27500000E+02 -1.22500000E+02 -1.17500000E+02 -1.12500000E+02 -1.07500000E+02
+ -1.02500000E+02 -9.75000000E+01 -9.25000000E+01 -8.75000000E+01 -8.25000000E+01
+ -7.75000000E+01 -7.25000000E+01 -6.75000000E+01 -6.25000000E+01 -5.75000000E+01
+ -5.25000000E+01 -4.75000000E+01 -4.25000000E+01 -3.75000000E+01 -3.25000000E+01
+ -2.75000000E+01 -2.25000000E+01 -1.75000000E+01 -1.25000000E+01 -7.50000000E+00
+ -2.50000000E+00  2.50000000E+00  7.50000000E+00  1.25000000E+01  1.75000000E+01
+  2.25000000E+01  2.75000000E+01  3.25000000E+01  3.75000000E+01  4.25000000E+01
+  4.75000000E+01  5.25000000E+01  5.75000000E+01  6.25000000E+01  6.75000000E+01
+  7.25000000E+01  7.75000000E+01  8.25000000E+01  8.75000000E+01  9.25000000E+01
+  9.75000000E+01  1.02500000E+02  1.07500000E+02  1.12500000E+02  1.17500000E+02
+  1.22500000E+02  1.27500000E+02  1.32500000E+02  1.37500000E+02  1.42500000E+02
+  1.47500000E+02  1.52500000E+02  1.57500000E+02  1.62500000E+02  1.67500000E+02
+  1.72500000E+02  1.77500000E+02  1.82500000E+02  1.87500000E+02  1.92500000E+02
+  1.97500000E+02  2.02500000E+02  2.07500000E+02  2.12500000E+02  2.17500000E+02
+  2.22500000E+02  2.27500000E+02  2.32500000E+02  2.37500000E+02  2.42500000E+02
+  2.47500000E+02
+
+ y_grid       71     y coordinate system for mesh block  3
+ -6.47500000E+02 -6.42500000E+02 -6.37500000E+02 -6.32500000E+02 -6.27500000E+02
+ -6.22500000E+02 -6.17500000E+02 -6.12500000E+02 -6.07500000E+02 -6.02500000E+02
+ -5.97500000E+02 -5.92500000E+02 -5.87500000E+02 -5.82500000E+02 -5.77500000E+02
+ -5.72500000E+02 -5.67500000E+02 -5.62500000E+02 -5.57500000E+02 -5.52500000E+02
+ -5.47500000E+02 -5.42500000E+02 -5.37500000E+02 -5.32500000E+02 -5.27500000E+02
+ -5.22500000E+02 -5.17500000E+02 -5.12500000E+02 -5.07500000E+02 -5.02500000E+02
+ -4.97500000E+02 -4.92500000E+02 -4.87500000E+02 -4.82500000E+02 -4.77500000E+02
+ -4.72500000E+02 -4.67500000E+02 -4.62500000E+02 -4.57500000E+02 -4.52500000E+02
+ -4.47500000E+02 -4.42500000E+02 -4.37500000E+02 -4.32500000E+02 -4.27500000E+02
+ -4.22500000E+02 -4.17500000E+02 -4.12500000E+02 -4.07500000E+02 -4.02500000E+02
+ -3.97500000E+02 -3.92500000E+02 -3.87500000E+02 -3.82500000E+02 -3.77500000E+02
+ -3.72500000E+02 -3.67500000E+02 -3.62500000E+02 -3.57500000E+02 -3.52500000E+02
+ -3.47500000E+02 -3.42500000E+02 -3.37500000E+02 -3.32500000E+02 -3.27500000E+02
+ -3.22500000E+02 -3.17500000E+02 -3.12500000E+02 -3.07500000E+02 -3.02500000E+02
+ -2.97500000E+02
+
+ z_grid       49     z coordinate system for mesh block  3
+ -8.90000000E+01 -8.70000000E+01 -8.50000000E+01 -8.30000000E+01 -8.10000000E+01
+ -7.90000000E+01 -7.70000000E+01 -7.50000000E+01 -7.30000000E+01 -7.10000000E+01
+ -6.90000000E+01 -6.70000000E+01 -6.50000000E+01 -6.30000000E+01 -6.10000000E+01
+ -5.90000000E+01 -5.70000000E+01 -5.50000000E+01 -5.30000000E+01 -5.10000000E+01
+ -4.90000000E+01 -4.70000000E+01 -4.50000000E+01 -4.30000000E+01 -4.10000000E+01
+ -3.90000000E+01 -3.70000000E+01 -3.50000000E+01 -3.30000000E+01 -3.10000000E+01
+ -2.90000000E+01 -2.70000000E+01 -2.50000000E+01 -2.30000000E+01 -2.10000000E+01
+ -1.90000000E+01 -1.70000000E+01 -1.50000000E+01 -1.30000000E+01 -1.10000000E+01
+ -9.00000000E+00 -7.00000000E+00 -5.00000000E+00 -3.00000000E+00 -1.00000000E+00
+  1.00000000E+00  3.00000000E+00  5.00000000E+00  7.00000000E+00
+
+ spat_time      23     spatial times available for mesh block  3
+  0.00000000E+00  1.00190086E+01  2.00030975E+01  2.99967289E+01  3.99987335E+01
+  5.00019188E+01  6.00037117E+01  6.99936981E+01  7.99933929E+01  9.00047989E+01
+  9.99965134E+01  1.10001343E+02  1.20000031E+02  1.29993240E+02  1.40008255E+02
+  1.49999466E+02  1.59994431E+02  1.70003708E+02  1.80000183E+02  1.90000290E+02
+  1.99999939E+02  2.09998245E+02  2.19134827E+02
+
+ hist_time      75     history times available for mesh block  3
+  9.34832618E-02  3.00587273E+00  6.01391029E+00  8.98686886E+00  1.19802542E+01
+  1.49883108E+01  1.80056210E+01  2.10016537E+01  2.39980145E+01  2.69981956E+01
+  2.99967289E+01  3.30098038E+01  3.59912834E+01  3.90006714E+01  4.20110130E+01
+  4.49962502E+01  4.80046806E+01  5.10009193E+01  5.39972267E+01  5.69958344E+01
+  6.00037117E+01  6.30055962E+01  6.59930038E+01  6.90095367E+01  7.20017166E+01
+  7.49942856E+01  7.80015564E+01  8.10019989E+01  8.40002289E+01  8.70057220E+01
+  9.00047989E+01  9.30047531E+01  9.59968491E+01  9.89961166E+01  1.01996567E+02
+  1.05000366E+02  1.08000572E+02  1.11004036E+02  1.14001030E+02  1.17002060E+02
+  1.20000031E+02  1.22995117E+02  1.25997025E+02  1.28995163E+02  1.31992401E+02
+  1.35000900E+02  1.38002869E+02  1.41007309E+02  1.44002945E+02  1.47003342E+02
+  1.49999466E+02  1.52998505E+02  1.56008713E+02  1.59000443E+02  1.61996658E+02
+  1.64994873E+02  1.67999695E+02  1.70996872E+02  1.73993469E+02  1.77002975E+02
+  1.80000183E+02  1.83001907E+02  1.85992371E+02  1.89000992E+02  1.91999252E+02
+  1.95001038E+02  1.97998367E+02  2.01000778E+02  2.04000122E+02  2.06999710E+02
+  2.09998245E+02  2.12999924E+02  2.16001297E+02  2.18998596E+02  2.19134827E+02
+
+ anim_time      23     animation times available for mesh block  3
+  0.00000000E+00  1.00190086E+01  2.00030975E+01  2.99967289E+01  3.99987335E+01
+  5.00019188E+01  6.00037117E+01  6.99936981E+01  7.99933929E+01  9.00047989E+01
+  9.99965134E+01  1.10001343E+02  1.20000031E+02  1.29993240E+02  1.40008255E+02
+  1.49999466E+02  1.59994431E+02  1.70003708E+02  1.80000183E+02  1.90000290E+02
+  1.99999939E+02  2.09998245E+02  2.19134827E+02
+
+ soli_time       0     solidification times available for mesh block  3
+
+ spat_var     62     spatial variables available for mesh block  3
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ vf        0    3   3    1  148    1   73    1   51    4     volume fraction before AVRCK adjustment 
+ vfa       0    3   3    1  148    1   73    1   51    4     volume fraction after AVRCK adjustment  
+ sfelds    0    3   3    1  148    1   73    1   51    2     terrain elevation   
+ afr       0    3   3    1  148    1   73    1   51    2     area fraction right 
+ afb       0    3   3    1  148    1   73    1   51    2     area fraction back  
+ aft       0    3   3    1  148    1   73    1   51    2     area fraction top   
+ f         0    3   3    1  148    1   73    1   51    2     fraction of fluid   
+ p         0    3   3    1  148    1   73    1   51    1     pressure  
+ rho       0    3   3    1  148    1   73    1   51    2     macroscopic density 
+ mu        0    3   3    1  148    1   73    1   51    2     dynamic viscosity   
+ yplus     0    3   3    1  148    1   73    1   51    1     y+        
+ shrvel    0    3   3    1  148    1   73    1   51    2     shear velocity      
+ tke       0    3   3    1  148    1   73    1   51    2     turbulent energy    
+ trbint    0    3   3    1  148    1   73    1   51    3     turbulence intensity; %       
+ dtke      0    3   3    1  148    1   73    1   51    3     turbulent dissipation         
+ ttime     0    3   3    1  148    1   73    1   51    2     turbulent time scale
+ tlength   0    3   3    1  148    1   73    1   51    3     turbulent length scale        
+ scl1      0    3   3    1  148    1   73    1   51    3     suspended sediment sp 1   conc
+ scl2      0    3   3    1  148    1   73    1   51    4     sediment sp 1   packed vol frac         
+ tsusp     0    3   3    1  148    1   73    1   51    4     sediment; suspended: volume fraction    
+ vfsspk    0    3   3    1  148    1   73    1   51    4     sediment; packed: volume fraction       
+ scrdif    0    3   3    1  148    1   73    1   51    4     sediment; packed: elevation net change  
+ scrate    0    3   3    1  148    1   73    1   51    5     sediment; packed: elevation average change rate   
+ d50       0    3   3    1  148    1   73    1   51    3     sediment; packed: d50         
+ stnr      0    3   3    1  148    1   73    1   51    3     strain rate magnitude         
+ hyfd      0    3   3    1  148    1   73    1   51    1     flow depth
+ mhyfd     0    3   3    1  148    1   73    1   51    2     maximum flow depth  
+ hyel      0    3   3    1  148    1   73    1   51    3     free surface elevation        
+ davel     0    3   3    1  148    1   73    1   51    3     depth-averaged velocity       
+ ofvel     0    3   3    1  148    1   73    1   51    4     velocity at  0.000E+00 above bottom     
+ froude    0    3   3    1  148    1   73    1   51    2     Froude number       
+ shyhd     0    3   3    1  148    1   73    1   51    3     specific hydraulic head       
+ thyhd     0    3   3    1  148    1   73    1   51    2     total hydraulic head
+ prsitr    0    3   3    1  148    1   73    1   51    4     Diagnostics: pressure iteration residual
+ volerr    0    3   3    1  148    1   73    1   51    5     Diagnostics: cumulative fluid fraction error      
+ nf        0    3   3    1  148    1   73    1   51    3     Diagnostics: nf values        
+ drg       0    3   3    1  148    1   73    1   51    3     normalized drag coefficient   
+ u         0    3   3    1  148    1   73    1   51    1     x-velocity
+ v         0    3   3    1  148    1   73    1   51    1     y-velocity
+ w         0    3   3    1  148    1   73    1   51    1     z-velocity
+ ijkmob    0    3   3    1  148    1   73    1   51    2     component number    
+ vbnd      0    3   0    0    0    0    0    0    0    2     boundary velocities 
+ scrp      0    3   3    1  148    1   73    1   51    2     excess shear stress 
+ rough     0    3   3    1  148    1   73    1   51    2     surface roughness   
+ vf2       0    3   3    1  148    1   73    1   51    3     component 2: volume fraction  
+ vf3       0    3   3    1  148    1   73    1   51    3     component 3: volume fraction  
+ vf4       0    3   3    1  148    1   73    1   51    3     component 4: volume fraction  
+ vf5       0    3   3    1  148    1   73    1   51    3     component 5: volume fraction  
+ vf6       0    3   3    1  148    1   73    1   51    3     component 6: volume fraction  
+ icstat    0    3   3    1  148    1   73    1   51    1     cell type 
+ npart15   0    0   0    0    0    0    0    0    0    2     probe particles     
+ xpart15   0    0   0    0    0    0    0    0    0    2     x-coordinate        
+ ypart15   0    0   0    0    0    0    0    0    0    2     y-coordinate        
+ zpart15   0    0   0    0    0    0    0    0    0    2     z-coordinate        
+ upart15   0    0   0    0    0    0    0    0    0    1     x-velocity
+ vpart15   0    0   0    0    0    0    0    0    0    1     y-velocity
+ wpart15   0    0   0    0    0    0    0    0    0    1     z-velocity
+ pstag15   0    0   0    0    0    0    0    0    0    1     probe id  
+ pbtag15   0    0   0    0    0    0    0    0    0    3     associated particle class     
+ idspc15   0    0   0    0    0    0    0    0    0    3     associated particle species   
+ motn15    0    0   0    0    0    0    0    0    0    2     motion attribute    
+ tpart15   0    0   0    0    0    0    0    0    0    1     life time 
+
+ hist_var    249     history variables available for mesh block  3
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ dt        0    0   0    0    0    0    0    0    0    3     Diagnostics: time-step size   
+ elt       0    0   0    0    0    0    0    0    0    4     Diagnostics: elapsed clock time         
+ elt_cyc   0    0   0    0    0    0    0    0    0    5     Diagnostics: elapsed clock time per time step     
+ peff      0    0   0    0    0    0    0    0    0    4     Diagnostics: % parallel efficiency      
+ f         1    0   0    0    0    0    0    0    0    2     1: fraction of fluid
+ p         1    0   0    0    0    0    0    0    0    2     1: pressure         
+ rho       1    0   0    0    0    0    0    0    0    3     1: macroscopic density        
+ mu        1    0   0    0    0    0    0    0    0    2     1: dynamic viscosity
+ tke       1    0   0    0    0    0    0    0    0    2     1: turbulent energy 
+ dtke      1    0   0    0    0    0    0    0    0    3     1: turbulent dissipation      
+ stnr      1    0   0    0    0    0    0    0    0    3     1: strain rate magnitude      
+ scl1      1    0   0    0    0    0    0    0    0    4     1: suspended sediment sp 1   conc       
+ scl2      1    0   0    0    0    0    0    0    0    4     1: sediment sp 1   packed vol frac      
+ drg       1    0   0    0    0    0    0    0    0    3     1: normalized drag coefficient
+ hyfd      1    0   0    0    0    0    0    0    0    2     1: flow depth       
+ mhyfd     1    0   0    0    0    0    0    0    0    3     1: maximum flow depth         
+ hyel      1    0   0    0    0    0    0    0    0    3     1: free surface elevation     
+ davel     1    0   0    0    0    0    0    0    0    3     1: depth-averaged velocity    
+ ofvel     1    0   0    0    0    0    0    0    0    4     1: velocity at  0.00000E+00 above bottom
+ froude    1    0   0    0    0    0    0    0    0    2     1: Froude number    
+ shyhd     1    0   0    0    0    0    0    0    0    3     1: specific hydraulic head    
+ thyhd     1    0   0    0    0    0    0    0    0    3     1: total hydraulic head       
+ x         1    0   0    0    0    0    0    0    0    2     1: x-coordinate     
+ y         1    0   0    0    0    0    0    0    0    2     1: y-coordinate     
+ z         1    0   0    0    0    0    0    0    0    2     1: z-coordinate     
+ u         1    0   0    0    0    0    0    0    0    2     1: fluid x-velocity 
+ v         1    0   0    0    0    0    0    0    0    2     1: fluid y-velocity 
+ w         1    0   0    0    0    0    0    0    0    2     1: fluid z-velocity 
+ vmag      1    0   0    0    0    0    0    0    0    3     1: fluid velocity magnitude   
+ upr       1    0   0    0    0    0    0    0    0    2     1: probe x-velocity 
+ vpr       1    0   0    0    0    0    0    0    0    2     1: probe y-velocity 
+ wpr       1    0   0    0    0    0    0    0    0    2     1: probe z-velocity 
+ vprmag    1    0   0    0    0    0    0    0    0    3     1: probe velocity magnitude   
+ f         2    0   0    0    0    0    0    0    0    2     2: fraction of fluid
+ p         2    0   0    0    0    0    0    0    0    2     2: pressure         
+ rho       2    0   0    0    0    0    0    0    0    3     2: macroscopic density        
+ mu        2    0   0    0    0    0    0    0    0    2     2: dynamic viscosity
+ tke       2    0   0    0    0    0    0    0    0    2     2: turbulent energy 
+ dtke      2    0   0    0    0    0    0    0    0    3     2: turbulent dissipation      
+ stnr      2    0   0    0    0    0    0    0    0    3     2: strain rate magnitude      
+ scl1      2    0   0    0    0    0    0    0    0    4     2: suspended sediment sp 1   conc       
+ scl2      2    0   0    0    0    0    0    0    0    4     2: sediment sp 1   packed vol frac      
+ drg       2    0   0    0    0    0    0    0    0    3     2: normalized drag coefficient
+ hyfd      2    0   0    0    0    0    0    0    0    2     2: flow depth       
+ mhyfd     2    0   0    0    0    0    0    0    0    3     2: maximum flow depth         
+ hyel      2    0   0    0    0    0    0    0    0    3     2: free surface elevation     
+ davel     2    0   0    0    0    0    0    0    0    3     2: depth-averaged velocity    
+ ofvel     2    0   0    0    0    0    0    0    0    4     2: velocity at  0.00000E+00 above bottom
+ froude    2    0   0    0    0    0    0    0    0    2     2: Froude number    
+ shyhd     2    0   0    0    0    0    0    0    0    3     2: specific hydraulic head    
+ thyhd     2    0   0    0    0    0    0    0    0    3     2: total hydraulic head       
+ x         2    0   0    0    0    0    0    0    0    2     2: x-coordinate     
+ y         2    0   0    0    0    0    0    0    0    2     2: y-coordinate     
+ z         2    0   0    0    0    0    0    0    0    2     2: z-coordinate     
+ u         2    0   0    0    0    0    0    0    0    2     2: fluid x-velocity 
+ v         2    0   0    0    0    0    0    0    0    2     2: fluid y-velocity 
+ w         2    0   0    0    0    0    0    0    0    2     2: fluid z-velocity 
+ vmag      2    0   0    0    0    0    0    0    0    3     2: fluid velocity magnitude   
+ upr       2    0   0    0    0    0    0    0    0    2     2: probe x-velocity 
+ vpr       2    0   0    0    0    0    0    0    0    2     2: probe y-velocity 
+ wpr       2    0   0    0    0    0    0    0    0    2     2: probe z-velocity 
+ vprmag    2    0   0    0    0    0    0    0    0    3     2: probe velocity magnitude   
+ f         3    0   0    0    0    0    0    0    0    2     3: fraction of fluid
+ p         3    0   0    0    0    0    0    0    0    2     3: pressure         
+ rho       3    0   0    0    0    0    0    0    0    3     3: macroscopic density        
+ mu        3    0   0    0    0    0    0    0    0    2     3: dynamic viscosity
+ tke       3    0   0    0    0    0    0    0    0    2     3: turbulent energy 
+ dtke      3    0   0    0    0    0    0    0    0    3     3: turbulent dissipation      
+ stnr      3    0   0    0    0    0    0    0    0    3     3: strain rate magnitude      
+ scl1      3    0   0    0    0    0    0    0    0    4     3: suspended sediment sp 1   conc       
+ scl2      3    0   0    0    0    0    0    0    0    4     3: sediment sp 1   packed vol frac      
+ drg       3    0   0    0    0    0    0    0    0    3     3: normalized drag coefficient
+ hyfd      3    0   0    0    0    0    0    0    0    2     3: flow depth       
+ mhyfd     3    0   0    0    0    0    0    0    0    3     3: maximum flow depth         
+ hyel      3    0   0    0    0    0    0    0    0    3     3: free surface elevation     
+ davel     3    0   0    0    0    0    0    0    0    3     3: depth-averaged velocity    
+ ofvel     3    0   0    0    0    0    0    0    0    4     3: velocity at  0.00000E+00 above bottom
+ froude    3    0   0    0    0    0    0    0    0    2     3: Froude number    
+ shyhd     3    0   0    0    0    0    0    0    0    3     3: specific hydraulic head    
+ thyhd     3    0   0    0    0    0    0    0    0    3     3: total hydraulic head       
+ x         3    0   0    0    0    0    0    0    0    2     3: x-coordinate     
+ y         3    0   0    0    0    0    0    0    0    2     3: y-coordinate     
+ z         3    0   0    0    0    0    0    0    0    2     3: z-coordinate     
+ u         3    0   0    0    0    0    0    0    0    2     3: fluid x-velocity 
+ v         3    0   0    0    0    0    0    0    0    2     3: fluid y-velocity 
+ w         3    0   0    0    0    0    0    0    0    2     3: fluid z-velocity 
+ vmag      3    0   0    0    0    0    0    0    0    3     3: fluid velocity magnitude   
+ upr       3    0   0    0    0    0    0    0    0    2     3: probe x-velocity 
+ vpr       3    0   0    0    0    0    0    0    0    2     3: probe y-velocity 
+ wpr       3    0   0    0    0    0    0    0    0    2     3: probe z-velocity 
+ vprmag    3    0   0    0    0    0    0    0    0    3     3: probe velocity magnitude   
+ f         4    0   0    0    0    0    0    0    0    2     4: fraction of fluid
+ p         4    0   0    0    0    0    0    0    0    2     4: pressure         
+ rho       4    0   0    0    0    0    0    0    0    3     4: macroscopic density        
+ mu        4    0   0    0    0    0    0    0    0    2     4: dynamic viscosity
+ tke       4    0   0    0    0    0    0    0    0    2     4: turbulent energy 
+ dtke      4    0   0    0    0    0    0    0    0    3     4: turbulent dissipation      
+ stnr      4    0   0    0    0    0    0    0    0    3     4: strain rate magnitude      
+ scl1      4    0   0    0    0    0    0    0    0    4     4: suspended sediment sp 1   conc       
+ scl2      4    0   0    0    0    0    0    0    0    4     4: sediment sp 1   packed vol frac      
+ drg       4    0   0    0    0    0    0    0    0    3     4: normalized drag coefficient
+ hyfd      4    0   0    0    0    0    0    0    0    2     4: flow depth       
+ mhyfd     4    0   0    0    0    0    0    0    0    3     4: maximum flow depth         
+ hyel      4    0   0    0    0    0    0    0    0    3     4: free surface elevation     
+ davel     4    0   0    0    0    0    0    0    0    3     4: depth-averaged velocity    
+ ofvel     4    0   0    0    0    0    0    0    0    4     4: velocity at  0.00000E+00 above bottom
+ froude    4    0   0    0    0    0    0    0    0    2     4: Froude number    
+ shyhd     4    0   0    0    0    0    0    0    0    3     4: specific hydraulic head    
+ thyhd     4    0   0    0    0    0    0    0    0    3     4: total hydraulic head       
+ x         4    0   0    0    0    0    0    0    0    2     4: x-coordinate     
+ y         4    0   0    0    0    0    0    0    0    2     4: y-coordinate     
+ z         4    0   0    0    0    0    0    0    0    2     4: z-coordinate     
+ u         4    0   0    0    0    0    0    0    0    2     4: fluid x-velocity 
+ v         4    0   0    0    0    0    0    0    0    2     4: fluid y-velocity 
+ w         4    0   0    0    0    0    0    0    0    2     4: fluid z-velocity 
+ vmag      4    0   0    0    0    0    0    0    0    3     4: fluid velocity magnitude   
+ upr       4    0   0    0    0    0    0    0    0    2     4: probe x-velocity 
+ vpr       4    0   0    0    0    0    0    0    0    2     4: probe y-velocity 
+ wpr       4    0   0    0    0    0    0    0    0    2     4: probe z-velocity 
+ vprmag    4    0   0    0    0    0    0    0    0    3     4: probe velocity magnitude   
+ f         5    0   0    0    0    0    0    0    0    2     5: fraction of fluid
+ p         5    0   0    0    0    0    0    0    0    2     5: pressure         
+ rho       5    0   0    0    0    0    0    0    0    3     5: macroscopic density        
+ mu        5    0   0    0    0    0    0    0    0    2     5: dynamic viscosity
+ tke       5    0   0    0    0    0    0    0    0    2     5: turbulent energy 
+ dtke      5    0   0    0    0    0    0    0    0    3     5: turbulent dissipation      
+ stnr      5    0   0    0    0    0    0    0    0    3     5: strain rate magnitude      
+ scl1      5    0   0    0    0    0    0    0    0    4     5: suspended sediment sp 1   conc       
+ scl2      5    0   0    0    0    0    0    0    0    4     5: sediment sp 1   packed vol frac      
+ drg       5    0   0    0    0    0    0    0    0    3     5: normalized drag coefficient
+ hyfd      5    0   0    0    0    0    0    0    0    2     5: flow depth       
+ mhyfd     5    0   0    0    0    0    0    0    0    3     5: maximum flow depth         
+ hyel      5    0   0    0    0    0    0    0    0    3     5: free surface elevation     
+ davel     5    0   0    0    0    0    0    0    0    3     5: depth-averaged velocity    
+ ofvel     5    0   0    0    0    0    0    0    0    4     5: velocity at  0.00000E+00 above bottom
+ froude    5    0   0    0    0    0    0    0    0    2     5: Froude number    
+ shyhd     5    0   0    0    0    0    0    0    0    3     5: specific hydraulic head    
+ thyhd     5    0   0    0    0    0    0    0    0    3     5: total hydraulic head       
+ x         5    0   0    0    0    0    0    0    0    2     5: x-coordinate     
+ y         5    0   0    0    0    0    0    0    0    2     5: y-coordinate     
+ z         5    0   0    0    0    0    0    0    0    2     5: z-coordinate     
+ u         5    0   0    0    0    0    0    0    0    2     5: fluid x-velocity 
+ v         5    0   0    0    0    0    0    0    0    2     5: fluid y-velocity 
+ w         5    0   0    0    0    0    0    0    0    2     5: fluid z-velocity 
+ vmag      5    0   0    0    0    0    0    0    0    3     5: fluid velocity magnitude   
+ upr       5    0   0    0    0    0    0    0    0    2     5: probe x-velocity 
+ vpr       5    0   0    0    0    0    0    0    0    2     5: probe y-velocity 
+ wpr       5    0   0    0    0    0    0    0    0    2     5: probe z-velocity 
+ vprmag    5    0   0    0    0    0    0    0    0    3     5: probe velocity magnitude   
+ f         6    0   0    0    0    0    0    0    0    2     6: fraction of fluid
+ p         6    0   0    0    0    0    0    0    0    2     6: pressure         
+ rho       6    0   0    0    0    0    0    0    0    3     6: macroscopic density        
+ mu        6    0   0    0    0    0    0    0    0    2     6: dynamic viscosity
+ tke       6    0   0    0    0    0    0    0    0    2     6: turbulent energy 
+ dtke      6    0   0    0    0    0    0    0    0    3     6: turbulent dissipation      
+ stnr      6    0   0    0    0    0    0    0    0    3     6: strain rate magnitude      
+ scl1      6    0   0    0    0    0    0    0    0    4     6: suspended sediment sp 1   conc       
+ scl2      6    0   0    0    0    0    0    0    0    4     6: sediment sp 1   packed vol frac      
+ drg       6    0   0    0    0    0    0    0    0    3     6: normalized drag coefficient
+ hyfd      6    0   0    0    0    0    0    0    0    2     6: flow depth       
+ mhyfd     6    0   0    0    0    0    0    0    0    3     6: maximum flow depth         
+ hyel      6    0   0    0    0    0    0    0    0    3     6: free surface elevation     
+ davel     6    0   0    0    0    0    0    0    0    3     6: depth-averaged velocity    
+ ofvel     6    0   0    0    0    0    0    0    0    4     6: velocity at  0.00000E+00 above bottom
+ froude    6    0   0    0    0    0    0    0    0    2     6: Froude number    
+ shyhd     6    0   0    0    0    0    0    0    0    3     6: specific hydraulic head    
+ thyhd     6    0   0    0    0    0    0    0    0    3     6: total hydraulic head       
+ x         6    0   0    0    0    0    0    0    0    2     6: x-coordinate     
+ y         6    0   0    0    0    0    0    0    0    2     6: y-coordinate     
+ z         6    0   0    0    0    0    0    0    0    2     6: z-coordinate     
+ u         6    0   0    0    0    0    0    0    0    2     6: fluid x-velocity 
+ v         6    0   0    0    0    0    0    0    0    2     6: fluid y-velocity 
+ w         6    0   0    0    0    0    0    0    0    2     6: fluid z-velocity 
+ vmag      6    0   0    0    0    0    0    0    0    3     6: fluid velocity magnitude   
+ upr       6    0   0    0    0    0    0    0    0    2     6: probe x-velocity 
+ vpr       6    0   0    0    0    0    0    0    0    2     6: probe y-velocity 
+ wpr       6    0   0    0    0    0    0    0    0    2     6: probe z-velocity 
+ vprmag    6    0   0    0    0    0    0    0    0    3     6: probe velocity magnitude   
+ fillfrc   0    0   0    0    0    0    0    0    0    2     fill fraction       
+ slfdfrc   0    0   0    0    0    0    0    0    0    3     solidified volume fraction    
+ dtstbl    0    0   0    0    0    0    0    0    0    4     Diagnostics: time-step stability limit  
+ dtuc      0    0   0    0    0    0    0    0    0    6     Diagnostics: x-direction convective time-step limit         
+ dtvc      0    0   0    0    0    0    0    0    0    6     Diagnostics: y-direction convective time-step limit         
+ dtwc      0    0   0    0    0    0    0    0    0    6     Diagnostics: z-direction convective time-step limit         
+ dtvis     0    0   0    0    0    0    0    0    0    4     Diagnostics: viscous time-step limit    
+ dtsur     0    0   0    0    0    0    0    0    0    5     Diagnostics: free surface time-step limit         
+ dtscr     0    0   0    0    0    0    0    0    0    4     Diagnostics: scour model time-step limit
+ epsi      0    0   0    0    0    0    0    0    0    5     Diagnostics: pressure convergence criterion       
+ omega     0    0   0    0    0    0    0    0    0    4     Diagnostics: pressure relaxation factor 
+ dmx       0    0   0    0    0    0    0    0    0    4     Diagnostics: maximum pressure residual  
+ iter      0    0   0    0    0    0    0    0    0    4     Diagnostics: pressure iteration count   
+ avgoms    0    0   0    0    0    0    0    0    0    2     average vorticity   
+ obsvol    0    0   0    0    0    0    0    0    0    3     solid component volume        
+ vobs      1    0   0    0    0    0    0    0    0    4     packed sediment comp. 1: volume         
+ vobs      2    0   0    0    0    0    0    0    0    2     component 2: volume 
+ vobs      3    0   0    0    0    0    0    0    0    2     component 3: volume 
+ vobs      4    0   0    0    0    0    0    0    0    2     component 4: volume 
+ vobs      5    0   0    0    0    0    0    0    0    2     component 5: volume 
+ vobs      6    0   0    0    0    0    0    0    0    2     component 6: volume 
+ nreg      0    0   0    0    0    0    0    0    0    3     number of void regions        
+ nr        0    0   0    0    0    0    0    0    0    2     void region index   
+ vrvol     0    0   0    0    0    0    0    0    0    2     void region volume  
+ vrp       0    0   0    0    0    0    0    0    0    2     void region pressure
+ tvr       1    0   0    0    0    0    0    0    0    3     void region temperature       
+ xvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - x 
+ yvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - y 
+ zvoid     0    0   0    0    0    0    0    0    0    3     void region volume center - z 
+ arvoid    0    0   0    0    0    0    0    0    0    3     void region surface area      
+ vchgt     0    0   0    0    0    0    0    0    0    4     Diagnostics: convective volume error    
+ vchgp     0    0   0    0    0    0    0    0    0    5     Diagnostics: convective volume error; % lost      
+ vchgtm    0    0   0    0    0    0    0    0    0    5     Diagnostics: interblock boundary volume error     
+ vchgpm    0    0   0    0    0    0    0    0    0    6     Diagnostics: interblock boundary volume error; % lost       
+ fvolt     0    0   0    0    0    0    0    0    0    2     volume of fluid 1   
+ flarea    0    0   0    0    0    0    0    0    0    2     fluid surface area  
+ xcm       0    0   0    0    0    0    0    0    0    4     fluid center of mass x-coordinate       
+ ycm       0    0   0    0    0    0    0    0    0    4     fluid center of mass y-coordinate       
+ zcm       0    0   0    0    0    0    0    0    0    4     fluid center of mass z-coordinate       
+ sf1       0    0   0    0    0    0    0    0    0    4     Diagnostics: fluid 1 volume net influx  
+ avgmke    0    0   0    0    0    0    0    0    0    4     mass-averaged fluid mean kinetic energy 
+ avgtke    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent kinetic energy  
+ avgdke    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent dissipation     
+ avgspr    0    0   0    0    0    0    0    0    0    4     mass-averaged turbulent shear production
+ avgboy    0    0   0    0    0    0    0    0    0    5     mass-averaged turbulent buoyant production        
+ tmass     0    0   0    0    0    0    0    0    0    2     total fluid mass    
+ smass     0    0   0    0    0    0    0    0    0    5     Diagnostics: accumulated fluid mass source        
+ tscl1     0    0   0    0    0    0    0    0    0    4     mass of suspended sediment species 1    
+ tscl2     0    0   0    0    0    0    0    0    0    4     mass of packed sediment species 1       
+ npart     1    0   0    0    0    0    0    0    0    3     total number of particles     
+ npart15   1    0   0    0    0    0    0    0    0    2     probe particles     
+ saobs     1    0   0    0    0    0    0    0    0    5     packed sediment comp. 1: open surface area        
+ saobs     2    0   0    0    0    0    0    0    0    3     component 2: open surface area
+ saobs     3    0   0    0    0    0    0    0    0    3     component 3: open surface area
+ saobs     4    0   0    0    0    0    0    0    0    3     component 4: open surface area
+ saobs     5    0   0    0    0    0    0    0    0    3     component 5: open surface area
+ saobs     6    0   0    0    0    0    0    0    0    3     component 6: open surface area
+ vfb1      1    3   0    0    0    0    0    0    0    6     mesh block    3: Xmin boundary fluid 1 volume flow rate     
+ vfb1      2    3   0    0    0    0    0    0    0    6     mesh block    3: Xmax boundary fluid 1 volume flow rate     
+ vfb1      3    3   0    0    0    0    0    0    0    6     mesh block    3: Ymin boundary fluid 1 volume flow rate     
+ vfb1      4    3   0    0    0    0    0    0    0    6     mesh block    3: Ymax boundary fluid 1 volume flow rate     
+ vfb1      5    3   0    0    0    0    0    0    0    6     mesh block    3: Zmin boundary fluid 1 volume flow rate     
+ vfb1      6    3   0    0    0    0    0    0    0    6     mesh block    3: Zmax boundary fluid 1 volume flow rate     
+ pbc       6    3   0    0    0    0    0    0    0    4     mesh block    3: Zmax boundary pressure 
+ fbc       6    3   0    0    0    0    0    0    0    5     mesh block    3: Zmax boundary fluid fraction     
+ ubc       6    3   0    0    0    0    0    0    0    5     mesh block    3: Zmax boundary x-velocity         
+ vbc       6    3   0    0    0    0    0    0    0    5     mesh block    3: Zmax boundary y-velocity         
+ tkebc     6    3   0    0    0    0    0    0    0    5     mesh block    3: Zmax boundary turbulent energy   
+ dtkebc    6    3   0    0    0    0    0    0    0    6     mesh block    3: Zmax boundary turbulent dissipation        
+ sclb1     6    3   0    0    0    0    0    0    0    6     mesh block    3: Zmax boundarysuspended sediment sp 1   conc
+ sclb2     6    3   0    0    0    0    0    0    0    7     mesh block    3: Zmax boundarysediment sp 1   packed vol frac         
+
+ anim_var     40     animation variables available for mesh block  3
+    name     icomp  nc  xmn  xmx  ymn  ymx  zmn  zmx  description
+ p        -1    3   3    1  148    1   73    1   51    1     pressure  
+ f        -1    3   3    1  148    1   73    1   51    2     fraction of fluid   
+ rho      -1    3   3    1  148    1   73    1   51    2     macroscopic density 
+ u        -1    3   3    1  148    1   73    1   51    1     x-velocity
+ v        -1    3   3    1  148    1   73    1   51    1     y-velocity
+ w        -1    3   3    1  148    1   73    1   51    1     z-velocity
+ vf       -1    3   3    1  148    1   73    1   51    4     volume fraction before AVRCK adjustment 
+ afr      -1    3   3    1  148    1   73    1   51    2     area fraction right 
+ afb      -1    3   3    1  148    1   73    1   51    2     area fraction back  
+ aft      -1    3   3    1  148    1   73    1   51    2     area fraction top   
+ ijkmob   -1    3   3    1  148    1   73    1   51    2     component number    
+ hyfd     -1    3   3    1  148    1   73    1   51    1     flow depth
+ mhyfd    -1    3   3    1  148    1   73    1   51    2     maximum flow depth  
+ hyel     -1    3   3    1  148    1   73    1   51    3     free surface elevation        
+ davel    -1    3   3    1  148    1   73    1   51    3     depth-averaged velocity       
+ ofvel    -1    3   3    1  148    1   73    1   51    4     velocity at  0.000E+00 above bottom     
+ froude   -1    3   3    1  148    1   73    1   51    2     Froude number       
+ shyhd    -1    3   3    1  148    1   73    1   51    3     specific hydraulic head       
+ thyhd    -1    3   3    1  148    1   73    1   51    2     total hydraulic head
+ sfelds   -1    3   3    1  148    1   73    1   51    2     terrain elevation   
+ scl1     -1    3   3    1  148    1   73    1   51    3     suspended sediment sp 1   conc
+ scl2     -1    3   3    1  148    1   73    1   51    4     sediment sp 1   packed vol frac         
+ tsusp    -1    3   3    1  148    1   73    1   51    4     sediment; suspended: volume fraction    
+ vfsspk   -1    3   3    1  148    1   73    1   51    4     sediment; packed: volume fraction       
+ scrdif   -1    3   3    1  148    1   73    1   51    4     sediment; packed: elevation net change  
+ scrate   -1    3   3    1  148    1   73    1   51    5     sediment; packed: elevation average change rate   
+ d50      -1    3   3    1  148    1   73    1   51    3     sediment; packed: d50         
+ vbnd     -1    3   0    0    0    0    0    0    0    2     boundary velocities 
+ npart15  -1    0   0    0    0    0    0    0    0    2     probe particles     
+ xpart15  -1    0   0    0    0    0    0    0    0    2     x-coordinate        
+ ypart15  -1    0   0    0    0    0    0    0    0    2     y-coordinate        
+ zpart15  -1    0   0    0    0    0    0    0    0    2     z-coordinate        
+ upart15  -1    0   0    0    0    0    0    0    0    1     x-velocity
+ vpart15  -1    0   0    0    0    0    0    0    0    1     y-velocity
+ wpart15  -1    0   0    0    0    0    0    0    0    1     z-velocity
+ pstag15  -1    0   0    0    0    0    0    0    0    1     probe id  
+ pbtag15  -1    0   0    0    0    0    0    0    0    3     associated particle class     
+ idspc15  -1    0   0    0    0    0    0    0    0    3     associated particle species   
+ motn15   -1    0   0    0    0    0    0    0    0    2     motion attribute    
+ tpart15  -1    0   0    0    0    0    0    0    0    1     life time 
+
+ soli_var      0     solidification variables available for mesh block  3
+
+########## data map ##########
+
+ncmps    3
+order    1
+order    2
+order    3
+icyl     0
+np       2
+imobs    1
+ipflag   0
+iptemp   0
+bytes    4
+
+fixed_edits    1
+x        1    14786853     0   342     1     1     1     1
+y        1    14787196     0   363     1     1     1     1
+z        1    14787560     0    38     1     1     1     1
+x        2    49184082     0   154     1     1     1     1
+y        2    49184237     0   104     1     1     1     1
+z        2    49184342     0    51     1     1     1     1
+x        3    54042139     0   148     1     1     1     1
+y        3    54042288     0    73     1     1     1     1
+z        3    54042362     0    51     1     1     1     1
+spat_edits    23
+spat_times      0.000000E+00    56870566    0           6  (npart)
+spat_times      1.001901E+01   305309766    0           6  (npart)
+spat_times      2.000310E+01   553747846    0           6  (npart)
+spat_times      2.999673E+01   802187046    0           6  (npart)
+spat_times      3.999873E+01  1050625126    0           6  (npart)
+spat_times      5.000192E+01  1299063206    0           6  (npart)
+spat_times      6.000371E+01  1547502406    0           6  (npart)
+spat_times      6.999370E+01  1795940486    0           6  (npart)
+spat_times      7.999339E+01  2044378566    0           6  (npart)
+spat_times      9.000480E+01  2292817766    0           6  (npart)
+spat_times      9.999651E+01  2541255846    0           6  (npart)
+spat_times      1.100013E+02  2789693926    0           6  (npart)
+spat_times      1.200000E+02  3038133126    0           6  (npart)
+spat_times      1.299932E+02  3286571206    0           6  (npart)
+spat_times      1.400083E+02  3535009286    0           6  (npart)
+spat_times      1.499995E+02  3783448486    0           6  (npart)
+spat_times      1.599944E+02  4031886566    0           6  (npart)
+spat_times      1.700037E+02  4280324646    0           6  (npart)
+spat_times      1.800002E+02  4528763846    0           6  (npart)
+spat_times      1.900003E+02  4777201926    0           6  (npart)
+spat_times      1.999999E+02  5025640006    0           6  (npart)
+spat_times      2.099982E+02  5274079206    0           6  (npart)
+spat_times      2.191348E+02  5522518406    0           6  (npart)
+vf       1       22639     1   342     1   363     1    38
+vfa      1     3127885     1   342     1   363     1    38
+sfelds   1     6233131     1   342     1   363     1    38
+afr      1     9338377     1   342     1   363     1    38
+afb      1    12443623     1   342     1   363     1    38
+aft      1    15548869     1   342     1   363     1    38
+f        1    18654115     1   342     1   363     1    38
+p        1    21759361     1   342     1   363     1    38
+rho      1    24864607     1   342     1   363     1    38
+mu       1    27969853     1   342     1   363     1    38
+yplus    1    31075099     1   342     1   363     1    38
+shrvel   1    34180345     1   342     1   363     1    38
+tke      1    37285591     1   342     1   363     1    38
+trbint   1    40390837     1   342     1   363     1    38
+dtke     1    43496083     1   342     1   363     1    38
+ttime    1    46601329     1   342     1   363     1    38
+tlength  1    49706575     1   342     1   363     1    38
+scl1     1    52811821     1   342     1   363     1    38
+scl2     1    55917067     1   342     1   363     1    38
+tsusp    1    59022313     1   342     1   363     1    38
+vfsspk   1    62127559     1   342     1   363     1    38
+scrdif   1    65232805     1   342     1   363     1    38
+scrate   1    68338051     1   342     1   363     1    38
+d50      1    71443297     1   342     1   363     1    38
+stnr     1    74548543     1   342     1   363     1    38
+hyfd     1    77653789     1   342     1   363     1    38
+mhyfd    1    80759035     1   342     1   363     1    38
+hyel     1    83864281     1   342     1   363     1    38
+davel    1    86969527     1   342     1   363     1    38
+ofvel    1    90074773     1   342     1   363     1    38
+froude   1    93180019     1   342     1   363     1    38
+shyhd    1    96285265     1   342     1   363     1    38
+thyhd    1    99390511     1   342     1   363     1    38
+prsitr   1   102495757     1   342     1   363     1    38
+volerr   1   105601003     1   342     1   363     1    38
+nf       1   108706249     1   342     1   363     1    38
+drg      1   111811495     1   342     1   363     1    38
+u        1   114916741     1   342     1   363     1    38
+v        1   118021987     1   342     1   363     1    38
+w        1   121127233     1   342     1   363     1    38
+ijkmob   1   124232479     1   342     1   363     1    38
+scrp     1   127337743     1   342     1   363     1    38
+rough    1   130442989     1   342     1   363     1    38
+vf       2   133569361     1   154     1   104     1    51
+vfa      2   133887445     1   154     1   104     1    51
+sfelds   2   134205529     1   154     1   104     1    51
+afr      2   134523613     1   154     1   104     1    51
+afb      2   134841697     1   154     1   104     1    51
+aft      2   135159781     1   154     1   104     1    51
+f        2   135477865     1   154     1   104     1    51
+p        2   135795949     1   154     1   104     1    51
+rho      2   136114033     1   154     1   104     1    51
+mu       2   136432117     1   154     1   104     1    51
+yplus    2   136750201     1   154     1   104     1    51
+shrvel   2   137068285     1   154     1   104     1    51
+tke      2   137386369     1   154     1   104     1    51
+trbint   2   137704453     1   154     1   104     1    51
+dtke     2   138022537     1   154     1   104     1    51
+ttime    2   138340621     1   154     1   104     1    51
+tlength  2   138658705     1   154     1   104     1    51
+scl1     2   138976789     1   154     1   104     1    51
+scl2     2   139294873     1   154     1   104     1    51
+tsusp    2   139612957     1   154     1   104     1    51
+vfsspk   2   139931041     1   154     1   104     1    51
+scrdif   2   140249125     1   154     1   104     1    51
+scrate   2   140567209     1   154     1   104     1    51
+d50      2   140885293     1   154     1   104     1    51
+stnr     2   141203377     1   154     1   104     1    51
+hyfd     2   141521461     1   154     1   104     1    51
+mhyfd    2   141839545     1   154     1   104     1    51
+hyel     2   142157629     1   154     1   104     1    51
+davel    2   142475713     1   154     1   104     1    51
+ofvel    2   142793797     1   154     1   104     1    51
+froude   2   143111881     1   154     1   104     1    51
+shyhd    2   143429965     1   154     1   104     1    51
+thyhd    2   143748049     1   154     1   104     1    51
+prsitr   2   144066133     1   154     1   104     1    51
+volerr   2   144384217     1   154     1   104     1    51
+nf       2   144702301     1   154     1   104     1    51
+drg      2   145020385     1   154     1   104     1    51
+u        2   145338469     1   154     1   104     1    51
+v        2   145656553     1   154     1   104     1    51
+w        2   145974637     1   154     1   104     1    51
+ijkmob   2   146292721     1   154     1   104     1    51
+scrp     2   146610823     1   154     1   104     1    51
+rough    2   146928907     1   154     1   104     1    51
+vf       3   147268117     1   148     1    73     1    51
+vfa      3   147392919     1   148     1    73     1    51
+sfelds   3   147517721     1   148     1    73     1    51
+afr      3   147642523     1   148     1    73     1    51
+afb      3   147767325     1   148     1    73     1    51
+aft      3   147892127     1   148     1    73     1    51
+f        3   148016929     1   148     1    73     1    51
+p        3   148141731     1   148     1    73     1    51
+rho      3   148266533     1   148     1    73     1    51
+mu       3   148391335     1   148     1    73     1    51
+yplus    3   148516137     1   148     1    73     1    51
+shrvel   3   148640939     1   148     1    73     1    51
+tke      3   148765741     1   148     1    73     1    51
+trbint   3   148890543     1   148     1    73     1    51
+dtke     3   149015345     1   148     1    73     1    51
+ttime    3   149140147     1   148     1    73     1    51
+tlength  3   149264949     1   148     1    73     1    51
+scl1     3   149389751     1   148     1    73     1    51
+scl2     3   149514553     1   148     1    73     1    51
+tsusp    3   149639355     1   148     1    73     1    51
+vfsspk   3   149764157     1   148     1    73     1    51
+scrdif   3   149888959     1   148     1    73     1    51
+scrate   3   150013761     1   148     1    73     1    51
+d50      3   150138563     1   148     1    73     1    51
+stnr     3   150263365     1   148     1    73     1    51
+hyfd     3   150388167     1   148     1    73     1    51
+mhyfd    3   150512969     1   148     1    73     1    51
+hyel     3   150637771     1   148     1    73     1    51
+davel    3   150762573     1   148     1    73     1    51
+ofvel    3   150887375     1   148     1    73     1    51
+froude   3   151012177     1   148     1    73     1    51
+shyhd    3   151136979     1   148     1    73     1    51
+thyhd    3   151261781     1   148     1    73     1    51
+prsitr   3   151386583     1   148     1    73     1    51
+volerr   3   151511385     1   148     1    73     1    51
+nf       3   151636187     1   148     1    73     1    51
+drg      3   151760989     1   148     1    73     1    51
+u        3   151885791     1   148     1    73     1    51
+v        3   152010593     1   148     1    73     1    51
+w        3   152135395     1   148     1    73     1    51
+ijkmob   3   152260197     1   148     1    73     1    51
+scrp     3   152385017     1   148     1    73     1    51
+rough    3   152509819     1   148     1    73     1    51
+npart15  0   152634621
+xpart15  0   152634622     0    (   152634622+ 0 * npart)
+ypart15  0   152634622     1    (   152634622+ 1 * npart)
+zpart15  0   152634622     2    (   152634622+ 2 * npart)
+upart15  0   152634622     3    (   152634622+ 3 * npart)
+vpart15  0   152634622     4    (   152634622+ 4 * npart)
+wpart15  0   152634622     5    (   152634622+ 5 * npart)
+pstag15  0   152634622     9    (   152634622+ 9 * npart)
+pbtag15  0   152634622    10    (   152634622+10 * npart)
+idspc15  0   152634622    11    (   152634622+11 * npart)
+motn15   0   152634622    13    (   152634622+13 * npart)
+tpart15  0   152634622    15    (   152634622+15 * npart)
+anim_edits    23
+anim_times      0.000000E+00   209505446    0           6  (npart)
+anim_times      1.001901E+01   457944646    0           6  (npart)
+anim_times      2.000310E+01   706382726    0           6  (npart)
+anim_times      2.999673E+01   954821926    0           6  (npart)
+anim_times      3.999873E+01  1203260006    0           6  (npart)
+anim_times      5.000192E+01  1451698086    0           6  (npart)
+anim_times      6.000371E+01  1700137286    0           6  (npart)
+anim_times      6.999370E+01  1948575366    0           6  (npart)
+anim_times      7.999339E+01  2197013446    0           6  (npart)
+anim_times      9.000480E+01  2445452646    0           6  (npart)
+anim_times      9.999651E+01  2693890726    0           6  (npart)
+anim_times      1.100013E+02  2942328806    0           6  (npart)
+anim_times      1.200000E+02  3190768006    0           6  (npart)
+anim_times      1.299932E+02  3439206086    0           6  (npart)
+anim_times      1.400083E+02  3687644166    0           6  (npart)
+anim_times      1.499995E+02  3936083366    0           6  (npart)
+anim_times      1.599944E+02  4184521446    0           6  (npart)
+anim_times      1.700037E+02  4432959526    0           6  (npart)
+anim_times      1.800002E+02  4681398726    0           6  (npart)
+anim_times      1.900003E+02  4929836806    0           6  (npart)
+anim_times      1.999999E+02  5178274886    0           6  (npart)
+anim_times      2.099982E+02  5426714086    0           6  (npart)
+anim_times      2.191348E+02  5675153286    0           6  (npart)
+p        1           2     1   342     1   363     1    38
+f        1     3105248     1   342     1   363     1    38
+rho      1     6210494     1   342     1   363     1    38
+u        1     9315740     1   342     1   363     1    38
+v        1    12420986     1   342     1   363     1    38
+w        1    15526232     1   342     1   363     1    38
+vf       1    18631478     1   342     1   363     1    38
+afr      1    21736724     1   342     1   363     1    38
+afb      1    24841970     1   342     1   363     1    38
+aft      1    27947216     1   342     1   363     1    38
+ijkmob   1    31052462     1   342     1   363     1    38
+hyfd     1    34157708     1   342     1   363     1    38
+mhyfd    1    37262954     1   342     1   363     1    38
+hyel     1    40368200     1   342     1   363     1    38
+davel    1    43473446     1   342     1   363     1    38
+ofvel    1    46578692     1   342     1   363     1    38
+froude   1    49683938     1   342     1   363     1    38
+shyhd    1    52789184     1   342     1   363     1    38
+thyhd    1    55894430     1   342     1   363     1    38
+sfelds   1    58999676     1   342     1   363     1    38
+scl1     1    62104922     1   342     1   363     1    38
+scl2     1    65210168     1   342     1   363     1    38
+tsusp    1    68315414     1   342     1   363     1    38
+vfsspk   1    71420660     1   342     1   363     1    38
+scrdif   1    74525906     1   342     1   363     1    38
+scrate   1    77631152     1   342     1   363     1    38
+d50      1    80736398     1   342     1   363     1    38
+p        2    83841662     1   154     1   104     1    51
+f        2    84159746     1   154     1   104     1    51
+rho      2    84477830     1   154     1   104     1    51
+u        2    84795914     1   154     1   104     1    51
+v        2    85113998     1   154     1   104     1    51
+w        2    85432082     1   154     1   104     1    51
+vf       2    85750166     1   154     1   104     1    51
+afr      2    86068250     1   154     1   104     1    51
+afb      2    86386334     1   154     1   104     1    51
+aft      2    86704418     1   154     1   104     1    51
+ijkmob   2    87022502     1   154     1   104     1    51
+hyfd     2    87340586     1   154     1   104     1    51
+mhyfd    2    87658670     1   154     1   104     1    51
+hyel     2    87976754     1   154     1   104     1    51
+davel    2    88294838     1   154     1   104     1    51
+ofvel    2    88612922     1   154     1   104     1    51
+froude   2    88931006     1   154     1   104     1    51
+shyhd    2    89249090     1   154     1   104     1    51
+thyhd    2    89567174     1   154     1   104     1    51
+sfelds   2    89885258     1   154     1   104     1    51
+scl1     2    90203342     1   154     1   104     1    51
+scl2     2    90521426     1   154     1   104     1    51
+tsusp    2    90839510     1   154     1   104     1    51
+vfsspk   2    91157594     1   154     1   104     1    51
+scrdif   2    91475678     1   154     1   104     1    51
+scrate   2    91793762     1   154     1   104     1    51
+d50      2    92111846     1   154     1   104     1    51
+p        3    92429948     1   148     1    73     1    51
+f        3    92554750     1   148     1    73     1    51
+rho      3    92679552     1   148     1    73     1    51
+u        3    92804354     1   148     1    73     1    51
+v        3    92929156     1   148     1    73     1    51
+w        3    93053958     1   148     1    73     1    51
+vf       3    93178760     1   148     1    73     1    51
+afr      3    93303562     1   148     1    73     1    51
+afb      3    93428364     1   148     1    73     1    51
+aft      3    93553166     1   148     1    73     1    51
+ijkmob   3    93677968     1   148     1    73     1    51
+hyfd     3    93802770     1   148     1    73     1    51
+mhyfd    3    93927572     1   148     1    73     1    51
+hyel     3    94052374     1   148     1    73     1    51
+davel    3    94177176     1   148     1    73     1    51
+ofvel    3    94301978     1   148     1    73     1    51
+froude   3    94426780     1   148     1    73     1    51
+shyhd    3    94551582     1   148     1    73     1    51
+thyhd    3    94676384     1   148     1    73     1    51
+sfelds   3    94801186     1   148     1    73     1    51
+scl1     3    94925988     1   148     1    73     1    51
+scl2     3    95050790     1   148     1    73     1    51
+tsusp    3    95175592     1   148     1    73     1    51
+vfsspk   3    95300394     1   148     1    73     1    51
+scrdif   3    95425196     1   148     1    73     1    51
+scrate   3    95549998     1   148     1    73     1    51
+d50      3    95674800     1   148     1    73     1    51
+npart15  0    95799620
+xpart15  0    95799621     0    (    95799621+ 0 * npart)
+ypart15  0    95799621     1    (    95799621+ 1 * npart)
+zpart15  0    95799621     2    (    95799621+ 2 * npart)
+upart15  0    95799621     3    (    95799621+ 3 * npart)
+vpart15  0    95799621     4    (    95799621+ 4 * npart)
+wpart15  0    95799621     5    (    95799621+ 5 * npart)
+pstag15  0    95799621     9    (    95799621+ 9 * npart)
+pbtag15  0    95799621    10    (    95799621+10 * npart)
+idspc15  0    95799621    11    (    95799621+11 * npart)
+motn15   0    95799621    13    (    95799621+13 * npart)
+tpart15  0    95799621    15    (    95799621+15 * npart)
+soli_edits     0
+
+########## prepin file ##########
+
+  Title   
+  This is a sample input file 
+
+ &xput    
+    remark='!! Remarks beginning with "!! " are automatically added and removed by FLOW-3D.',       
+    remark='!! Do not begin any user added remarks with with "!! ". They will be removed',
+    twfin=300,      
+    itb=1,
+    dtmin=7e-12,    
+    ifvisc=1,       
+    ifvis=4,        
+    imphtc=0,       
+    ifdynconv=1,    
+    trest=80,       
+    ifrho=1,        
+    gz=-9.8,        
+    idpth=1,        
+    delt=0.7,       
+    iscour=1,       
+    tedit(1)=0,     
+    tpltd(1)=10,    
+    tapltd(1)=10,   
+ /        
+
+ &limits  
+ /        
+
+ &props   
+    units='si',     
+    tunits='k',     
+    pcav=0,         
+    mu1=0.001,      
+    cangle=-90,     
+    fluid1='Water at 20 C',   
+    muctst=0.001,   
+    mutmp2=273.15,  
+    cv1=4182,       
+    tl1=273.25,     
+    ts1=273.15,     
+    clht1=3.35e+05, 
+    cvs1=2100,      
+    thcs1=2.215,    
+    rhofs=917,      
+    tsdrg=1,        
+    fscr=1,         
+    fsco=0,         
+    rhof=1000,      
+    sigma=0.073,    
+    yieldt1=0,      
+    mus=0,
+    thc1=0.597,     
+    yield1=-1,      
+ /        
+
+ &scalar  
+    nsspc=1,        
+
+    remark='!! Sediment 1',   
+    ssdia(1)=0.0725,
+    rhfss(1)=2200,  
+    asqr=0,         
+    pgasmp=0,       
+ /        
+
+ &PCAP    
+ /        
+
+ &BCDATA  
+    remark='!! Boundary condition X Min',         
+    ihtbct(1)=0,    
+
+    remark='!! Boundary condition X Max',         
+    ihtbct(2)=0,    
+
+    remark='!! Boundary condition Y Min',         
+    ibct(3)=8,      
+    ihtbct(3)=0,    
+
+    remark='!! Boundary condition Y Max',         
+    ihtbct(4)=0,    
+
+    remark='!! Boundary condition Z Min',         
+    ibct(5)=2,      
+    ihtbct(5)=0,    
+
+    remark='!! Boundary condition Z Max',         
+    ibct(6)=5,      
+    fbct(1, 6)=0,   
+    ihtbct(6)=0,    
+ /        
+
+ &MESH    
+    ntotal=1000,    
+    size=5,         
+
+    px(1)=-800,     
+    px(2)=900,      
+
+    py(1)=200,      
+    py(2)=2000,     
+
+    nzcelt=35,      
+    pz(1)=-90,      
+    pz(2)=-20,      
+ /        
+
+ &BCDATA  
+    remark='!! Boundary condition X Min',         
+    ibct(1)=2,      
+    ihtbct(1)=0,    
+
+    remark='!! Boundary condition X Max',         
+    ibct(2)=2,      
+    ihtbct(2)=0,    
+
+    remark='!! Boundary condition Y Min',         
+    ibct(3)=8,      
+    ihtbct(3)=0,    
+
+    remark='!! Boundary condition Y Max',         
+    ibct(4)=8,      
+    ihtbct(4)=0,    
+
+    remark='!! Boundary condition Z Min',         
+    ibct(5)=2,      
+    ihtbct(5)=0,    
+
+    remark='!! Boundary condition Z Max',         
+    ibct(6)=5,      
+    fbct(1, 6)=0,   
+    ihtbct(6)=0,    
+ /        
+
+ &MESH    
+    ntotal=1000,    
+    size=5,         
+
+    px(1)=-330,     
+    px(2)=430,      
+
+    py(1)=-300,     
+    py(2)=200,      
+
+    nzcelt=48,      
+    pz(1)=-90,      
+    pz(2)=6,        
+ /        
+
+ &BCDATA  
+    remark='!! Boundary condition X Min',         
+    ibct(1)=2,      
+    ihtbct(1)=0,    
+
+    remark='!! Boundary condition X Max',         
+    ibct(2)=2,      
+    ihtbct(2)=0,    
+
+    remark='!! Boundary condition Y Min',         
+    ibct(3)=2,      
+    ihtbct(3)=0,    
+
+    remark='!! Boundary condition Y Max',         
+    ibct(4)=8,      
+    ihtbct(4)=0,    
+
+    remark='!! Boundary condition Z Min',         
+    ibct(5)=2,      
+    ihtbct(5)=0,    
+
+    remark='!! Boundary condition Z Max',         
+    ibct(6)=5,      
+    fbct(1, 6)=0,   
+    ihtbct(6)=0,    
+ /        
+
+ &MESH    
+    ntotal=1000,    
+    size=5,         
+
+    px(1)=-480,     
+    px(2)=250,      
+
+    py(1)=-650,     
+    py(2)=-300,     
+
+    nzcelt=48,      
+    pz(1)=-90,      
+    pz(2)=6,        
+ /        
+
+ &obs     
+    nobs=6,         
+
+    remark='!! Component 1',  
+    ifob(1)=3,      
+
+    remark='!! Subcomponent 1',         
+    iob(1)=1,       
+    igen(1)=3,      
+    fstl(1)='120_admesh3105.stl',       
+
+    remark='!! Component 1 properties', 
+    ilthobs(1)=0,   
+
+    remark='!! Subcomponent 2',         
+    iob(2)=2,       
+    igen(2)=3,      
+    fstl(2)='../90/12345_admesh1705.stl',         
+    roughsub(2)=0.2,
+
+    remark='!! Component 2 properties', 
+    ilthobs(2)=0,   
+
+    remark='!! Subcomponent 3',         
+    iob(3)=3,       
+    igen(3)=3,      
+    fstl(3)='../90/5.19 fu chu_admesh1905.stl',   
+
+    remark='!! Component 3 properties', 
+    ilthobs(3)=0,   
+
+    remark='!! Subcomponent 4',         
+    iob(4)=4,       
+    xl(4)=170,      
+    xh(4)=500,      
+    yl(4)=0,        
+    yh(4)=2,        
+    zl(4)=-2,       
+    zh(4)=5,        
+
+    remark='!! Subcomponent 5',         
+    iob(5)=4,       
+    xl(5)=-350,     
+    xh(5)=-180,     
+    yl(5)=0,        
+    yh(5)=1,        
+    zl(5)=-2,       
+    zh(5)=5,        
+
+    remark='!! Component 4 properties', 
+    ilthobs(4)=0,   
+
+    remark='!! Component 5 properties', 
+    ilthobs(5)=0,   
+
+    remark='!! Subcomponent 6',         
+    iob(6)=6,       
+    igen(6)=3,      
+    fstl(6)='521 f_admesh2105.stl',     
+
+    remark='!! Component 6 properties', 
+    ilthobs(6)=0,   
+
+    remark='!! Component common parameters',      
+    avrck=-3.1,     
+ /        
+
+ &fl      
+    nfls=2,         
+
+    remark='!! FluidRegion 1',
+    fxl(1)=-330,    
+    fxh(1)=430,     
+    fyl(1)=-300,    
+    fyh(1)=0,       
+    fzl(1)=-50,     
+    fzh(1)=3,       
+
+    remark='!! FluidRegion 2',
+    fxl(2)=-480,    
+    fxh(2)=250,     
+    fyh(2)=-300,    
+    fzh(2)=3,       
+
+    remark='!! Region Pointer common parameters', 
+    iflinittyp=0,   
+ /        
+
+ &bf      
+ /        
+
+ &motn    
+ /        
+
+ &grafic  
+    remark='!! HistoryProbe 1',         
+    wintl(1)='1',   
+    xloc(1)=0,      
+    yloc(1)=0,      
+    zloc(1)=0,      
+
+    remark='!! HistoryProbe 2',         
+    wintl(2)='2',   
+    xloc(2)=0,      
+    yloc(2)=500,    
+    zloc(2)=-65,    
+
+    remark='!! HistoryProbe 3',         
+    wintl(3)='3',   
+    xloc(3)=-500,   
+    yloc(3)=500,    
+    zloc(3)=-65,    
+
+    remark='!! HistoryProbe 4',         
+    wintl(4)='4',   
+    xloc(4)=-250,   
+    yloc(4)=1400,   
+    zloc(4)=-65,    
+
+    remark='!! HistoryProbe 5',         
+    wintl(5)='5',   
+    xloc(5)=250,    
+    yloc(5)=800,    
+    zloc(5)=-60,    
+
+    remark='!! HistoryProbe 6',         
+    wintl(6)='6',   
+    xloc(6)=-300,   
+    yloc(6)=2000,   
+    zloc(6)=-83,    
+    anmtyp(1)='dpth',         
+    anmtyp(2)='f',  
+    anmtyp(3)='p',  
+    anmtyp(4)='part',         
+    anmtyp(5)='qsr',
+    anmtyp(6)='rho',
+    anmtyp(7)='scour',        
+    anmtyp(8)='vel',
+ /        
+
+ &RENDERSPACE       
+ /        
+
+ &HEADER  
+    project='120',  
+    version='double',         
+    nprocs=0,       
+ /        
+
+ &parts   
+ /        
+    Documentation: general comments, background, expectations, etc.   
+
+#start tables:      
+#end start tables   

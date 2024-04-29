@@ -1,0 +1,26 @@
+
+
+CO2: 32313133 33313132 1 1 0 0 0 95
+prep3d  11.1  757    0   95
+
+
+     **********************************
+                 warning
+     Ymin mesh boundary for block    1
+             reset to type  9
+     **********************************
+     **********************************
+                 warning
+     Ymin mesh boundary for block    2
+             reset to type  9
+     **********************************
+     **********************************
+                 warning
+     Ymax mesh boundary for block    2
+             reset to type  9
+     **********************************
+     **********************************
+                 warning
+     Ymax mesh boundary for block    3
+             reset to type  9
+     **********************************

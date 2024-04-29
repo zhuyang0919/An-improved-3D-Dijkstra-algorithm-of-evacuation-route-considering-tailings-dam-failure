@@ -1,0 +1,52 @@
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周二 五月 31 2022 17:53:14.303
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周二 五月 31 2022 19:50:14.574
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周二 五月 31 2022 20:57:57.231
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周二 五月 31 2022 21:32:25.036
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周二 五月 31 2022 21:49:28.813
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周二 五月 31 2022 22:08:25.273
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周二 五月 31 2022 23:05:12.120
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周三 六月 1 2022 08:54:49.602
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周三 六月 1 2022 11:16:17.543
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周三 六月 1 2022 11:59:26.621
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周四 六月 2 2022 10:06:20.289
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周六 六月 11 2022 16:34:33.213
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");
+RELEASE VERSION- info for CResultsData::openInFile --- call made at 周日 六月 12 2022 11:55:14.333
+	m_filePath.toStdString() = D:/flow/120
+	m_fileName.toStdString() = flsgrf.120
+	Calling generate_g_flsgrf("D:/flow/120/flsgrf.120");

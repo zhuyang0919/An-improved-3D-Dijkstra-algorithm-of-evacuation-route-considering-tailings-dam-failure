@@ -1,0 +1,600 @@
+----------------------------------------
+	Program started:	FLOW-3D Solver Runner
+	Version:		11.2.0.15
+	Start date:		05. 12. 2022
+	Start time:		20:31:41:960
+----------------------------------------
+
+5:12月:22y 20:31:41:961 | JobPackage::factory(QStringList& argumentList)
+5:12月:22y 20:31:41:963 | Version Number = 2
+5:12月:22y 20:31:41:963 | Package Type = Local
+5:12月:22y 20:31:41:963 | Number of Arguments = 43
+5:12月:22y 20:31:41:963 | F3D_HOME = C:\flow3d\v11.2\
+5:12月:22y 20:31:41:964 | Processor Mode = Favor
+5:12月:22y 20:31:41:964 | IP Address = 127.0.0.1
+5:12月:22y 20:31:41:964 | Port Number = 59143
+5:12月:22y 20:31:41:964 | Project Name = 120
+5:12月:22y 20:31:41:965 | Project Extension = 120
+5:12月:22y 20:31:41:965 | Input File Extension = 120
+5:12月:22y 20:31:41:965 | Project Path = D:/flow/120
+5:12月:22y 20:31:41:965 | Project Filename = prepin.120
+5:12月:22y 20:31:41:965 | UUID = {85d0af4d-8c84-43bb-9bea-5e1ad5e72d99}
+5:12月:22y 20:31:41:966 | Version Code Name = double
+5:12月:22y 20:31:41:966 | Use MPI = 0
+5:12月:22y 20:31:41:966 | MPI Scheduler = 0
+5:12月:22y 20:31:41:966 | MPI Number of Ranks = 1
+5:12月:22y 20:31:41:967 | Number of Requested Nodes = 1
+5:12月:22y 20:31:41:967 | Number of Processors Per Node = 0
+5:12月:22y 20:31:41:967 | Desired Number of Threads = 16
+5:12月:22y 20:31:41:967 | Mesh Block Count = 3
+5:12月:22y 20:31:41:967 | MPI Max Wall Clock Time = 20160
+5:12月:22y 20:31:41:968 | MPI Max Memory = 0
+5:12月:22y 20:31:41:968 | MPI Max Memory Units String = mb
+5:12月:22y 20:31:41:968 | Additional Arguments = 
+5:12月:22y 20:31:41:968 | MPI Job Name = 120.85d0af4d-8c84-43bb-9bea-5e1ad5e72d99
+5:12月:22y 20:31:41:968 | MPI Decomposition Number of Ranks = 0
+5:12月:22y 20:31:41:969 | MPI Decomposition Avoid X = 0
+5:12月:22y 20:31:41:969 | MPI Decomposition Avoid Y = 0
+5:12月:22y 20:31:41:969 | MPI Decomposition Avoid Z = 0
+5:12月:22y 20:31:41:969 | Threads Per Rank = 0
+5:12月:22y 20:31:41:969 | MPI Fabrics = shm:dapl
+5:12月:22y 20:31:41:969 | MPI Domain = node
+5:12月:22y 20:31:41:970 | MPI Platform = auto
+5:12月:22y 20:31:41:970 | MPI Debug = 0
+5:12月:22y 20:31:41:970 | MPI Debug Output = 
+5:12月:22y 20:31:41:970 | MPI Scheduler Run Cmd = 
+5:12月:22y 20:31:41:970 | MPI Scheduler Terminate Cmd = 
+5:12月:22y 20:31:41:971 | MPI Scheduler Status Cmd = 
+5:12月:22y 20:31:41:971 | Results file name = flsgrf.120
+5:12月:22y 20:31:41:971 | Results file path = D:/flow/120/flsgrf.120
+5:12月:22y 20:31:41:972 | Original Path = D:/flow/120
+5:12月:22y 20:31:41:972 | Original Filename = prepin.120
+5:12月:22y 20:31:41:981 | Started the GUI communications server.
+5:12月:22y 20:31:41:982 | Arguments for starting preprocessor: -favor 120 120
+5:12月:22y 20:31:41:982 | Preprocessor::spawn() - command line = C:\flow3d\v11.2\\local\gui_runpre.bat -favor 120 120
+5:12月:22y 20:31:42:217 | 
+???????                       PID ????              ??#       ?????? 
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0     10,004 K
+Registry                       240 Services                   0     98,312 K
+smss.exe                       728 Services                   0      1,308 K
+csrss.exe                     1208 Services                   0      6,672 K
+wininit.exe                   1304 Services                   0      7,540 K
+csrss.exe                     1316 Console                    1      7,712 K
+services.exe                  1380 Services                   0     11,668 K
+lsass.exe                     1388 Services                   0     25,780 K
+winlogon.exe                  1504 Console                    1     12,204 K
+fontdrvhost.exe               1556 Services                   0      5,148 K
+svchost.exe                   1564 Services                   0     36,384 K
+WUDFHost.exe                  1660 Services                   0      6,540 K
+svchost.exe                   1720 Services                   0     17,280 K
+fontdrvhost.exe               1728 Console                    1     38,796 K
+svchost.exe                   1772 Services                   0     10,204 K
+WUDFHost.exe                  1844 Services                   0      6,696 K
+dwm.exe                       1900 Console                    1    172,692 K
+svchost.exe                   2036 Services                   0     15,360 K
+svchost.exe                    792 Services                   0     11,692 K
+svchost.exe                    808 Services                   0     11,488 K
+svchost.exe                   1400 Services                   0     13,220 K
+svchost.exe                   1744 Services                   0      6,744 K
+svchost.exe                   2152 Services                   0     10,844 K
+svchost.exe                   2188 Services                   0      6,268 K
+svchost.exe                   2252 Services                   0     11,336 K
+svchost.exe                   2332 Services                   0     16,628 K
+svchost.exe                   2400 Services                   0     12,980 K
+svchost.exe                   2616 Services                   0      7,200 K
+NVDisplay.Container.exe       2656 Services                   0     22,736 K
+svchost.exe                   2688 Services                   0     10,472 K
+amdfendrsr.exe                2736 Services                   0      7,480 K
+svchost.exe                   2744 Services                   0     21,876 K
+svchost.exe                   2880 Services                   0      6,256 K
+svchost.exe                   2888 Services                   0      8,340 K
+svchost.exe                   3012 Services                   0      9,576 K
+svchost.exe                   3040 Services                   0      9,396 K
+svchost.exe                   3048 Services                   0     24,860 K
+NVDisplay.Container.exe       3176 Console                    1     77,024 K
+svchost.exe                   3196 Services                   0     25,400 K
+WmiPrvSE.exe                  3300 Services                   0     10,756 K
+svchost.exe                   3416 Services                   0     16,424 K
+svchost.exe                   3552 Services                   0      8,860 K
+svchost.exe                   3548 Services                   0      7,580 K
+svchost.exe                   3564 Services                   0     10,580 K
+ZhuDongFangYu.exe             3572 Services                   0    113,964 K
+svchost.exe                   3728 Services                   0     16,548 K
+svchost.exe                   3808 Services                   0      8,224 K
+svchost.exe                   3904 Services                   0     21,448 K
+WmiPrvSE.exe                  3984 Services                   0     46,052 K
+svchost.exe                   4020 Services                   0     14,148 K
+spoolsv.exe                   3648 Services                   0     18,508 K
+wlanext.exe                   4164 Services                   0      6,132 K
+conhost.exe                   4172 Services                   0      9,396 K
+svchost.exe                   4228 Services                   0     22,348 K
+svchost.exe                   4340 Services                   0      8,444 K
+sihost.exe                    4988 Console                    1     36,404 K
+svchost.exe                   5024 Console                    1     29,232 K
+svchost.exe                   5048 Console                    1     40,740 K
+readertray.exe                3952 Console                    1      5,688 K
+svchost.exe                   4888 Services                   0     17,328 K
+taskhostw.exe                 5068 Console                    1     44,104 K
+svchost.exe                   5224 Services                   0      9,448 K
+ctfmon.exe                    5260 Console                    1     48,104 K
+360bpsvc.exe                  5452 Services                   0     23,192 K
+AdAppMgrSvc.exe               5460 Services                   0     28,644 K
+svchost.exe                   5472 Services                   0     12,184 K
+MsMpEng.exe                   5480 Services                   0    288,256 K
+AdskLicensingService.exe      5488 Services                   0     16,916 K
+svchost.exe                   5496 Services                   0     11,896 K
+LenovoUtilityService.exe      5504 Services                   0     12,848 K
+RtkAudUService64.exe          5512 Services                   0     14,412 K
+FNPLicensingService.exe       5528 Services                   0     11,876 K
+NahimicService.exe            5536 Services                   0     16,612 K
+SunloginClient.exe            5544 Services                   0     96,556 K
+CodeMeter.exe                 5552 Services                   0     29,344 K
+svchost.exe                   5560 Services                   0     18,276 K
+svchost.exe                   5568 Services                   0     18,764 K
+UDClientService.exe           5576 Services                   0     45,824 K
+hasplms.exe                   5584 Services                   0     23,300 K
+svchost.exe                   5596 Services                   0     16,348 K
+WmiApSrv.exe                  5604 Services                   0      9,304 K
+QYServer.exe                  5612 Services                   0      7,784 K
+svchost.exe                   5620 Services                   0     20,604 K
+svchost.exe                   5628 Services                   0      9,944 K
+OfficeClickToRun.exe          5636 Services                   0     65,832 K
+ASTSRV.EXE                    5644 Services                   0      8,796 K
+svchost.exe                   5652 Services                   0      6,572 K
+LenovoServiceAS.exe           5660 Services                   0     11,288 K
+svchost.exe                   5668 Services                   0     22,520 K
+QQProtect.exe                 5676 Services                   0     25,048 K
+McNeelUpdateService.exe       5684 Services                   0     31,084 K
+CmWebAdmin.exe                5708 Services                   0     23,872 K
+svchost.exe                   5808 Services                   0      8,996 K
+svchost.exe                   6044 Services                   0     10,468 K
+svchost.exe                   6424 Services                   0      7,208 K
+lmgrd.exe                     6724 Services                   0      7,088 K
+conhost.exe                   6764 Services                   0     13,160 K
+unsecapp.exe                  6804 Services                   0     10,000 K
+lmgrd.exe                     6892 Services                   0      9,284 K
+Lenovo.Modern.ImControlle     6960 Services                   0     73,704 K
+F3DTKNUX.exe                  6532 Services                   0     13,148 K
+Locator.exe                   7388 Services                   0      3,516 K
+svchost.exe                   7576 Services                   0     22,664 K
+SunloginClient.exe            7620 Services                   0     88,872 K
+svchost.exe                   7764 Services                   0      8,844 K
+svchost.exe                   7904 Services                   0     53,668 K
+ChsIME.exe                    7976 Console                    1      8,796 K
+svchost.exe                   1528 Services                   0     19,480 K
+explorer.exe                  3480 Console                    1    384,972 K
+svchost.exe                   8148 Services                   0      9,932 K
+svchost.exe                   8348 Console                    1     26,504 K
+svchost.exe                   8432 Services                   0      8,200 K
+svchost.exe                   8540 Services                   0     13,412 K
+svchost.exe                   8548 Services                   0     12,752 K
+svchost.exe                   1704 Services                   0      6,396 K
+StartMenuExperienceHost.e     9404 Console                    1     95,264 K
+SearchHost.exe                9412 Console                    1    100,364 K
+RuntimeBroker.exe             9688 Console                    1     27,908 K
+RuntimeBroker.exe             9760 Console                    1     37,000 K
+hasplmv.exe                   9840 Services                   0      8,248 K
+svchost.exe                  10100 Console                    1      9,012 K
+Lenovo.Modern.ImControlle     9508 Services                   0     75,704 K
+dllhost.exe                   9512 Console                    1     15,520 K
+ShellExperienceHost.exe      10636 Console                    1     55,924 K
+LockApp.exe                  11596 Console                    1     48,004 K
+RuntimeBroker.exe            11788 Console                    1     31,376 K
+svchost.exe                  11988 Console                    1     14,792 K
+svchost.exe                  12036 Services                   0     11,900 K
+birdsrv.exe                  12248 Console                    1     17,124 K
+msgcenter.exe                 4544 Console                    1      7,484 K
+NisSrv.exe                   12448 Services                   0     14,368 K
+rundll32.exe                 12576 Console                    1      6,480 K
+svchost.exe                  12864 Services                   0     10,104 K
+guardhp.exe                  12996 Console                    1      5,792 K
+TextInputHost.exe            13096 Console                    1     73,748 K
+conhost.exe                  11436 Console                    1        948 K
+Lenovo.Modern.ImControlle    13156 Console                    1     55,672 K
+FnHotkeyUtility.exe          13192 Console                    1     19,468 K
+birdsrvhost.exe              11852 Console                    1     16,940 K
+dllhost.exe                  11864 Services                   0     12,844 K
+unsecapp.exe                  9580 Console                    1      8,664 K
+SecurityHealthSystray.exe    13688 Console                    1     10,884 K
+SecurityHealthService.exe    13708 Services                   0     18,924 K
+RtkAudUService64.exe         13792 Console                    1     16,684 K
+svchost.exe                  14032 Services                   0     13,288 K
+SearchIndexer.exe            14160 Services                   0     58,036 K
+CastSrv.exe                  14284 Console                    1      6,144 K
+svchost.exe                  13452 Services                   0     11,104 K
+SunloginClient.exe           13868 Console                    1    150,072 K
+yundetectservice.exe         14808 Console                    1     15,520 K
+sesvc.exe                    15092 Console                    1     24,468 K
+sesvr.exe                    15156 Console                    1     30,284 K
+WinHotKey.exe                14448 Console                    1     10,936 K
+360huabao.exe                14676 Console                    1     32,336 K
+SeAppService.exe             14964 Console                    1     29,056 K
+desktopcal.exe               15204 Console                    1     60,888 K
+dkdockhost.exe               15296 Console                    1      6,200 K
+AutodeskDesktopApp.exe       13536 Console                    1     58,540 K
+AcWebBrowser.exe             14428 Console                    1     48,024 K
+CodeMeterCC.exe              15396 Console                    1     24,800 K
+GenuineService.exe           15424 Console                    1     15,144 K
+AcWebBrowser.exe             15520 Console                    1     50,084 K
+AcWebBrowser.exe             15752 Console                    1     87,756 K
+RuntimeBroker.exe            16276 Console                    1     18,832 K
+nahimicNotifSys.exe          15560 Console                    1     53,220 K
+AdAppMgrUpdater.exe           5180 Services                   0     14,192 K
+svchost.exe                  16184 Services                   0     11,488 K
+svchost.exe                   6956 Services                   0      8,312 K
+POWERPNT.EXE                  2460 Console                    1    519,236 K
+ComputerZTray.exe            14796 Console                    1     78,564 K
+unsecapp.exe                 10628 Console                    1     10,380 K
+ComputerZService.exe          8440 Console                    1     40,500 K
+LdsLite.exe                   9904 Console                    1     19,628 K
+ai.exe                        4300 Console                    1     24,792 K
+MATLAB.exe                   10752 Console                    1  3,004,276 K
+qyspeedup.exe                 2020 Console                    1     10,564 K
+MpCopyAccelerator.exe        10704 Services                   0      7,888 K
+svchost.exe                  15528 Console                    1     14,588 K
+cef_helper.exe               13988 Console                    1     49,008 K
+svchost.exe                   5156 Services                   0     16,328 K
+cef_helper.exe                7600 Console                    1     25,332 K
+cef_helper.exe                7928 Console                    1     34,024 K
+cef_helper.exe               16412 Console                    1    122,004 K
+cef_helper.exe               16688 Console                    1     23,912 K
+SgrmBroker.exe               16868 Services                   0     10,968 K
+svchost.exe                  16972 Services                   0     12,852 K
+svchost.exe                  16516 Services                   0     12,364 K
+svchost.exe                  17928 Services                   0      6,772 K
+Lenovo.Modern.ImControlle     1532 Console                    1     50,108 K
+EXCEL.EXE                    15132 Console                    1    207,736 K
+WeChat.exe                    1888 Console                    1    328,780 K
+WechatBrowser.exe             4716 Console                    1     82,640 K
+WeChatPlayer.exe             17068 Console                    1     35,752 K
+WechatBrowser.exe            15272 Console                    1     19,668 K
+WechatBrowser.exe            13976 Console                    1    136,284 K
+WeChatOCR.exe                18120 Console                    1     40,608 K
+WechatBrowser.exe            12584 Console                    1    144,364 K
+WINWORD.EXE                   9148 Console                    1    907,144 K
+WechatBrowser.exe             7548 Console                    1    166,536 K
+WechatBrowser.exe             5104 Console                    1     74,952 K
+ai.exe                        7328 Console                    1     22,464 K
+WeChatAppEx.exe              16168 Console                    1     51,860 K
+WeChatAppEx.exe              18420 Console                    1     19,484 K
+WeChatAppEx.exe              16636 Console                    1     43,464 K
+QQ.exe                        5080 Console                    1    391,264 K
+TXPlatform.exe               17976 Console                    1      4,448 K
+QQGuild.exe                   5836 Console                    1    129,712 K
+QQGuild.exe                   4488 Console                    1     85,260 K
+QQGuild.exe                  14420 Console                    1     39,492 K
+QQGuild.exe                  18140 Console                    1    116,372 K
+SogouCloud.exe               17688 Console                    1     24,712 K
+360huabao.exe                18448 Console                    1     62,212 K
+360huabao.exe                10348 Console                    1     29,484 K
+360huabao.exe                19384 Console                    1     48,392 K
+LeAppOM.exe                   3460 Console                    1     43,520 K
+Lsf.exe                      19848 Console                    1     17,876 K
+SDXHelper.exe                20208 Console                    1     25,880 K
+WechatBrowser.exe            20420 Console                    1     25,488 K
+dllhost.exe                   7456 Console                    1      8,380 K
+acrotray.exe                 19140 Console                    1      9,168 K
+flac3d600_gui.exe            19040 Console                    1  1,041,752 K
+explorer.exe                  2068 Console                    1    165,304 K
+dllhost.exe                  14396 Console                    1      8,152 K
+QQApp.exe                     1120 Console                    1     22,316 K
+Rhino.exe                    20836 Console                    1    339,600 K
+Rhino.exe                     7368 Console                    1    312,008 K
+mstsc.exe                    14108 Console                    1    166,536 K
+svchost.exe                   2808 Services                   0     17,728 K
+360se.exe                    19028 Console                    1    236,256 K
+360se.exe                    20632 Console                    1    171,204 K
+360se.exe                    20916 Console                    1     43,656 K
+360se.exe                     2352 Console                    1     42,280 K
+360se.exe                     7320 Console                    1     98,312 K
+360se.exe                    21784 Console                    1     23,536 K
+360se.exe                    21844 Console                    1     76,396 K
+360se.exe                    22248 Console                    1     90,892 K
+explorer.exe                 14116 Console                    1    137,664 K
+FileCoAuth.exe                5320 Console                    1     27,772 K
+explorer.exe                 17960 Console                    1    148,428 K
+dllhost.exe                   1124 Console                    1     15,952 K
+360se.exe                    11292 Console                    1     20,944 K
+360se.exe                    24296 Console                    1     76,900 K
+360se.exe                    20840 Console                    1    224,980 K
+360se.exe                    20656 Console                    1     83,644 K
+360se.exe                    23608 Console                    1     84,036 K
+360se.exe                    21136 Console                    1     27,776 K
+splwow64.exe                 22368 Console                    1      9,260 K
+explorer.exe                 17660 Console                    1    132,144 K
+explorer.exe                 17048 Console                    1    163,048 K
+smartscreen.exe              25512 Console                    1     25,620 K
+cmd.exe                      25568 Console                    1      5,280 K
+conhost.exe                  25584 Console                    1     32,380 K
+flow3d.exe                   22876 Console                    1    269,020 K
+RunnerServer.exe             16300 Console                    1     19,196 K
+SGTool.exe                   25124 Console                    1     22,964 K
+SolverRunner.exe             25328 Console                    1     12,748 K
+tasklist.exe                 24748 Console                    1      9,696 K
+conhost.exe                  23816 Console                    1     10,592 K
+SearchProtocolHost.exe       25012 Services                   0      5,812 K
+
+5:12月:22y 20:31:42:454 | RunnerSocketServer::handleNewConnection
+5:12月:22y 20:31:42:454 | 127.0.0.1 port 10933: ConnectionHandler: sending hello message
+5:12月:22y 20:31:42:455 | Project::newGuiConnection()
+5:12月:22y 20:31:43:002 | 
+???????                       PID ????              ??#       ?????? 
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0     10,004 K
+Registry                       240 Services                   0     98,312 K
+smss.exe                       728 Services                   0      1,308 K
+csrss.exe                     1208 Services                   0      6,680 K
+wininit.exe                   1304 Services                   0      7,540 K
+csrss.exe                     1316 Console                    1      7,728 K
+services.exe                  1380 Services                   0     11,668 K
+lsass.exe                     1388 Services                   0     25,780 K
+winlogon.exe                  1504 Console                    1     12,204 K
+fontdrvhost.exe               1556 Services                   0      5,148 K
+svchost.exe                   1564 Services                   0     36,364 K
+WUDFHost.exe                  1660 Services                   0      6,540 K
+svchost.exe                   1720 Services                   0     17,296 K
+fontdrvhost.exe               1728 Console                    1     38,796 K
+svchost.exe                   1772 Services                   0     10,220 K
+WUDFHost.exe                  1844 Services                   0      6,696 K
+dwm.exe                       1900 Console                    1    172,688 K
+svchost.exe                   2036 Services                   0     15,360 K
+svchost.exe                    792 Services                   0     11,692 K
+svchost.exe                    808 Services                   0     11,488 K
+svchost.exe                   1400 Services                   0     13,220 K
+svchost.exe                   1744 Services                   0      6,744 K
+svchost.exe                   2152 Services                   0     10,844 K
+svchost.exe                   2188 Services                   0      6,268 K
+svchost.exe                   2252 Services                   0     11,376 K
+svchost.exe                   2332 Services                   0     16,628 K
+svchost.exe                   2400 Services                   0     12,980 K
+svchost.exe                   2616 Services                   0      7,200 K
+NVDisplay.Container.exe       2656 Services                   0     22,736 K
+svchost.exe                   2688 Services                   0     10,472 K
+amdfendrsr.exe                2736 Services                   0      7,480 K
+svchost.exe                   2744 Services                   0     21,876 K
+svchost.exe                   2880 Services                   0      6,256 K
+svchost.exe                   2888 Services                   0      8,340 K
+svchost.exe                   3012 Services                   0      9,576 K
+svchost.exe                   3040 Services                   0      9,396 K
+svchost.exe                   3048 Services                   0     24,860 K
+NVDisplay.Container.exe       3176 Console                    1     77,024 K
+svchost.exe                   3196 Services                   0     25,576 K
+WmiPrvSE.exe                  3300 Services                   0     10,756 K
+svchost.exe                   3416 Services                   0     16,424 K
+svchost.exe                   3552 Services                   0      8,860 K
+svchost.exe                   3548 Services                   0      7,580 K
+svchost.exe                   3564 Services                   0     10,580 K
+ZhuDongFangYu.exe             3572 Services                   0    113,964 K
+svchost.exe                   3728 Services                   0     16,608 K
+svchost.exe                   3808 Services                   0      8,224 K
+svchost.exe                   3904 Services                   0     21,448 K
+WmiPrvSE.exe                  3984 Services                   0     45,320 K
+svchost.exe                   4020 Services                   0     14,148 K
+spoolsv.exe                   3648 Services                   0     18,508 K
+wlanext.exe                   4164 Services                   0      6,132 K
+conhost.exe                   4172 Services                   0      9,396 K
+svchost.exe                   4228 Services                   0     22,368 K
+svchost.exe                   4340 Services                   0      8,444 K
+sihost.exe                    4988 Console                    1     36,388 K
+svchost.exe                   5024 Console                    1     29,232 K
+svchost.exe                   5048 Console                    1     40,728 K
+readertray.exe                3952 Console                    1      5,688 K
+svchost.exe                   4888 Services                   0     17,328 K
+taskhostw.exe                 5068 Console                    1     44,104 K
+svchost.exe                   5224 Services                   0      9,448 K
+ctfmon.exe                    5260 Console                    1     48,104 K
+360bpsvc.exe                  5452 Services                   0     23,192 K
+AdAppMgrSvc.exe               5460 Services                   0     28,644 K
+svchost.exe                   5472 Services                   0     12,184 K
+MsMpEng.exe                   5480 Services                   0    289,716 K
+AdskLicensingService.exe      5488 Services                   0     16,916 K
+svchost.exe                   5496 Services                   0     11,896 K
+LenovoUtilityService.exe      5504 Services                   0     12,848 K
+RtkAudUService64.exe          5512 Services                   0     14,412 K
+FNPLicensingService.exe       5528 Services                   0     11,876 K
+NahimicService.exe            5536 Services                   0     16,612 K
+SunloginClient.exe            5544 Services                   0     96,556 K
+CodeMeter.exe                 5552 Services                   0     29,344 K
+svchost.exe                   5560 Services                   0     18,276 K
+svchost.exe                   5568 Services                   0     18,764 K
+UDClientService.exe           5576 Services                   0     45,824 K
+hasplms.exe                   5584 Services                   0     23,300 K
+svchost.exe                   5596 Services                   0     16,348 K
+WmiApSrv.exe                  5604 Services                   0      9,304 K
+QYServer.exe                  5612 Services                   0      7,784 K
+svchost.exe                   5620 Services                   0     20,604 K
+svchost.exe                   5628 Services                   0      9,944 K
+OfficeClickToRun.exe          5636 Services                   0     65,832 K
+ASTSRV.EXE                    5644 Services                   0      8,796 K
+svchost.exe                   5652 Services                   0      6,572 K
+LenovoServiceAS.exe           5660 Services                   0     11,288 K
+svchost.exe                   5668 Services                   0     22,520 K
+QQProtect.exe                 5676 Services                   0     25,048 K
+McNeelUpdateService.exe       5684 Services                   0     31,084 K
+CmWebAdmin.exe                5708 Services                   0     23,872 K
+svchost.exe                   5808 Services                   0      8,996 K
+svchost.exe                   6044 Services                   0     10,468 K
+svchost.exe                   6424 Services                   0      7,208 K
+lmgrd.exe                     6724 Services                   0      7,088 K
+conhost.exe                   6764 Services                   0     13,160 K
+unsecapp.exe                  6804 Services                   0     10,000 K
+lmgrd.exe                     6892 Services                   0      9,284 K
+Lenovo.Modern.ImControlle     6960 Services                   0     73,704 K
+F3DTKNUX.exe                  6532 Services                   0     13,148 K
+Locator.exe                   7388 Services                   0      3,516 K
+svchost.exe                   7576 Services                   0     22,664 K
+SunloginClient.exe            7620 Services                   0     88,872 K
+svchost.exe                   7764 Services                   0      8,844 K
+svchost.exe                   7904 Services                   0     53,668 K
+ChsIME.exe                    7976 Console                    1      8,796 K
+svchost.exe                   1528 Services                   0     19,480 K
+explorer.exe                  3480 Console                    1    384,972 K
+svchost.exe                   8148 Services                   0      9,932 K
+svchost.exe                   8348 Console                    1     26,504 K
+svchost.exe                   8432 Services                   0      8,200 K
+svchost.exe                   8540 Services                   0     13,412 K
+svchost.exe                   8548 Services                   0     12,752 K
+svchost.exe                   1704 Services                   0      6,396 K
+StartMenuExperienceHost.e     9404 Console                    1     95,264 K
+SearchHost.exe                9412 Console                    1    100,364 K
+RuntimeBroker.exe             9688 Console                    1     27,908 K
+RuntimeBroker.exe             9760 Console                    1     37,000 K
+hasplmv.exe                   9840 Services                   0      8,248 K
+svchost.exe                  10100 Console                    1      9,012 K
+Lenovo.Modern.ImControlle     9508 Services                   0     75,704 K
+dllhost.exe                   9512 Console                    1     15,520 K
+ShellExperienceHost.exe      10636 Console                    1     55,924 K
+LockApp.exe                  11596 Console                    1     48,004 K
+RuntimeBroker.exe            11788 Console                    1     31,376 K
+svchost.exe                  11988 Console                    1     14,792 K
+svchost.exe                  12036 Services                   0     11,900 K
+birdsrv.exe                  12248 Console                    1     17,124 K
+msgcenter.exe                 4544 Console                    1      7,484 K
+NisSrv.exe                   12448 Services                   0     14,368 K
+rundll32.exe                 12576 Console                    1      6,480 K
+svchost.exe                  12864 Services                   0     10,104 K
+guardhp.exe                  12996 Console                    1      5,792 K
+TextInputHost.exe            13096 Console                    1     73,748 K
+conhost.exe                  11436 Console                    1        948 K
+Lenovo.Modern.ImControlle    13156 Console                    1     55,672 K
+FnHotkeyUtility.exe          13192 Console                    1     19,468 K
+birdsrvhost.exe              11852 Console                    1     16,948 K
+dllhost.exe                  11864 Services                   0     12,844 K
+unsecapp.exe                  9580 Console                    1      8,664 K
+SecurityHealthSystray.exe    13688 Console                    1     10,884 K
+SecurityHealthService.exe    13708 Services                   0     18,924 K
+RtkAudUService64.exe         13792 Console                    1     16,684 K
+svchost.exe                  14032 Services                   0     13,288 K
+SearchIndexer.exe            14160 Services                   0     58,224 K
+CastSrv.exe                  14284 Console                    1      6,144 K
+svchost.exe                  13452 Services                   0     11,104 K
+SunloginClient.exe           13868 Console                    1    150,072 K
+yundetectservice.exe         14808 Console                    1     15,520 K
+sesvc.exe                    15092 Console                    1     24,468 K
+sesvr.exe                    15156 Console                    1     30,284 K
+WinHotKey.exe                14448 Console                    1     10,940 K
+360huabao.exe                14676 Console                    1     32,336 K
+SeAppService.exe             14964 Console                    1     29,056 K
+desktopcal.exe               15204 Console                    1     60,888 K
+dkdockhost.exe               15296 Console                    1      6,200 K
+AutodeskDesktopApp.exe       13536 Console                    1     58,540 K
+AcWebBrowser.exe             14428 Console                    1     48,024 K
+CodeMeterCC.exe              15396 Console                    1     24,800 K
+GenuineService.exe           15424 Console                    1     15,144 K
+AcWebBrowser.exe             15520 Console                    1     50,084 K
+AcWebBrowser.exe             15752 Console                    1     87,756 K
+RuntimeBroker.exe            16276 Console                    1     18,832 K
+nahimicNotifSys.exe          15560 Console                    1     53,220 K
+AdAppMgrUpdater.exe           5180 Services                   0     14,192 K
+svchost.exe                  16184 Services                   0     11,488 K
+svchost.exe                   6956 Services                   0      8,312 K
+POWERPNT.EXE                  2460 Console                    1    519,236 K
+ComputerZTray.exe            14796 Console                    1     78,508 K
+unsecapp.exe                 10628 Console                    1     10,620 K
+ComputerZService.exe          8440 Console                    1     40,500 K
+LdsLite.exe                   9904 Console                    1     19,628 K
+ai.exe                        4300 Console                    1     24,792 K
+MATLAB.exe                   10752 Console                    1  3,004,276 K
+qyspeedup.exe                 2020 Console                    1     10,564 K
+MpCopyAccelerator.exe        10704 Services                   0      7,888 K
+svchost.exe                  15528 Console                    1     14,588 K
+cef_helper.exe               13988 Console                    1     49,008 K
+svchost.exe                   5156 Services                   0     16,328 K
+cef_helper.exe                7600 Console                    1     25,332 K
+cef_helper.exe                7928 Console                    1     34,024 K
+cef_helper.exe               16412 Console                    1    122,004 K
+cef_helper.exe               16688 Console                    1     23,912 K
+SgrmBroker.exe               16868 Services                   0     10,968 K
+svchost.exe                  16972 Services                   0     12,852 K
+svchost.exe                  16516 Services                   0     12,364 K
+svchost.exe                  17928 Services                   0      6,772 K
+Lenovo.Modern.ImControlle     1532 Console                    1     50,108 K
+EXCEL.EXE                    15132 Console                    1    207,736 K
+WeChat.exe                    1888 Console                    1    328,780 K
+WechatBrowser.exe             4716 Console                    1     82,640 K
+WeChatPlayer.exe             17068 Console                    1     35,752 K
+WechatBrowser.exe            15272 Console                    1     19,668 K
+WechatBrowser.exe            13976 Console                    1    136,284 K
+WeChatOCR.exe                18120 Console                    1     40,608 K
+WechatBrowser.exe            12584 Console                    1    144,364 K
+WINWORD.EXE                   9148 Console                    1    907,144 K
+WechatBrowser.exe             7548 Console                    1    166,540 K
+WechatBrowser.exe             5104 Console                    1     74,952 K
+ai.exe                        7328 Console                    1     22,464 K
+WeChatAppEx.exe              16168 Console                    1     51,860 K
+WeChatAppEx.exe              18420 Console                    1     19,484 K
+WeChatAppEx.exe              16636 Console                    1     43,464 K
+QQ.exe                        5080 Console                    1    391,064 K
+TXPlatform.exe               17976 Console                    1      4,448 K
+QQGuild.exe                   5836 Console                    1    129,712 K
+QQGuild.exe                   4488 Console                    1     85,260 K
+QQGuild.exe                  14420 Console                    1     39,492 K
+QQGuild.exe                  18140 Console                    1    116,372 K
+SogouCloud.exe               17688 Console                    1     24,712 K
+360huabao.exe                18448 Console                    1     62,212 K
+360huabao.exe                10348 Console                    1     29,484 K
+360huabao.exe                19384 Console                    1     48,392 K
+LeAppOM.exe                   3460 Console                    1     43,596 K
+Lsf.exe                      19848 Console                    1     17,876 K
+SDXHelper.exe                20208 Console                    1     25,880 K
+WechatBrowser.exe            20420 Console                    1     25,488 K
+dllhost.exe                   7456 Console                    1      8,380 K
+acrotray.exe                 19140 Console                    1      9,168 K
+flac3d600_gui.exe            19040 Console                    1  1,041,752 K
+explorer.exe                  2068 Console                    1    165,304 K
+dllhost.exe                  14396 Console                    1      8,152 K
+QQApp.exe                     1120 Console                    1     22,316 K
+Rhino.exe                    20836 Console                    1    339,600 K
+Rhino.exe                     7368 Console                    1    312,008 K
+mstsc.exe                    14108 Console                    1    166,536 K
+svchost.exe                   2808 Services                   0     17,728 K
+360se.exe                    19028 Console                    1    236,256 K
+360se.exe                    20632 Console                    1    171,204 K
+360se.exe                    20916 Console                    1     43,656 K
+360se.exe                     2352 Console                    1     42,280 K
+360se.exe                     7320 Console                    1     98,312 K
+360se.exe                    21784 Console                    1     23,536 K
+360se.exe                    21844 Console                    1     76,396 K
+360se.exe                    22248 Console                    1     90,892 K
+explorer.exe                 14116 Console                    1    137,664 K
+FileCoAuth.exe                5320 Console                    1     27,772 K
+explorer.exe                 17960 Console                    1    148,428 K
+dllhost.exe                   1124 Console                    1     15,952 K
+360se.exe                    11292 Console                    1     20,944 K
+360se.exe                    24296 Console                    1     76,900 K
+360se.exe                    20840 Console                    1    224,980 K
+360se.exe                    20656 Console                    1     83,644 K
+360se.exe                    23608 Console                    1     84,036 K
+360se.exe                    21136 Console                    1     27,776 K
+splwow64.exe                 22368 Console                    1      9,260 K
+explorer.exe                 17660 Console                    1    132,144 K
+explorer.exe                 17048 Console                    1    163,048 K
+smartscreen.exe              25512 Console                    1     25,620 K
+cmd.exe                      25568 Console                    1      5,280 K
+conhost.exe                  25584 Console                    1     32,380 K
+flow3d.exe                   22876 Console                    1    269,060 K
+RunnerServer.exe             16300 Console                    1     19,196 K
+SGTool.exe                   25124 Console                    1     22,964 K
+SolverRunner.exe             25328 Console                    1     13,132 K
+SearchProtocolHost.exe       25012 Services                   0     15,812 K
+SearchFilterHost.exe         25228 Services                   0     10,376 K
+cmd.exe                      25064 Console                    1      5,212 K
+conhost.exe                  23276 Console                    1     10,724 K
+hydr3d.exe                   25140 Console                    1     26,368 K
+tasklist.exe                 25000 Console                    1      9,704 K
+conhost.exe                  20928 Console                    1     10,596 K
+
+5:12月:22y 20:31:43:003 | Utils::findProcessId - PID of hydr3d = 25140
+5:12月:22y 20:33:54:055 | Preprocessor::handlePrepFinished()
+5:12月:22y 20:33:54:057 | Project::scheduleQuit: sending DoneMessage.
+5:12月:22y 20:33:54:058 | Closing D:/flow/120/prpmsg.tmp in ~PermanentFile()
+5:12月:22y 20:33:54:058 | Closing D:/flow/120/prperr.120 in ~PermanentFile()
+5:12月:22y 20:33:54:059 | Closing D:/flow/120/temp.tmp in ~TempOutputFile()
+5:12月:22y 20:33:54:060 | 127.0.0.1 port 10933: ConnectionHandler::disconnected()
+5:12月:22y 20:33:54:060 | RunnerSocketServer::handlerDisconnected
+5:12月:22y 20:33:54:060 | Project::handleNoConnections m_doneRunning: 1
+5:12月:22y 20:33:54:061 | Project::handleNoConnections quitting application.
+5:12月:22y 20:33:54:061 | ~RunnerConnectionHandler

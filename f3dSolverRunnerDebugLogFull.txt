@@ -1,0 +1,1260 @@
+----------------------------------------
+	Program started:	FLOW-3D Solver Runner
+	Version:		11.2.0.15
+	Start date:		31. 05. 2022
+	Start time:		21:10:20:120
+----------------------------------------
+
+31:5月:22y 21:10:20:122 | JobPackage::factory(QStringList& argumentList)
+31:5月:22y 21:10:20:125 | Version Number = 2
+31:5月:22y 21:10:20:125 | Package Type = Local
+31:5月:22y 21:10:20:125 | Number of Arguments = 43
+31:5月:22y 21:10:20:126 | F3D_HOME = C:\flow3d\v11.2\
+31:5月:22y 21:10:20:126 | Processor Mode = Full
+31:5月:22y 21:10:20:126 | IP Address = 127.0.0.1
+31:5月:22y 21:10:20:127 | Port Number = 64264
+31:5月:22y 21:10:20:127 | Project Name = 120
+31:5月:22y 21:10:20:127 | Project Extension = 120
+31:5月:22y 21:10:20:128 | Input File Extension = 120
+31:5月:22y 21:10:20:128 | Project Path = D:/flow/120
+31:5月:22y 21:10:20:128 | Project Filename = prepin.120
+31:5月:22y 21:10:20:128 | UUID = {9f53a47f-bee7-4030-a133-aadad80261c4}
+31:5月:22y 21:10:20:129 | Version Code Name = double
+31:5月:22y 21:10:20:129 | Use MPI = 0
+31:5月:22y 21:10:20:129 | MPI Scheduler = 0
+31:5月:22y 21:10:20:129 | MPI Number of Ranks = 1
+31:5月:22y 21:10:20:130 | Number of Requested Nodes = 1
+31:5月:22y 21:10:20:130 | Number of Processors Per Node = 0
+31:5月:22y 21:10:20:130 | Desired Number of Threads = 16
+31:5月:22y 21:10:20:130 | Mesh Block Count = 3
+31:5月:22y 21:10:20:131 | MPI Max Wall Clock Time = 20160
+31:5月:22y 21:10:20:131 | MPI Max Memory = 0
+31:5月:22y 21:10:20:131 | MPI Max Memory Units String = mb
+31:5月:22y 21:10:20:132 | Additional Arguments = 
+31:5月:22y 21:10:20:132 | MPI Job Name = 120.9f53a47f-bee7-4030-a133-aadad80261c4
+31:5月:22y 21:10:20:132 | MPI Decomposition Number of Ranks = 0
+31:5月:22y 21:10:20:132 | MPI Decomposition Avoid X = 0
+31:5月:22y 21:10:20:133 | MPI Decomposition Avoid Y = 0
+31:5月:22y 21:10:20:133 | MPI Decomposition Avoid Z = 0
+31:5月:22y 21:10:20:133 | Threads Per Rank = 0
+31:5月:22y 21:10:20:133 | MPI Fabrics = shm:dapl
+31:5月:22y 21:10:20:134 | MPI Domain = node
+31:5月:22y 21:10:20:134 | MPI Platform = auto
+31:5月:22y 21:10:20:134 | MPI Debug = 0
+31:5月:22y 21:10:20:134 | MPI Debug Output = 
+31:5月:22y 21:10:20:135 | MPI Scheduler Run Cmd = 
+31:5月:22y 21:10:20:135 | MPI Scheduler Terminate Cmd = 
+31:5月:22y 21:10:20:135 | MPI Scheduler Status Cmd = 
+31:5月:22y 21:10:20:135 | Results file name = flsgrf.120
+31:5月:22y 21:10:20:136 | Results file path = D:/flow/120/flsgrf.120
+31:5月:22y 21:10:20:136 | Original Path = D:/flow/120
+31:5月:22y 21:10:20:136 | Original Filename = prepin.120
+31:5月:22y 21:10:20:148 | Started the GUI communications server.
+31:5月:22y 21:10:20:151 | Simulation History Reset
+31:5月:22y 21:10:20:152 | Preprocessor Starting
+31:5月:22y 21:10:20:715 | 
+???????                       PID ????              ??#       ?????? 
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      8,628 K
+Registry                       240 Services                   0     85,804 K
+smss.exe                       672 Services                   0        584 K
+csrss.exe                     1056 Services                   0      3,740 K
+wininit.exe                   1152 Services                   0      2,036 K
+csrss.exe                     1176 Console                    1      5,900 K
+services.exe                  1228 Services                   0     12,476 K
+lsass.exe                     1236 Services                   0     19,144 K
+svchost.exe                   1352 Services                   0     33,472 K
+fontdrvhost.exe               1384 Services                   0         96 K
+WUDFHost.exe                  1432 Services                   0      1,348 K
+svchost.exe                   1496 Services                   0     22,180 K
+svchost.exe                   1548 Services                   0      4,688 K
+winlogon.exe                  1608 Console                    1      5,024 K
+WUDFHost.exe                  1644 Services                   0        208 K
+fontdrvhost.exe               1708 Console                    1     26,728 K
+svchost.exe                   1796 Services                   0      5,892 K
+svchost.exe                   1804 Services                   0      4,820 K
+svchost.exe                   1812 Services                   0      8,708 K
+svchost.exe                   1900 Services                   0      3,160 K
+svchost.exe                   1908 Services                   0      4,608 K
+svchost.exe                   1048 Services                   0      2,172 K
+svchost.exe                   1304 Services                   0      4,752 K
+svchost.exe                   1148 Services                   0      8,684 K
+svchost.exe                   1672 Services                   0      3,192 K
+svchost.exe                   2132 Services                   0     10,676 K
+svchost.exe                   2164 Services                   0      6,464 K
+svchost.exe                   2204 Services                   0     11,012 K
+NVDisplay.Container.exe       2380 Services                   0      6,652 K
+svchost.exe                   2420 Services                   0      3,936 K
+svchost.exe                   2484 Services                   0      6,704 K
+amdfendrsr.exe                2504 Services                   0        712 K
+svchost.exe                   2516 Services                   0     15,304 K
+svchost.exe                   2576 Services                   0      2,568 K
+svchost.exe                   2668 Services                   0      1,312 K
+svchost.exe                   2684 Services                   0      3,876 K
+svchost.exe                   2868 Services                   0      5,184 K
+svchost.exe                   2884 Services                   0      9,884 K
+svchost.exe                   2964 Services                   0      6,040 K
+svchost.exe                   2980 Services                   0      7,820 K
+svchost.exe                   3148 Services                   0     20,492 K
+ZhuDongFangYu.exe             3228 Services                   0     17,512 K
+svchost.exe                   3236 Services                   0      4,424 K
+svchost.exe                   3244 Services                   0      4,144 K
+svchost.exe                   3252 Services                   0      2,688 K
+svchost.exe                   3420 Services                   0     20,508 K
+svchost.exe                   3428 Services                   0      5,216 K
+svchost.exe                   3544 Services                   0      8,192 K
+svchost.exe                   3584 Services                   0      3,988 K
+spoolsv.exe                   3632 Services                   0      5,720 K
+svchost.exe                   3704 Services                   0      8,980 K
+svchost.exe                   3784 Services                   0      2,648 K
+wlanext.exe                   3836 Services                   0      1,632 K
+conhost.exe                   3856 Services                   0        296 K
+svchost.exe                   4164 Services                   0      2,472 K
+svchost.exe                   4284 Services                   0        876 K
+360bpsvc.exe                  4476 Services                   0     13,996 K
+svchost.exe                   4500 Services                   0      6,684 K
+svchost.exe                   4520 Services                   0     31,956 K
+FNPLicensingService.exe       4528 Services                   0      4,316 K
+svchost.exe                   4536 Services                   0     25,472 K
+NahimicService.exe            4544 Services                   0      7,328 K
+LISFService.exe               4552 Services                   0     10,440 K
+QQProtect.exe                 4568 Services                   0     10,488 K
+svchost.exe                   4576 Services                   0      3,212 K
+svchost.exe                   4584 Services                   0      5,172 K
+UDClientService.exe           4592 Services                   0      7,656 K
+RtkAudUService64.exe          4608 Services                   0      5,004 K
+svchost.exe                   4620 Services                   0      7,984 K
+LenovoServiceAS.exe           4628 Services                   0      5,116 K
+svchost.exe                   4636 Services                   0      7,940 K
+svchost.exe                   4648 Services                   0      1,260 K
+svchost.exe                   4656 Services                   0      3,400 K
+CmWebAdmin.exe                4664 Services                   0      7,316 K
+WmiApSrv.exe                  4688 Services                   0        184 K
+McNeelUpdateService.exe       4712 Services                   0      2,548 K
+hasplms.exe                   4768 Services                   0      5,816 K
+CodeMeter.exe                 4964 Services                   0     18,016 K
+svchost.exe                   4148 Services                   0      3,988 K
+lmgrd.exe                     5812 Services                   0         16 K
+conhost.exe                   5856 Services                   0        764 K
+Locator.exe                   5972 Services                   0         76 K
+unsecapp.exe                  6004 Services                   0      3,928 K
+WmiPrvSE.exe                  6080 Services                   0      7,992 K
+lmgrd.exe                     1788 Services                   0      1,116 K
+WmiPrvSE.exe                  4368 Services                   0     43,116 K
+svchost.exe                   6296 Services                   0     15,592 K
+svchost.exe                   6392 Services                   0      9,436 K
+svchost.exe                   6508 Services                   0     40,776 K
+hasplmv.exe                   6996 Services                   0      1,292 K
+NVDisplay.Container.exe       7848 Console                    1     38,428 K
+svchost.exe                   8160 Services                   0     11,824 K
+sihost.exe                    7636 Console                    1     24,912 K
+svchost.exe                   2892 Console                    1      3,584 K
+svchost.exe                   6724 Console                    1     22,156 K
+svchost.exe                   3044 Console                    1     27,640 K
+svchost.exe                   7688 Services                   0      2,112 K
+Lenovo.Modern.ImControlle     6524 Services                   0    197,928 K
+svchost.exe                   6992 Services                   0     12,248 K
+ctfmon.exe                    7620 Console                    1     60,360 K
+taskhostw.exe                 8216 Console                    1     27,456 K
+svchost.exe                   8544 Services                   0     10,912 K
+svchost.exe                   8664 Services                   0      4,724 K
+svchost.exe                   9032 Services                   0      5,996 K
+unsecapp.exe                  8996 Console                    1      3,352 K
+ChsIME.exe                    5040 Console                    1        164 K
+LenovoInternetSoftwareFra     9844 Console                    1      1,256 K
+Lenovo.Modern.ImControlle    10032 Services                   0     18,752 K
+rundll32.exe                  9400 Console                    1        320 K
+svchost.exe                   9272 Console                    1     17,776 K
+svchost.exe                   9324 Services                   0      7,104 K
+RuntimeBroker.exe            10560 Console                    1     29,388 K
+svchost.exe                  10752 Console                    1      5,356 K
+dllhost.exe                  11132 Console                    1      3,024 K
+nahimicNotifSys.exe          11932 Console                    1      6,820 K
+svchost.exe                  12348 Console                    1      8,672 K
+360wpsrv.exe                 13056 Console                    1     16,548 K
+guardhp.exe                  13092 Console                    1      3,344 K
+SecurityHealthSystray.exe    12556 Console                    1        568 K
+SecurityHealthService.exe    10280 Services                   0      9,204 K
+RtkAudUService64.exe         11360 Console                    1     14,944 K
+sesvc.exe                    12136 Console                    1      5,364 K
+sesvr.exe                    10264 Console                    1     18,640 K
+CastSrv.exe                   7464 Console                    1     10,428 K
+SeAppService.exe             13468 Console                    1      6,036 K
+CodeMeterCC.exe              13836 Console                    1      4,788 K
+360huabao.exe                13900 Console                    1     15,816 K
+360tray.exe                  13916 Console                    1     98,372 K
+ApplicationFrameHost.exe     15256 Console                    1     38,892 K
+svchost.exe                  15276 Services                   0     11,460 K
+svchost.exe                   9600 Services                   0      1,140 K
+ComputerZTray.exe             4864 Console                    1     50,964 K
+unsecapp.exe                  5232 Console                    1      6,796 K
+NavPlugin.exe                 6384 Console                    1      8,068 K
+ComputerZService.exe         11012 Console                    1      5,108 K
+LdsLite.exe                   1068 Console                    1     15,692 K
+SgrmBroker.exe                9584 Services                   0     10,956 K
+svchost.exe                   5268 Services                   0      8,232 K
+svchost.exe                   1376 Services                   0      5,688 K
+svchost.exe                   1828 Console                    1      9,964 K
+svchost.exe                   9992 Services                   0      3,924 K
+svchost.exe                   7120 Services                   0      5,328 K
+LeAppOM.exe                   6540 Console                    1     26,656 K
+svchost.exe                  12400 Services                   0     15,564 K
+multitip.exe                 15356 Console                    1     12,560 K
+svchost.exe                  15552 Services                   0      1,176 K
+svchost.exe                  11356 Services                   0      2,848 K
+SogouCloud.exe                8980 Console                    1      5,248 K
+svchost.exe                  10184 Services                   0      6,752 K
+CefView.exe                  14932 Console                    1      5,868 K
+CefView.exe                  13932 Console                    1      2,452 K
+CefView.exe                   6172 Console                    1      3,352 K
+svchost.exe                  14216 Services                   0      2,628 K
+CefView.exe                  15596 Console                    1      5,784 K
+CefView.exe                  16304 Console                    1      2,440 K
+CefView.exe                  11824 Console                    1      2,980 K
+svchost.exe                  15824 Services                   0      4,712 K
+svchost.exe                   7808 Services                   0     55,760 K
+wdswfsafe.exe                 3692 Console                    1      3,228 K
+dllhost.exe                  18100 Services                   0      6,572 K
+acrotray.exe                 11640 Console                    1        848 K
+Lsf.exe                      12632 Console                    1        648 K
+svchost.exe                  29660 Services                   0      2,676 K
+taskhostw.exe                28528 Console                    1      7,216 K
+svchost.exe                  29480 Services                   0      4,176 K
+QQ.exe                       16620 Console                    1    208,624 K
+TXPlatform.exe               39924 Console                    1         20 K
+yundetectservice.exe         42256 Console                    1        616 K
+svchost.exe                  17908 Console                    1      5,528 K
+mstsc.exe                    51752 Console                    1    143,348 K
+rundll32.exe                 51408 Console                    1      5,328 K
+explorer.exe                 20100 Console                    1     16,172 K
+flac3d600_gui.exe            33420 Console                    1         20 K
+Rhino.exe                    60268 Console                    1         32 K
+dllhost.exe                  11876 Console                    1      5,204 K
+LenovoUtilityService.exe     56004 Services                   0      1,996 K
+FnHotkeyUtility.exe          60328 Console                    1      1,356 K
+explorer.exe                 29536 Console                    1         28 K
+CefView.exe                  47076 Console                    1      5,568 K
+CefView.exe                  19384 Console                    1      2,408 K
+CefView.exe                   9080 Console                    1      1,976 K
+F3DTKNUX.exe                 20056 Services                   0      1,976 K
+Lenovo.Modern.ImControlle    68772 Console                    1     20,476 K
+WeChat.exe                    3388 Console                    1    183,564 K
+WechatBrowser.exe            67540 Console                    1     14,076 K
+WeChatPlayer.exe             66680 Console                    1      6,356 K
+WechatBrowser.exe            48044 Console                    1      1,284 K
+WechatBrowser.exe            71348 Console                    1     35,664 K
+WechatBrowser.exe            65968 Console                    1    357,428 K
+WechatBrowser.exe            67960 Console                    1     82,816 K
+WechatBrowser.exe            65788 Console                    1      7,640 K
+WeChatAppEx.exe              44668 Console                    1     16,212 K
+WeChatAppEx.exe              50508 Console                    1      1,072 K
+WeChatAppEx.exe              50044 Console                    1     41,244 K
+explorer.exe                 60272 Console                    1         28 K
+dwm.exe                      59140 Console                    1    146,788 K
+rundll32.exe                 71292 Console                    1        440 K
+360Safe.exe                  50560 Console                    1     23,056 K
+360leakfixer.exe             60320 Console                    1     10,208 K
+360PatchMgr64.exe            57596 Console                    1         20 K
+360PatchMgr64.exe            65764 Console                    1         20 K
+explorer.exe                 20252 Console                    1         28 K
+explorer.exe                 69108 Console                    1         28 K
+svchost.exe                  68392 Services                   0        880 K
+Lenovo.Modern.ImControlle    16052 Console                    1      8,824 K
+OfficeClickToRun.exe         64832 Services                   0     16,764 K
+AppVShNotify.exe             59564 Services                   0         16 K
+AppVShNotify.exe             43516 Console                    1         16 K
+SearchIndexer.exe            62124 Services                   0     52,380 K
+RuntimeBroker.exe            29636 Console                    1     17,836 K
+dllhost.exe                  64760 Console                    1      4,056 K
+explorer.exe                 65292 Console                    1    366,624 K
+SearchHost.exe               66876 Console                    1     43,300 K
+StartMenuExperienceHost.e    43436 Console                    1     59,524 K
+TextInputHost.exe            38220 Console                    1     41,544 K
+ShellExperienceHost.exe      69924 Console                    1     70,916 K
+cmd.exe                      57056 Console                    1         16 K
+conhost.exe                  66160 Console                    1      1,104 K
+flow3d.exe                   56692 Console                    1    427,548 K
+RunnerServer.exe             58168 Console                    1      5,012 K
+Microsoft.Photos.exe          6908 Console                    1      2,328 K
+RuntimeBroker.exe            67984 Console                    1     26,804 K
+LockApp.exe                  65196 Console                    1     47,852 K
+RuntimeBroker.exe            55376 Console                    1     18,512 K
+SDXHelper.exe                51088 Console                    1     24,152 K
+WINWORD.EXE                  62420 Console                    1     52,596 K
+RuntimeBroker.exe            73960 Console                    1     34,812 K
+SystemSettingsBroker.exe     74376 Console                    1     36,072 K
+RuntimeBroker.exe            47616 Console                    1      8,324 K
+svchost.exe                  74856 Services                   0      8,508 K
+POWERPNT.EXE                 72676 Console                    1    110,284 K
+wemeetapp.exe                75492 Console                    1      7,116 K
+wemeetapp.exe                75060 Console                    1     82,876 K
+wemeetapp.exe                72656 Console                    1      2,588 K
+TBSWebRenderer.exe           76056 Console                    1      3,612 K
+TBSWebRenderer.exe           76300 Console                    1     30,992 K
+svchost.exe                  74064 Services                   0     10,844 K
+SystemSettings.exe           77816 Console                    1     84,256 K
+Notepad.exe                  80408 Console                    1     85,448 K
+SogouImeBroker.exe           51796 Console                    1     16,852 K
+CefView.exe                  12180 Console                    1      4,440 K
+baidunetdisk.exe             59148 Console                    1    178,436 K
+baidunetdiskhost.exe         70296 Console                    1     58,120 K
+baidunetdiskhost.exe         70264 Console                    1     13,340 K
+SearchProtocolHost.exe       78828 Services                   0      9,388 K
+RuntimeBroker.exe            68932 Console                    1      8,984 K
+SolverRunner.exe             74084 Console                    1     12,444 K
+SearchFilterHost.exe         79824 Services                   0      9,996 K
+tasklist.exe                 80800 Console                    1      8,964 K
+conhost.exe                  81512 Console                    1     10,456 K
+
+31:5月:22y 21:10:20:716 | Arguments for starting solver: 120 120
+31:5月:22y 21:10:20:716 | Arguments for starting solver: 120 120
+31:5月:22y 21:10:20:952 | Calling startReadingSolverGraphData in Project::simulate()
+31:5月:22y 21:10:20:952 | Resetting D:/flow/120/plot.120.
+31:5月:22y 21:10:20:953 | Starting continuous reading of D:/flow/120/plot.120.
+31:5月:22y 21:10:20:953 | RunnerSocketServer::handleNewConnection
+31:5月:22y 21:10:20:954 | 127.0.0.1 port 53424: ConnectionHandler: sending hello message
+31:5月:22y 21:10:20:954 | Project::newGuiConnection()
+31:5月:22y 21:10:21:054 | Resetting D:/flow/120/plot.120.
+31:5月:22y 21:10:21:054 | Starting blockingRead of D:/flow/120/plot.120.
+31:5月:22y 21:10:21:055 | Couldn't open 'D:/flow/120/plot.120' in SolverDiagnosticsData::blockingRead()
+31:5月:22y 21:10:21:055 | Done with blockingRead of D:/flow/120/plot.120.
+31:5月:22y 21:10:21:056 | Project::newGuiConnection(): returning.
+31:5月:22y 21:10:22:168 | 
+???????                       PID ????              ??#       ?????? 
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      8,628 K
+Registry                       240 Services                   0     85,804 K
+smss.exe                       672 Services                   0        584 K
+csrss.exe                     1056 Services                   0      3,740 K
+wininit.exe                   1152 Services                   0      2,036 K
+csrss.exe                     1176 Console                    1      5,912 K
+services.exe                  1228 Services                   0     12,496 K
+lsass.exe                     1236 Services                   0     19,176 K
+svchost.exe                   1352 Services                   0     33,472 K
+fontdrvhost.exe               1384 Services                   0         96 K
+WUDFHost.exe                  1432 Services                   0      1,348 K
+svchost.exe                   1496 Services                   0     22,372 K
+svchost.exe                   1548 Services                   0      4,704 K
+winlogon.exe                  1608 Console                    1      5,024 K
+WUDFHost.exe                  1644 Services                   0        208 K
+fontdrvhost.exe               1708 Console                    1     26,728 K
+svchost.exe                   1796 Services                   0      5,892 K
+svchost.exe                   1804 Services                   0      4,820 K
+svchost.exe                   1812 Services                   0      8,708 K
+svchost.exe                   1900 Services                   0      3,160 K
+svchost.exe                   1908 Services                   0      4,608 K
+svchost.exe                   1048 Services                   0      2,172 K
+svchost.exe                   1304 Services                   0      4,752 K
+svchost.exe                   1148 Services                   0      8,736 K
+svchost.exe                   1672 Services                   0      3,192 K
+svchost.exe                   2132 Services                   0     10,684 K
+svchost.exe                   2164 Services                   0      6,464 K
+svchost.exe                   2204 Services                   0     11,012 K
+NVDisplay.Container.exe       2380 Services                   0      6,652 K
+svchost.exe                   2420 Services                   0      3,936 K
+svchost.exe                   2484 Services                   0      6,704 K
+amdfendrsr.exe                2504 Services                   0        712 K
+svchost.exe                   2516 Services                   0     15,304 K
+svchost.exe                   2576 Services                   0      2,568 K
+svchost.exe                   2668 Services                   0      1,312 K
+svchost.exe                   2684 Services                   0      3,876 K
+svchost.exe                   2868 Services                   0      5,184 K
+svchost.exe                   2884 Services                   0      9,884 K
+svchost.exe                   2964 Services                   0      6,040 K
+svchost.exe                   2980 Services                   0      7,820 K
+svchost.exe                   3148 Services                   0     20,512 K
+ZhuDongFangYu.exe             3228 Services                   0     15,232 K
+svchost.exe                   3236 Services                   0      4,436 K
+svchost.exe                   3244 Services                   0      4,144 K
+svchost.exe                   3252 Services                   0      2,688 K
+svchost.exe                   3420 Services                   0     20,508 K
+svchost.exe                   3428 Services                   0      5,216 K
+svchost.exe                   3544 Services                   0      8,192 K
+svchost.exe                   3584 Services                   0      3,988 K
+spoolsv.exe                   3632 Services                   0      5,720 K
+svchost.exe                   3704 Services                   0      8,992 K
+svchost.exe                   3784 Services                   0      2,648 K
+wlanext.exe                   3836 Services                   0      1,632 K
+conhost.exe                   3856 Services                   0        296 K
+svchost.exe                   4164 Services                   0      2,472 K
+svchost.exe                   4284 Services                   0        876 K
+360bpsvc.exe                  4476 Services                   0     13,996 K
+svchost.exe                   4500 Services                   0      6,684 K
+svchost.exe                   4520 Services                   0     31,544 K
+FNPLicensingService.exe       4528 Services                   0      4,316 K
+svchost.exe                   4536 Services                   0     25,472 K
+NahimicService.exe            4544 Services                   0      7,328 K
+LISFService.exe               4552 Services                   0     10,440 K
+QQProtect.exe                 4568 Services                   0     10,488 K
+svchost.exe                   4576 Services                   0      3,212 K
+svchost.exe                   4584 Services                   0      5,172 K
+UDClientService.exe           4592 Services                   0      7,656 K
+RtkAudUService64.exe          4608 Services                   0      5,004 K
+svchost.exe                   4620 Services                   0      7,984 K
+LenovoServiceAS.exe           4628 Services                   0      5,116 K
+svchost.exe                   4636 Services                   0      7,940 K
+svchost.exe                   4648 Services                   0      1,260 K
+svchost.exe                   4656 Services                   0      3,400 K
+CmWebAdmin.exe                4664 Services                   0      7,316 K
+WmiApSrv.exe                  4688 Services                   0        184 K
+McNeelUpdateService.exe       4712 Services                   0      2,548 K
+hasplms.exe                   4768 Services                   0      5,816 K
+CodeMeter.exe                 4964 Services                   0     18,016 K
+svchost.exe                   4148 Services                   0      3,988 K
+lmgrd.exe                     5812 Services                   0         16 K
+conhost.exe                   5856 Services                   0        764 K
+Locator.exe                   5972 Services                   0         76 K
+unsecapp.exe                  6004 Services                   0      3,928 K
+WmiPrvSE.exe                  6080 Services                   0      7,992 K
+lmgrd.exe                     1788 Services                   0      1,116 K
+WmiPrvSE.exe                  4368 Services                   0     43,876 K
+svchost.exe                   6296 Services                   0     15,592 K
+svchost.exe                   6392 Services                   0      9,436 K
+svchost.exe                   6508 Services                   0     40,776 K
+hasplmv.exe                   6996 Services                   0      1,292 K
+NVDisplay.Container.exe       7848 Console                    1     38,428 K
+svchost.exe                   8160 Services                   0     11,824 K
+sihost.exe                    7636 Console                    1     24,912 K
+svchost.exe                   2892 Console                    1      3,584 K
+svchost.exe                   6724 Console                    1     22,156 K
+svchost.exe                   3044 Console                    1     27,640 K
+svchost.exe                   7688 Services                   0      2,112 K
+Lenovo.Modern.ImControlle     6524 Services                   0    207,440 K
+svchost.exe                   6992 Services                   0     12,248 K
+ctfmon.exe                    7620 Console                    1     60,360 K
+taskhostw.exe                 8216 Console                    1     27,456 K
+svchost.exe                   8544 Services                   0     10,912 K
+svchost.exe                   8664 Services                   0      4,724 K
+svchost.exe                   9032 Services                   0      5,996 K
+unsecapp.exe                  8996 Console                    1      3,352 K
+ChsIME.exe                    5040 Console                    1        164 K
+LenovoInternetSoftwareFra     9844 Console                    1      1,256 K
+Lenovo.Modern.ImControlle    10032 Services                   0     18,768 K
+rundll32.exe                  9400 Console                    1        320 K
+svchost.exe                   9272 Console                    1     17,776 K
+svchost.exe                   9324 Services                   0      7,104 K
+RuntimeBroker.exe            10560 Console                    1     29,388 K
+svchost.exe                  10752 Console                    1      5,356 K
+dllhost.exe                  11132 Console                    1      3,024 K
+nahimicNotifSys.exe          11932 Console                    1      6,820 K
+svchost.exe                  12348 Console                    1      8,672 K
+360wpsrv.exe                 13056 Console                    1     16,552 K
+guardhp.exe                  13092 Console                    1      3,344 K
+SecurityHealthSystray.exe    12556 Console                    1        568 K
+SecurityHealthService.exe    10280 Services                   0      9,204 K
+RtkAudUService64.exe         11360 Console                    1     14,944 K
+sesvc.exe                    12136 Console                    1      5,364 K
+sesvr.exe                    10264 Console                    1     18,640 K
+CastSrv.exe                   7464 Console                    1     10,428 K
+SeAppService.exe             13468 Console                    1      6,036 K
+CodeMeterCC.exe              13836 Console                    1      4,788 K
+360huabao.exe                13900 Console                    1     15,816 K
+360tray.exe                  13916 Console                    1    100,400 K
+ApplicationFrameHost.exe     15256 Console                    1     38,892 K
+svchost.exe                  15276 Services                   0     11,460 K
+svchost.exe                   9600 Services                   0      1,140 K
+ComputerZTray.exe             4864 Console                    1     50,964 K
+unsecapp.exe                  5232 Console                    1      6,916 K
+NavPlugin.exe                 6384 Console                    1      8,068 K
+ComputerZService.exe         11012 Console                    1      5,108 K
+LdsLite.exe                   1068 Console                    1     15,692 K
+SgrmBroker.exe                9584 Services                   0     10,956 K
+svchost.exe                   5268 Services                   0      8,232 K
+svchost.exe                   1376 Services                   0      5,688 K
+svchost.exe                   1828 Console                    1      9,964 K
+svchost.exe                   9992 Services                   0      3,924 K
+svchost.exe                   7120 Services                   0      5,328 K
+LeAppOM.exe                   6540 Console                    1     26,668 K
+svchost.exe                  12400 Services                   0     15,564 K
+multitip.exe                 15356 Console                    1     12,560 K
+svchost.exe                  15552 Services                   0      1,176 K
+svchost.exe                  11356 Services                   0      2,848 K
+SogouCloud.exe                8980 Console                    1      5,248 K
+svchost.exe                  10184 Services                   0      6,752 K
+CefView.exe                  14932 Console                    1      5,868 K
+CefView.exe                  13932 Console                    1      2,452 K
+CefView.exe                   6172 Console                    1      3,352 K
+svchost.exe                  14216 Services                   0      2,628 K
+CefView.exe                  15596 Console                    1      5,780 K
+CefView.exe                  16304 Console                    1      2,440 K
+CefView.exe                  11824 Console                    1      2,976 K
+svchost.exe                  15824 Services                   0      4,712 K
+svchost.exe                   7808 Services                   0     55,760 K
+wdswfsafe.exe                 3692 Console                    1      3,228 K
+dllhost.exe                  18100 Services                   0      6,572 K
+acrotray.exe                 11640 Console                    1        848 K
+Lsf.exe                      12632 Console                    1        648 K
+svchost.exe                  29660 Services                   0      2,676 K
+taskhostw.exe                28528 Console                    1      7,216 K
+svchost.exe                  29480 Services                   0      4,176 K
+QQ.exe                       16620 Console                    1    208,624 K
+TXPlatform.exe               39924 Console                    1         20 K
+yundetectservice.exe         42256 Console                    1        616 K
+svchost.exe                  17908 Console                    1      5,528 K
+mstsc.exe                    51752 Console                    1    143,384 K
+rundll32.exe                 51408 Console                    1      5,344 K
+explorer.exe                 20100 Console                    1     16,172 K
+flac3d600_gui.exe            33420 Console                    1         20 K
+Rhino.exe                    60268 Console                    1         32 K
+dllhost.exe                  11876 Console                    1      5,204 K
+LenovoUtilityService.exe     56004 Services                   0      1,996 K
+FnHotkeyUtility.exe          60328 Console                    1      1,356 K
+explorer.exe                 29536 Console                    1         28 K
+CefView.exe                  47076 Console                    1      5,568 K
+CefView.exe                  19384 Console                    1      2,408 K
+CefView.exe                   9080 Console                    1      1,972 K
+F3DTKNUX.exe                 20056 Services                   0      1,976 K
+Lenovo.Modern.ImControlle    68772 Console                    1     20,476 K
+WeChat.exe                    3388 Console                    1    183,564 K
+WechatBrowser.exe            67540 Console                    1     14,076 K
+WeChatPlayer.exe             66680 Console                    1      6,356 K
+WechatBrowser.exe            48044 Console                    1      1,284 K
+WechatBrowser.exe            71348 Console                    1     35,664 K
+WechatBrowser.exe            65968 Console                    1    357,484 K
+WechatBrowser.exe            67960 Console                    1     82,816 K
+WechatBrowser.exe            65788 Console                    1      7,640 K
+WeChatAppEx.exe              44668 Console                    1     16,212 K
+WeChatAppEx.exe              50508 Console                    1      1,072 K
+WeChatAppEx.exe              50044 Console                    1     41,260 K
+explorer.exe                 60272 Console                    1         28 K
+dwm.exe                      59140 Console                    1    146,788 K
+rundll32.exe                 71292 Console                    1        440 K
+360Safe.exe                  50560 Console                    1     23,056 K
+360leakfixer.exe             60320 Console                    1     10,208 K
+360PatchMgr64.exe            57596 Console                    1         20 K
+360PatchMgr64.exe            65764 Console                    1         20 K
+explorer.exe                 20252 Console                    1         28 K
+explorer.exe                 69108 Console                    1         28 K
+svchost.exe                  68392 Services                   0        880 K
+Lenovo.Modern.ImControlle    16052 Console                    1      8,824 K
+OfficeClickToRun.exe         64832 Services                   0     16,764 K
+AppVShNotify.exe             59564 Services                   0         16 K
+AppVShNotify.exe             43516 Console                    1         16 K
+SearchIndexer.exe            62124 Services                   0     52,448 K
+RuntimeBroker.exe            29636 Console                    1     17,836 K
+dllhost.exe                  64760 Console                    1      4,072 K
+explorer.exe                 65292 Console                    1    377,472 K
+SearchHost.exe               66876 Console                    1     43,300 K
+StartMenuExperienceHost.e    43436 Console                    1     59,524 K
+TextInputHost.exe            38220 Console                    1     41,544 K
+ShellExperienceHost.exe      69924 Console                    1     70,916 K
+cmd.exe                      57056 Console                    1         16 K
+conhost.exe                  66160 Console                    1      1,104 K
+flow3d.exe                   56692 Console                    1    427,584 K
+RunnerServer.exe             58168 Console                    1      5,012 K
+Microsoft.Photos.exe          6908 Console                    1      2,328 K
+RuntimeBroker.exe            67984 Console                    1     26,804 K
+LockApp.exe                  65196 Console                    1     47,852 K
+RuntimeBroker.exe            55376 Console                    1     18,512 K
+SDXHelper.exe                51088 Console                    1     24,152 K
+WINWORD.EXE                  62420 Console                    1     52,596 K
+RuntimeBroker.exe            73960 Console                    1     34,812 K
+SystemSettingsBroker.exe     74376 Console                    1     36,072 K
+RuntimeBroker.exe            47616 Console                    1      8,324 K
+svchost.exe                  74856 Services                   0      8,508 K
+POWERPNT.EXE                 72676 Console                    1    110,284 K
+wemeetapp.exe                75492 Console                    1      7,116 K
+wemeetapp.exe                75060 Console                    1     82,876 K
+wemeetapp.exe                72656 Console                    1      2,588 K
+TBSWebRenderer.exe           76056 Console                    1      3,612 K
+TBSWebRenderer.exe           76300 Console                    1     31,092 K
+svchost.exe                  74064 Services                   0     10,844 K
+SystemSettings.exe           77816 Console                    1     84,256 K
+Notepad.exe                  80408 Console                    1     85,448 K
+SogouImeBroker.exe           51796 Console                    1     16,852 K
+CefView.exe                  12180 Console                    1      4,440 K
+baidunetdisk.exe             59148 Console                    1    178,436 K
+baidunetdiskhost.exe         70296 Console                    1     58,120 K
+baidunetdiskhost.exe         70264 Console                    1     13,340 K
+SearchProtocolHost.exe       78828 Services                   0     15,956 K
+RuntimeBroker.exe            68932 Console                    1      8,984 K
+SolverRunner.exe             74084 Console                    1     12,828 K
+SearchFilterHost.exe         79824 Services                   0     10,300 K
+cmd.exe                      33672 Console                    1      5,260 K
+conhost.exe                  79928 Console                    1     10,580 K
+hydr3d.exe                   61388 Console                    1     26,220 K
+tasklist.exe                 49652 Console                    1      8,952 K
+conhost.exe                  76816 Console                    1     10,460 K
+
+31:5月:22y 21:10:22:168 | Utils::findProcessId - PID of hydr3d = 61388
+31:5月:22y 21:10:27:958 |  processing options and properties
+31:5月:22y 21:10:27:958 |  processing mesh
+31:5月:22y 21:10:27:959 | 
+31:5月:22y 21:10:27:959 | 
+31:5月:22y 21:10:27:960 | CO2: 32313133 33313132 1 1 0 0 0 95
+31:5月:22y 21:10:27:960 | prep3d  11.1  945    0   95
+31:5月:22y 21:10:27:960 | 
+31:5月:22y 21:10:27:961 | 
+31:5月:22y 21:10:27:961 | 
+31:5月:22y 21:10:27:961 | 
+31:5月:22y 21:10:27:962 |  ***************************************
+31:5月:22y 21:10:27:962 |  **             warning               **
+31:5月:22y 21:10:27:962 |  ** sediment grain diameter is larger **
+31:5月:22y 21:10:27:963 |  **           than 28.65 mm           **
+31:5月:22y 21:10:27:963 |  **  may reduce accuracy of bedload   **
+31:5月:22y 21:10:27:963 |  **          transport model          **
+31:5月:22y 21:10:27:964 |  ***************************************
+31:5月:22y 21:10:27:964 | 
+31:5月:22y 21:10:27:964 |  10
+31:5月:22y 21:10:27:965 |  20
+31:5月:22y 21:10:28:069 |      **********************************
+31:5月:22y 21:10:28:069 |                  warning
+31:5月:22y 21:10:28:070 |      Ymin mesh boundary for block    1
+31:5月:22y 21:10:28:071 |              reset to type  9
+31:5月:22y 21:10:28:071 |      **********************************
+31:5月:22y 21:10:28:071 |      **********************************
+31:5月:22y 21:10:28:072 |                  warning
+31:5月:22y 21:10:28:072 |      Ymin mesh boundary for block    2
+31:5月:22y 21:10:28:073 |              reset to type  9
+31:5月:22y 21:10:28:073 |      **********************************
+31:5月:22y 21:10:28:074 |      **********************************
+31:5月:22y 21:10:28:074 |                  warning
+31:5月:22y 21:10:28:075 |      Ymax mesh boundary for block    2
+31:5月:22y 21:10:28:075 |              reset to type  9
+31:5月:22y 21:10:28:075 |      **********************************
+31:5月:22y 21:10:28:076 |      **********************************
+31:5月:22y 21:10:28:076 |                  warning
+31:5月:22y 21:10:28:077 |      Ymax mesh boundary for block    3
+31:5月:22y 21:10:28:077 |              reset to type  9
+31:5月:22y 21:10:28:078 |      **********************************
+31:5月:22y 21:10:28:298 |  processing geometry components
+31:5月:22y 21:10:28:401 |  processing non-moving component     2 in mesh block    1
+31:5月:22y 21:10:34:873 |  processing non-moving component     3 in mesh block    1
+31:5月:22y 21:10:36:516 |  processing non-moving component     4 in mesh block    1
+31:5月:22y 21:10:36:517 |    processing subcomponent    4
+31:5月:22y 21:10:36:517 |    processing subcomponent    5
+31:5月:22y 21:10:36:518 |  processing non-moving component     5 in mesh block    1
+31:5月:22y 21:10:36:518 |  processing non-moving component     6 in mesh block    1
+31:5月:22y 21:10:39:142 |  processing non-moving component     2 in mesh block    2
+31:5月:22y 21:10:40:787 |  processing non-moving component     3 in mesh block    2
+31:5月:22y 21:10:41:120 |  processing non-moving component     4 in mesh block    2
+31:5月:22y 21:10:41:121 |    processing subcomponent    4
+31:5月:22y 21:10:41:121 |    processing subcomponent    5
+31:5月:22y 21:10:41:229 |  processing non-moving component     5 in mesh block    2
+31:5月:22y 21:10:41:230 |  processing non-moving component     6 in mesh block    2
+31:5月:22y 21:10:42:118 |  processing non-moving component     2 in mesh block    3
+31:5月:22y 21:10:43:431 |  processing non-moving component     3 in mesh block    3
+31:5月:22y 21:10:43:747 |  processing non-moving component     4 in mesh block    3
+31:5月:22y 21:10:43:747 |    processing subcomponent    4
+31:5月:22y 21:10:43:748 |    processing subcomponent    5
+31:5月:22y 21:10:43:748 |  processing non-moving component     5 in mesh block    3
+31:5月:22y 21:10:43:749 |  processing non-moving component     6 in mesh block    3
+31:5月:22y 21:10:44:522 |    total, fluid and solid sub-domain cell counts:    6085389   3548132   3551248
+31:5月:22y 21:10:44:748 |    generating moving object data
+31:5月:22y 21:10:44:852 |  processing moving component     1 in mesh block    1
+31:5月:22y 21:10:47:480 |  processing moving component     1 in mesh block    2
+31:5月:22y 21:10:48:253 |  processing moving component     1 in mesh block    3
+31:5月:22y 21:10:49:230 |  processing initial conditions
+31:5月:22y 21:10:49:231 |    processing fluid initialization regions
+31:5月:22y 21:10:49:231 |  30
+31:5月:22y 21:10:56:261 |  processing baffles
+31:5月:22y 21:10:56:262 |  40
+31:5月:22y 21:10:56:482 |  setting up remaining array data 
+31:5月:22y 21:10:56:483 |  50
+31:5月:22y 21:10:56:484 |  60
+31:5月:22y 21:10:57:036 |  evaluating mesh boundary conditions for block   1
+31:5月:22y 21:10:57:146 |  evaluating mesh boundary conditions for block   2
+31:5月:22y 21:10:57:146 |  evaluating mesh boundary conditions for block   3
+31:5月:22y 21:10:57:147 |  initializing fluid boundary conditions
+31:5月:22y 21:10:57:792 |  processing graphics and output requests
+31:5月:22y 21:10:57:793 |  70
+31:5月:22y 21:10:57:794 |  80
+31:5月:22y 21:10:57:903 |  processing particle data
+31:5月:22y 21:10:57:904 |  processing user-defined plot requests
+31:5月:22y 21:10:57:905 |  producing preprocessor plot data
+31:5月:22y 21:10:57:905 |  90
+31:5月:22y 21:10:58:901 |  successful completion of preprocessor
+31:5月:22y 21:10:58:902 | 
+31:5月:22y 21:10:58:902 |  100
+31:5月:22y 21:10:58:903 |  100
+31:5月:22y 21:10:58:903 | Preprocessor Done
+31:5月:22y 21:10:58:904 | Solver starting
+31:5月:22y 21:11:20:071 |    
+31:5月:22y 21:11:20:071 | trying to check out a parallel token
+31:5月:22y 21:11:23:128 |    
+31:5月:22y 21:11:23:129 |    
+31:5月:22y 21:11:23:130 |  License token checked out for simulation:  hydr3dp             
+31:5月:22y 21:11:23:130 |  Number of core license tokens checked out:   0
+31:5月:22y 21:11:23:131 |    
+31:5月:22y 21:11:23:131 |  program title : FLOW-3D   
+31:5月:22y 21:11:23:132 |  program version :   hydr3d   version  11.2.0.16 win64     11/21/2016                              
+31:5月:22y 21:11:23:132 |  version id : double
+31:5月:22y 21:11:23:133 |  DOUBLE precision version
+31:5月:22y 21:11:23:133 |    process identification number for this job=     1
+31:5月:22y 21:11:23:134 | 
+31:5月:22y 21:11:23:135 | 
+31:5月:22y 21:11:23:135 |  job name:     balq      
+31:5月:22y 21:11:23:136 |  problem date: 05/31/2022
+31:5月:22y 21:11:23:137 |  problem time: 21:11:23
+31:5月:22y 21:11:23:137 | 
+31:5月:22y 21:11:23:138 |   Title                                                                         
+31:5月:22y 21:11:23:139 | 
+31:5月:22y 21:11:23:139 | 
+31:5月:22y 21:11:23:140 | 
+31:5月:22y 21:11:23:140 |  *** estimated uncompressed solver output file size (flsgrf):   26 gb  *** 
+31:5月:22y 21:11:23:141 | 
+31:5月:22y 21:11:23:142 | 
+31:5月:22y 21:11:23:142 |  *** running parallel code on  16 processors ***
+31:5月:22y 21:11:23:143 | 
+31:5月:22y 21:11:23:144 | 
+31:5月:22y 21:11:23:144 | 
+31:5月:22y 21:11:23:145 | CO2: 32313133 33313132 1 1 0 0 0 95
+31:5月:22y 21:11:23:145 | hydr3dp  11.1  945    0   95
+31:5月:22y 21:11:23:146 | 
+31:5月:22y 21:11:23:147 | 
+31:5月:22y 21:11:23:491 | Entering RunnerConnectionHandler::processMessage
+31:5月:22y 21:11:41:391 |  ***
+31:5月:22y 21:11:41:391 |   restart and spatial data available at t= 0.00000E+00
+31:5月:22y 21:11:41:392 |  ***
+31:5月:22y 21:11:41:392 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+31:5月:22y 21:11:41:393 |         progress               time step            pressure                fluid #1                           performance              
+31:5月:22y 21:11:41:393 |    sim_time     cycle     delt   dt_stbl/code    iter  res/epsi     volume      %loss    frac      el_time  %PE   clk_time  est_rem_time
+31:5月:22y 21:11:41:394 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+31:5月:22y 21:11:41:394 |  0.00000E+00        0   3.20E-01  3.20E-01/fs       0  0.00E+00   3.3575E+06  +0.00E+00  0.02      00:01:07   24  21:11:29           ...
+31:5月:22y 21:11:51:265 |  convective flux exceeded stability limit
+31:5月:22y 21:11:51:267 |   at t= 3.2035E-01  cycle=       1  iter=   27  delt= 3.2035E-01 mesh block  2
+31:5月:22y 21:11:51:268 |   restarting cycle with smaller time step
+31:5月:22y 21:11:51:270 |  convective flux exceeded stability limit
+31:5月:22y 21:11:51:271 |   at t= 3.2035E-01  cycle=       1  iter=   27  delt= 3.2035E-01 mesh block  2
+31:5月:22y 21:11:51:272 |   restarting cycle with smaller time step
+31:5月:22y 21:11:51:272 |  maximum failure ratio =  1.63280E+00  is in z-coordinate direction
+31:5月:22y 21:11:51:273 |  at cell (   80,   63,   46)     mesh block    2
+31:5月:22y 21:11:51:273 | 
+31:5月:22y 21:11:51:274 | 
+31:5月:22y 21:11:54:286 | Sending graph header.
+31:5月:22y 21:13:10:641 |  3.00587E+00       48   7.36E-02  7.62E-02/cz       2  1.54E-01   3.4732E+06  +5.70E-03  0.02      00:02:49   92  21:13:10      02:47:17
+31:5月:22y 21:13:10:643 |  1
+31:5月:22y 21:14:27:407 |  6.01391E+00       96   3.70E-02  3.70E-02/cz       1  8.01E-01   3.4783E+06  +9.64E-03  0.02      00:04:06   91  21:14:27      02:25:17
+31:5月:22y 21:14:27:409 |  2
+31:5月:22y 21:16:20:311 |  9.02806E+00      168   4.12E-02  4.12E-02/cz       2  7.38E-02   3.5108E+06  +6.67E-03  0.03      00:05:58   90  21:16:20      02:36:25
+31:5月:22y 21:16:20:313 |  3
+31:5月:22y 21:17:13:812 |  ***
+31:5月:22y 21:17:13:813 |   restart and spatial data available at t= 1.00190E+01
+31:5月:22y 21:17:13:814 |  ***
+31:5月:22y 21:17:13:814 |  1.00190E+01      194   3.80E-02  3.83E-02/cz       1  7.91E-01   3.5293E+06  +5.72E-03  0.03      00:06:40   88  21:17:01      02:40:17
+31:5月:22y 21:18:54:189 |  4
+31:5月:22y 21:18:56:045 |  1.20641E+01      251   4.15E-02  4.15E-02/cz       2  1.74E-01   3.5735E+06  +4.25E-03  0.03      00:08:34   84  21:18:56      02:57:49
+31:5月:22y 21:21:56:971 |  5
+31:5月:22y 21:22:00:248 |  1.50789E+01      361   2.99E-02  2.99E-02/cz       1  5.00E-01   3.6643E+06  +4.00E-03  0.03      00:11:38   91  21:22:00      03:18:46
+31:5月:22y 21:23:17:812 |  convective flux exceeded stability limit
+31:5月:22y 21:23:17:815 |   at t= 1.6316E+01  cycle=     406  iter=    1  delt= 2.6995E-02 mesh block  1
+31:5月:22y 21:23:17:817 |   restarting cycle with smaller time step
+31:5月:22y 21:23:17:819 |  convective flux exceeded stability limit
+31:5月:22y 21:23:17:820 |   at t= 1.6316E+01  cycle=     406  iter=    1  delt= 2.6995E-02 mesh block  1
+31:5月:22y 21:23:17:822 |   restarting cycle with smaller time step
+31:5月:22y 21:23:17:823 |  maximum failure ratio =  1.04229E+00  is in z-coordinate direction
+31:5月:22y 21:23:17:825 |  at cell (  159,   49,   20)     mesh block    1
+31:5月:22y 21:23:17:826 | 
+31:5月:22y 21:23:17:827 | 
+31:5月:22y 21:25:36:043 |  6
+31:5月:22y 21:25:43:264 |  1.81008E+01      485   2.56E-02  3.08E-02/cx       1  4.79E-01   3.7603E+06  +2.31E-03  0.03      00:15:21   82  21:25:43      03:41:43
+31:5月:22y 21:28:22:038 |  ***
+31:5月:22y 21:28:22:038 |   restart and spatial data available at t= 2.00031E+01
+31:5月:22y 21:28:22:039 |  ***
+31:5月:22y 21:28:22:040 |  2.00031E+01      565   2.38E-02  2.38E-02/cz       1  3.19E-01   3.8407E+06  +2.38E-04  0.03      00:17:47   86  21:28:09      03:53:19
+31:5月:22y 21:29:49:998 |  7
+31:5月:22y 21:29:57:028 |  2.11255E+01      613   3.09E-02  3.09E-02/cz       2  8.03E-02   3.8794E+06  -1.61E-03  0.03      00:19:35   88  21:29:56      04:03:45
+31:5月:22y 21:30:06:233 |  convective flux exceeded stability limit
+31:5月:22y 21:30:06:234 |   at t= 2.1309E+01  cycle=     619  iter=    2  delt= 3.0822E-02 mesh block  1
+31:5月:22y 21:30:06:235 |   restarting cycle with smaller time step
+31:5月:22y 21:30:06:236 |  convective flux exceeded stability limit
+31:5月:22y 21:30:06:236 |   at t= 2.1309E+01  cycle=     619  iter=    2  delt= 3.0822E-02 mesh block  1
+31:5月:22y 21:30:06:237 |   restarting cycle with smaller time step
+31:5月:22y 21:30:06:237 |  maximum failure ratio =  1.06020E+00  is in z-coordinate direction
+31:5月:22y 21:30:06:238 |  at cell (  147,   47,   19)     mesh block    1
+31:5月:22y 21:30:06:238 | 
+31:5月:22y 21:30:06:239 | 
+31:5月:22y 21:33:55:706 |  8
+31:5月:22y 21:34:02:721 |  2.41438E+01      757   2.91E-02  2.91E-02/cz       2  9.41E-02   4.0179E+06  -2.83E-03  0.03      00:23:41   93  21:34:02      04:17:46
+31:5月:22y 21:37:34:590 |  9
+31:5月:22y 21:37:46:563 |  2.71555E+01      886   2.32E-02  2.41E-02/cz       2  2.79E-01   4.1484E+06  -3.50E-03  0.03      00:27:25   90  21:37:46      04:24:10
+31:5月:22y 21:40:54:751 |  ***
+31:5月:22y 21:40:54:752 |   restart and spatial data available at t= 2.99967E+01
+31:5月:22y 21:40:54:753 |  ***
+31:5月:22y 21:40:54:753 |  2.99967E+01      987   2.61E-02  2.92E-02/cz       2  1.74E-01   4.2592E+06  -5.76E-03  0.03      00:30:21   91  21:40:42      04:23:01
+31:5月:22y 21:41:04:268 |  10
+31:5月:22y 21:41:13:037 |  3.01829E+01      993   3.49E-02  3.72E-02/cz       1  9.49E-01   4.2668E+06  -6.24E-03  0.03      00:30:51   90  21:41:12      04:25:47
+31:5月:22y 21:41:19:154 |  convective flux exceeded stability limit
+31:5月:22y 21:41:19:157 |   at t= 3.0328E+01  cycle=     997  iter=    2  delt= 3.6687E-02 mesh block  1
+31:5月:22y 21:41:19:159 |   restarting cycle with smaller time step
+31:5月:22y 21:41:19:160 |  convective flux exceeded stability limit
+31:5月:22y 21:41:19:161 |   at t= 3.0328E+01  cycle=     997  iter=    2  delt= 3.6687E-02 mesh block  1
+31:5月:22y 21:41:19:162 |   restarting cycle with smaller time step
+31:5月:22y 21:41:19:163 |  maximum failure ratio =  1.19195E+00  is in z-coordinate direction
+31:5月:22y 21:41:19:163 |  at cell (  179,  102,   17)     mesh block    1
+31:5月:22y 21:41:19:164 | 
+31:5月:22y 21:41:19:164 | 
+31:5月:22y 21:43:18:157 |  convective flux exceeded stability limit
+31:5月:22y 21:43:18:160 |   at t= 3.2061E+01  cycle=    1061  iter=    2  delt= 3.5321E-02 mesh block  1
+31:5月:22y 21:43:18:162 |   restarting cycle with smaller time step
+31:5月:22y 21:43:18:164 |  convective flux exceeded stability limit
+31:5月:22y 21:43:18:165 |   at t= 3.2061E+01  cycle=    1061  iter=    2  delt= 3.5321E-02 mesh block  1
+31:5月:22y 21:43:18:166 |   restarting cycle with smaller time step
+31:5月:22y 21:43:18:167 |  maximum failure ratio =  1.10811E+00  is in z-coordinate direction
+31:5月:22y 21:43:18:169 |  at cell (  200,   76,   20)     mesh block    1
+31:5月:22y 21:43:18:170 | 
+31:5月:22y 21:43:18:171 | 
+31:5月:22y 21:44:33:519 |  11
+31:5月:22y 21:44:45:715 |  3.31848E+01     1110   2.35E-02  2.35E-02/cz       1  8.44E-01   4.3920E+06  -1.22E-02  0.03      00:34:24   90  21:44:45      04:27:34
+31:5月:22y 21:48:09:873 |  12
+31:5月:22y 21:48:27:516 |  3.61938E+01     1237   2.18E-02  2.49E-02/cz       2  1.05E-01   4.5173E+06  -2.14E-02  0.03      00:38:06   88  21:48:27      04:29:29
+31:5月:22y 21:54:00:684 |  13
+31:5月:22y 21:54:40:110 |  3.92012E+01     1441   8.99E-03  8.99E-03/cz       1  7.25E-01   4.6862E+06  -2.29E-02  0.03      00:44:18   88  21:54:39      04:47:17
+31:5月:22y 21:57:43:373 |  ***
+31:5月:22y 21:57:43:373 |   restart and spatial data available at t= 3.99987E+01
+31:5月:22y 21:57:43:374 |  ***
+31:5月:22y 21:57:43:374 |  3.99987E+01     1537   8.68E-03  8.68E-03/cz       1  5.99E-01   4.7439E+06  -2.25E-02  0.03      00:47:09   93  21:57:30      04:59:10
+31:5月:22y 22:00:13:279 |  convective flux exceeded stability limit
+31:5月:22y 22:00:13:280 |   at t= 4.1148E+01  cycle=    1617  iter=    2  delt= 2.6251E-02 mesh block  1
+31:5月:22y 22:00:13:281 |   restarting cycle with smaller time step
+31:5月:22y 22:00:13:282 |  convective flux exceeded stability limit
+31:5月:22y 22:00:13:283 |   at t= 4.1148E+01  cycle=    1617  iter=    2  delt= 2.6251E-02 mesh block  1
+31:5月:22y 22:00:13:283 |   restarting cycle with smaller time step
+31:5月:22y 22:00:13:284 |  maximum failure ratio =  1.28468E+00  is in z-coordinate direction
+31:5月:22y 22:00:13:284 |  at cell (  201,  231,   12)     mesh block    1
+31:5月:22y 22:00:13:285 | 
+31:5月:22y 22:00:13:285 | 
+31:5月:22y 22:01:35:435 |  14
+31:5月:22y 22:01:52:024 |  4.22201E+01     1670   2.25E-02  2.25E-02/cz       2  2.30E-01   4.8039E+06  -2.28E-02  0.03      00:51:30   92  22:01:51      05:07:37
+31:5月:22y 22:02:49:425 |  convective flux exceeded stability limit
+31:5月:22y 22:02:49:426 |   at t= 4.2933E+01  cycle=    1702  iter=    2  delt= 2.2076E-02 mesh block  1
+31:5月:22y 22:02:49:427 |   restarting cycle with smaller time step
+31:5月:22y 22:02:49:428 |  convective flux exceeded stability limit
+31:5月:22y 22:02:49:429 |   at t= 4.2933E+01  cycle=    1702  iter=    2  delt= 2.2076E-02 mesh block  1
+31:5月:22y 22:02:49:429 |   restarting cycle with smaller time step
+31:5月:22y 22:02:49:430 |  maximum failure ratio =  1.34641E+00  is in z-coordinate direction
+31:5月:22y 22:02:49:431 |  at cell (  152,  306,   10)     mesh block    1
+31:5月:22y 22:02:49:431 | 
+31:5月:22y 22:02:49:432 | 
+31:5月:22y 22:07:52:246 |  15
+31:5月:22y 22:08:35:534 |  4.52234E+01     1891   8.63E-03  8.63E-03/cz       1  5.14E-01   4.9803E+06  -2.23E-02  0.04      00:58:14   91  22:08:35      05:21:44
+31:5月:22y 22:17:59:372 |  16
+31:5月:22y 22:18:35:309 |  4.82294E+01     2201   1.24E-02  1.24E-02/cz       2  2.83E-01   5.1357E+06  -2.18E-02  0.04      01:08:14   82  22:18:35      05:50:18
+31:5月:22y 22:24:27:168 |  ***
+31:5月:22y 22:24:27:169 |   restart and spatial data available at t= 5.00019E+01
+31:5月:22y 22:24:27:170 |  ***
+31:5月:22y 22:24:27:171 |  5.00019E+01     2373   7.84E-03  7.84E-03/cz       1  2.34E-01   5.2425E+06  -2.12E-02  0.04      01:13:53   90  22:24:14      06:03:47
+31:5月:22y 22:28:36:278 |  5.09857E+01     2506   7.61E-03  7.61E-03/cz       1  4.16E-01   5.3080E+06  -2.08E-02  0.04      01:18:14   90  22:28:36      06:16:39
+31:5月:22y 22:28:39:770 |  17
+31:5月:22y 22:38:37:833 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+31:5月:22y 22:38:37:834 |         progress               time step            pressure                fluid #1                           performance              
+31:5月:22y 22:38:37:835 |    sim_time     cycle     delt   dt_stbl/code    iter  res/epsi     volume      %loss    frac      el_time  %PE   clk_time  est_rem_time
+31:5月:22y 22:38:37:836 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+31:5月:22y 22:38:37:836 |  5.33581E+01     2838   6.60E-03  6.60E-03/cz       2  1.16E-01   5.4524E+06  -1.95E-02  0.04      01:28:16   90  22:38:37      06:42:49
+31:5月:22y 22:41:45:076 |  18
+31:5月:22y 22:48:10:268 |  5.63671E+01     3150   1.18E-02  1.18E-02/cz       2  1.86E-01   5.4772E+06  -1.95E-02  0.04      01:37:48   91  22:48:10      06:57:54
+31:5月:22y 22:49:41:122 |  19
+31:5月:22y 22:56:15:228 |  5.93739E+01     3411   7.83E-03  7.83E-03/cz       1  5.97E-01   5.6252E+06  -1.99E-02  0.04      01:45:53   91  22:56:15      07:04:36
+31:5月:22y 22:58:10:469 |  20
+31:5月:22y 22:58:23:105 |  ***
+31:5月:22y 22:58:23:105 |   restart and spatial data available at t= 6.00037E+01
+31:5月:22y 22:58:23:106 |  ***
+31:5月:22y 22:58:23:106 |  6.00037E+01     3473   1.37E-02  1.37E-02/cz       2  4.55E-02   5.6376E+06  -2.02E-02  0.04      01:47:49   90  22:58:10      07:06:44
+31:5月:22y 23:03:19:613 |  6.23880E+01     3626   1.45E-02  1.45E-02/cz       1  6.63E-01   5.6568E+06  -2.14E-02  0.04      01:52:58   90  23:03:19      07:05:58
+31:5月:22y 23:04:40:934 |  21
+31:5月:22y 23:09:45:794 |  6.54030E+01     3825   2.11E-02  2.11E-02/cz       2  1.38E-01   5.7517E+06  -2.15E-02  0.04      01:59:24   93  23:09:45      07:04:16
+31:5月:22y 23:10:42:498 |  22
+31:5月:22y 23:15:14:837 |  6.84088E+01     3995   1.70E-02  1.70E-02/cz       2  1.81E-01   5.8647E+06  -2.27E-02  0.04      02:04:53   92  23:15:14      06:58:59
+31:5月:22y 23:16:19:245 |  23
+31:5月:22y 23:18:11:639 |  ***
+31:5月:22y 23:18:11:639 |   restart and spatial data available at t= 6.99937E+01
+31:5月:22y 23:18:11:640 |  ***
+31:5月:22y 23:18:11:641 |  6.99937E+01     4080   1.87E-02  1.87E-02/cz       2  1.62E-01   5.9087E+06  -2.30E-02  0.04      02:07:37   87  23:17:58      06:55:39
+31:5月:22y 23:21:05:691 |  7.14239E+01     4166   1.57E-02  1.57E-02/cz       2  7.53E-02   5.9706E+06  -2.32E-02  0.04      02:10:44   91  23:21:05      06:54:47
+31:5月:22y 23:22:14:017 |  24
+31:5月:22y 23:27:27:615 |  7.44320E+01     4364   1.55E-02  1.55E-02/cz       2  9.58E-02   6.0626E+06  -2.40E-02  0.04      02:17:06   90  23:27:27      06:52:05
+31:5月:22y 23:28:45:904 |  25
+31:5月:22y 23:35:10:488 |  7.74383E+01     4583   1.06E-02  1.06E-02/cz       2  2.57E-01   6.1629E+06  -2.39E-02  0.04      02:24:49   85  23:35:10      06:52:58
+31:5月:22y 23:37:07:001 |  26
+31:5月:22y 23:45:10:813 |  7.99510E+01     4867   1.30E-02  1.30E-02/cz       1  8.17E-01   6.2451E+06  -2.35E-02  0.04      02:34:49   87  23:45:10      07:03:01
+31:5月:22y 23:45:30:433 |  ***
+31:5月:22y 23:45:30:434 |   restart and spatial data available at t= 7.99934E+01
+31:5月:22y 23:45:30:434 |  ***
+31:5月:22y 23:45:30:435 |  7.99934E+01     4870   1.48E-02  1.48E-02/cz       1  7.96E-01   6.2430E+06  -2.35E-02  0.04      02:34:55   85  23:45:17      07:03:00
+31:5月:22y 23:48:04:471 |  27
+31:5月:22y 23:52:57:325 |  8.29523E+01     5074   1.76E-02  1.76E-02/cz       2  1.54E-01   6.2604E+06  -2.55E-02  0.04      02:42:36   84  23:52:57      07:02:30
+31:5月:22y 23:54:31:142 |  convective flux exceeded stability limit
+31:5月:22y 23:54:31:143 |   at t= 8.3709E+01  cycle=    5118  iter=    2  delt= 1.6969E-02 mesh block  1
+31:5月:22y 23:54:31:144 |   restarting cycle with smaller time step
+31:5月:22y 23:54:31:144 |  convective flux exceeded stability limit
+31:5月:22y 23:54:31:145 |   at t= 8.3709E+01  cycle=    5118  iter=    2  delt= 1.6969E-02 mesh block  1
+31:5月:22y 23:54:31:145 |   restarting cycle with smaller time step
+31:5月:22y 23:54:31:146 |  maximum failure ratio =  1.29222E+00  is in z-coordinate direction
+31:5月:22y 23:54:31:146 |  at cell (  341,  358,    7)     mesh block    1
+31:5月:22y 23:54:31:147 | 
+31:5月:22y 23:54:31:147 | 
+31:5月:22y 23:55:27:229 |  28
+31:5月:22y 23:59:49:170 |  8.59572E+01     5264   1.64E-02  1.64E-02/cz       2  1.57E-01   6.2785E+06  -2.79E-02  0.04      02:49:27   84  23:59:49      06:59:10
+1:6月:22y 00:02:19:275 |  29
+1:6月:22y 00:07:34:195 |  8.89660E+01     5477   1.37E-02  1.37E-02/cz       2  1.45E-01   6.3369E+06  -2.89E-02  0.04      02:57:12   84  00:07:34      06:57:41
+1:6月:22y 00:10:20:373 |  30
+1:6月:22y 00:10:33:612 |  ***
+1:6月:22y 00:10:33:613 |   restart and spatial data available at t= 9.00048E+01
+1:6月:22y 00:10:33:613 |  ***
+1:6月:22y 00:10:33:614 |  9.00048E+01     5553   1.34E-02  1.34E-02/cz       2  6.75E-02   6.3572E+06  -2.89E-02  0.04      02:59:59   83  00:10:20      06:57:18
+1:6月:22y 00:16:25:802 |  9.19761E+01     5711   1.28E-02  1.28E-02/cz       2  1.33E-01   6.3883E+06  -2.91E-02  0.04      03:06:04   85  00:16:25      06:58:18
+1:6月:22y 00:20:00:332 |  31
+1:6月:22y 00:26:27:047 |  9.47616E+01     5988   9.20E-03  9.20E-03/cz       2  1.83E-01   6.4748E+06  -2.89E-02  0.05      03:16:05   85  00:26:26      07:02:16
+1:6月:22y 00:31:50:872 |  32
+1:6月:22y 00:36:28:343 |  9.72851E+01     6264   9.21E-03  9.21E-03/cz       1  3.75E-01   6.5104E+06  -2.92E-02  0.05      03:26:07   86  00:36:28      07:07:08
+1:6月:22y 00:43:18:035 |  33
+1:6月:22y 00:46:30:398 |  9.97784E+01     6542   8.29E-03  8.29E-03/cz       2  1.03E-01   6.5771E+06  -2.90E-02  0.05      03:36:09   84  00:46:30      07:11:29
+1:6月:22y 00:47:41:696 |  ***
+1:6月:22y 00:47:41:696 |   restart and spatial data available at t= 9.99965E+01
+1:6月:22y 00:47:41:699 |  ***
+1:6月:22y 00:47:41:700 |  9.99965E+01     6569   7.79E-03  7.79E-03/cz       2  4.04E-02   6.5811E+06  -2.90E-02  0.05      03:37:07   84  00:47:28      07:12:00
+1:6月:22y 00:56:31:682 |  1.01845E+02     6812   7.59E-03  7.59E-03/cz       2  3.10E-01   6.6135E+06  -2.89E-02  0.05      03:46:10   85  00:56:31      07:17:51
+1:6月:22y 00:57:16:749 |  34
+1:6月:22y 01:06:32:220 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+1:6月:22y 01:06:32:221 |         progress               time step            pressure                fluid #1                           performance              
+1:6月:22y 01:06:32:221 |    sim_time     cycle     delt   dt_stbl/code    iter  res/epsi     volume      %loss    frac      el_time  %PE   clk_time  est_rem_time
+1:6月:22y 01:06:32:222 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+1:6月:22y 01:06:32:223 |  1.04283E+02     7092   9.33E-03  9.33E-03/cz       1  5.19E-01   6.6302E+06  -2.93E-02  0.05      03:56:10   86  01:06:32      07:21:08
+1:6月:22y 01:06:38:904 |  1.04302E+02     7095   2.20E-07  2.20E-07/vs       4  7.08E-01   6.6307E+06  -2.93E-02  0.05      03:56:17   81  01:06:38      07:21:14
+1:6月:22y 01:09:17:314 | 
+1:6月:22y 01:09:17:315 |  ============= mentor tip ===============
+1:6月:22y 01:09:17:315 |      persistent f-packing location at t= 1.04302E+02
+1:6月:22y 01:09:17:316 |      x= 7.50000E+00,  y=-1.07500E+02,  z=-1.70000E+01
+1:6月:22y 01:09:17:317 |      i=   69,  j=   41,  k=   38,  mesh block=  2
+1:6月:22y 01:09:17:317 |      f=  8.00488E-01
+1:6月:22y 01:09:17:318 |  ========================================
+1:6月:22y 01:09:17:318 | 
+1:6月:22y 01:09:17:319 |      recommend reducing cfpk by factor of 10
+1:6月:22y 01:16:40:996 |  1.04684E+02     7376   7.85E-03  8.80E-03/cy       1  2.04E-01   6.7127E+06  -2.89E-02  0.05      04:06:19   85  01:16:40      07:37:29
+1:6月:22y 01:17:43:592 |  convective flux exceeded stability limit
+1:6月:22y 01:17:43:593 |   at t= 1.0495E+02  cycle=    7406  iter=    1  delt= 8.8044E-03 mesh block  2
+1:6月:22y 01:17:43:593 |   restarting cycle with smaller time step
+1:6月:22y 01:17:43:594 |  convective flux exceeded stability limit
+1:6月:22y 01:17:43:594 |   at t= 1.0495E+02  cycle=    7406  iter=    1  delt= 8.8044E-03 mesh block  2
+1:6月:22y 01:17:43:595 |   restarting cycle with smaller time step
+1:6月:22y 01:17:43:595 |  maximum failure ratio =  1.16659E+00  is in z-coordinate direction
+1:6月:22y 01:17:43:596 |  at cell (   21,   63,   33)     mesh block    2
+1:6月:22y 01:17:43:597 | 
+1:6月:22y 01:17:43:598 | 
+1:6月:22y 01:18:11:520 |  35
+1:6月:22y 01:23:37:859 |  convective flux exceeded stability limit
+1:6月:22y 01:23:37:859 |   at t= 1.0613E+02  cycle=    7571  iter=    1  delt= 1.1219E-02 mesh block  2
+1:6月:22y 01:23:37:860 |   restarting cycle with smaller time step
+1:6月:22y 01:23:37:861 |  convective flux exceeded stability limit
+1:6月:22y 01:23:37:861 |   at t= 1.0613E+02  cycle=    7571  iter=    1  delt= 1.1219E-02 mesh block  2
+1:6月:22y 01:23:37:862 |   restarting cycle with smaller time step
+1:6月:22y 01:23:37:863 |  maximum failure ratio =  1.12939E+00  is in z-coordinate direction
+1:6月:22y 01:23:37:863 |  at cell (   21,   63,   33)     mesh block    2
+1:6月:22y 01:23:37:864 | 
+1:6月:22y 01:23:37:864 | 
+1:6月:22y 01:26:42:584 |  1.07045E+02     7655   1.18E-02  1.18E-02/cy       1  7.51E-01   6.6739E+06  -4.38E-02  0.05      04:16:21   85  01:26:42      07:40:04
+1:6月:22y 01:28:45:557 |  1.07680E+02     7712   2.80E-08  2.80E-08/vs       4  1.65E-01   6.6647E+06  -4.84E-02  0.05      04:18:24   84  01:28:45      07:39:30
+1:6月:22y 01:30:30:018 | 
+1:6月:22y 01:30:30:019 |  ============= mentor tip ===============
+1:6月:22y 01:30:30:020 |      persistent f-packing location at t= 1.07680E+02
+1:6月:22y 01:30:30:021 |      x= 1.25000E+01,  y= 2.47500E+02,  z=-5.30000E+01
+1:6月:22y 01:30:30:021 |      i=  164,  j=   12,  k=   20,  mesh block=  1
+1:6月:22y 01:30:30:022 |      f=  9.89942E-01
+1:6月:22y 01:30:30:022 |  ========================================
+1:6月:22y 01:30:30:023 | 
+1:6月:22y 01:30:30:023 |      recommend reducing cfpk by factor of 10
+1:6月:22y 01:32:26:076 | 
+1:6月:22y 01:32:26:077 |  ============= mentor tip ===============
+1:6月:22y 01:32:26:078 |      persistent f-packing location at t= 1.07680E+02
+1:6月:22y 01:32:26:079 |      x= 3.82500E+02,  y=-1.27500E+02,  z=-9.00000E+00
+1:6月:22y 01:32:26:079 |      i=  144,  j=   37,  k=   42,  mesh block=  2
+1:6月:22y 01:32:26:080 |      f=  7.78056E-01
+1:6月:22y 01:32:26:080 |  ========================================
+1:6月:22y 01:32:26:081 | 
+1:6月:22y 01:32:26:082 |      recommend reducing cfpk by factor of 10
+1:6月:22y 01:38:47:210 |  1.07801E+02     7988   2.13E-03  2.13E-03/cz       1  7.99E-01   7.0531E+06  -4.60E-02  0.05      04:28:25   85  01:38:47      07:56:34
+1:6月:22y 01:41:07:022 |  36
+1:6月:22y 01:48:49:273 |  1.08876E+02     8263   4.40E-03  4.40E-03/cz       1  3.48E-01   7.0719E+06  -9.14E-02  0.05      04:38:27   86  01:48:49      08:06:50
+1:6月:22y 01:57:49:006 |  ***
+1:6月:22y 01:57:49:006 |   restart and spatial data available at t= 1.10001E+02
+1:6月:22y 01:57:49:007 |  ***
+1:6月:22y 01:57:49:007 |  1.10001E+02     8501   4.15E-03  4.15E-03/cz       1  7.51E-01   7.0589E+06  -1.04E-01  0.05      04:47:14   87  01:57:35      08:14:11
+1:6月:22y 01:58:50:118 |  1.10150E+02     8525   5.31E-03  5.31E-03/cz       1  3.67E-01   7.0554E+06  -1.06E-01  0.05      04:48:28   87  01:58:50      08:15:16
+1:6月:22y 02:03:09:802 |  37
+1:6月:22y 02:08:51:851 |  1.12181E+02     8796   7.18E-03  7.18E-03/cz       1  4.49E-01   7.0765E+06  -1.49E-01  0.05      04:58:30   86  02:08:51      08:17:53
+1:6月:22y 02:15:47:091 |  38
+1:6月:22y 02:18:52:830 |  1.14956E+02     9066   1.22E-02  1.22E-02/cx       1  9.12E-01   7.0693E+06  -2.23E-01  0.05      05:08:31   85  02:18:52      08:14:49
+1:6月:22y 02:19:43:823 |  convective flux exceeded stability limit
+1:6月:22y 02:19:43:824 |   at t= 1.1519E+02  cycle=    9089  iter=    1  delt= 1.0192E-02 mesh block  1
+1:6月:22y 02:19:43:825 |   restarting cycle with smaller time step
+1:6月:22y 02:19:43:826 |  convective flux exceeded stability limit
+1:6月:22y 02:19:43:826 |   at t= 1.1519E+02  cycle=    9089  iter=    1  delt= 1.0192E-02 mesh block  1
+1:6月:22y 02:19:43:827 |   restarting cycle with smaller time step
+1:6月:22y 02:19:43:827 |  maximum failure ratio =  1.31668E+00  is in z-coordinate direction
+1:6月:22y 02:19:43:828 |  at cell (  183,  289,   11)     mesh block    1
+1:6月:22y 02:19:43:829 | 
+1:6月:22y 02:19:43:829 | 
+1:6月:22y 02:26:41:896 |  39
+1:6月:22y 02:28:54:344 |  1.17429E+02     9332   7.25E-03  7.25E-03/cz       2  8.12E-01   7.0829E+06  -3.00E-01  0.05      05:18:33   83  02:28:54      08:13:30
+1:6月:22y 02:38:32:797 |  40
+1:6月:22y 02:38:45:939 |  ***
+1:6月:22y 02:38:45:940 |   restart and spatial data available at t= 1.20000E+02
+1:6月:22y 02:38:45:941 |  ***
+1:6月:22y 02:38:45:941 |  1.20000E+02     9587   1.59E-02  1.59E-02/cz       2  1.03E-01   7.0458E+06  -3.23E-01  0.05      05:28:11   84  02:38:32      08:10:36
+1:6月:22y 02:38:56:365 |  1.20017E+02     9588   1.67E-02  1.90E-02/cz       2  1.66E-01   7.0457E+06  -3.23E-01  0.05      05:28:35   52  02:38:56      08:11:04
+1:6月:22y 02:46:00:052 |  41
+1:6月:22y 02:46:02:244 |  1.23027E+02     9772   1.61E-02  1.61E-02/vs       1  9.62E-01   6.9877E+06  -3.26E-01  0.05      05:35:41   85  02:46:02      08:01:15
+1:6月:22y 02:53:43:300 |  42
+1:6月:22y 02:53:47:898 |  1.26034E+02     9974   1.23E-02  1.23E-02/cz       2  1.06E-01   6.9700E+06  -3.31E-01  0.05      05:43:26   86  02:53:47      07:52:30
+1:6月:22y 03:00:08:097 |  convective flux exceeded stability limit
+1:6月:22y 03:00:08:098 |   at t= 1.2834E+02  cycle=   10140  iter=    1  delt= 1.7147E-02 mesh block  1
+1:6月:22y 03:00:08:098 |   restarting cycle with smaller time step
+1:6月:22y 03:00:08:099 |  convective flux exceeded stability limit
+1:6月:22y 03:00:08:100 |   at t= 1.2834E+02  cycle=   10140  iter=    1  delt= 1.7147E-02 mesh block  1
+1:6月:22y 03:00:08:100 |   restarting cycle with smaller time step
+1:6月:22y 03:00:08:101 |  maximum failure ratio =  1.04132E+00  is in z-coordinate direction
+1:6月:22y 03:00:08:101 |  at cell (  271,  251,    8)     mesh block    1
+1:6月:22y 03:00:08:102 | 
+1:6月:22y 03:00:08:102 | 
+1:6月:22y 03:01:51:587 |  43
+1:6月:22y 03:01:53:891 |  1.29037E+02    10185   2.06E-02  2.06E-02/vs       2  7.79E-02   6.9420E+06  -3.32E-01  0.05      05:51:32   85  03:01:53      07:44:16
+1:6月:22y 03:04:11:290 |  ***
+1:6月:22y 03:04:11:290 |   restart and spatial data available at t= 1.29993E+02
+1:6月:22y 03:04:11:292 |  ***
+1:6月:22y 03:04:11:293 |  1.29993E+02    10239   1.40E-02  1.84E-02/vs       1  6.48E-01   6.9307E+06  -3.33E-01  0.05      05:53:36   84  03:03:58      07:40:59
+1:6月:22y 03:09:13:755 |  44
+1:6月:22y 03:09:18:359 |  1.32038E+02    10369   1.53E-02  1.53E-02/vs       1  9.72E-01   6.9129E+06  -3.32E-01  0.05      05:58:57   86  03:09:18      07:35:10
+1:6月:22y 03:12:35:497 |  1.33213E+02    10455   2.44E-07  2.44E-07/vs       4  1.31E-01   6.9066E+06  -3.31E-01  0.05      06:02:14   85  03:12:35      07:32:07
+1:6月:22y 03:22:37:516 |  1.33381E+02    10718   9.19E-04  9.19E-04/cy       1  5.62E-02   6.9651E+06  -3.29E-01  0.05      06:12:16   86  03:22:37      07:43:38
+1:6月:22y 03:32:39:196 |  1.34055E+02    10983   2.85E-03  2.85E-03/cy       1  5.07E-02   6.9581E+06  -3.25E-01  0.05      06:22:17   83  03:32:39      07:51:51
+1:6月:22y 03:42:40:129 |  1.34802E+02    11245   2.85E-03  2.85E-03/cy       1  6.10E-02   6.9520E+06  -3.21E-01  0.05      06:32:18   84  03:42:40      07:59:24
+1:6月:22y 03:45:20:670 |  45
+1:6月:22y 03:52:41:344 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+1:6月:22y 03:52:41:345 |         progress               time step            pressure                fluid #1                           performance              
+1:6月:22y 03:52:41:346 |    sim_time     cycle     delt   dt_stbl/code    iter  res/epsi     volume      %loss    frac      el_time  %PE   clk_time  est_rem_time
+1:6月:22y 03:52:41:346 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+1:6月:22y 03:52:41:347 |  1.35975E+02    11508   1.78E-02  1.86E-02/cz       2  4.45E-02   6.9240E+06  -3.22E-01  0.05      06:42:20   84  03:52:41      08:03:58
+1:6月:22y 03:53:05:439 |  convective flux exceeded stability limit
+1:6月:22y 03:53:05:440 |   at t= 1.3618E+02  cycle=   11519  iter=    1  delt= 1.8588E-02 mesh block  1
+1:6月:22y 03:53:05:441 |   restarting cycle with smaller time step
+1:6月:22y 03:53:05:442 |  convective flux exceeded stability limit
+1:6月:22y 03:53:05:442 |   at t= 1.3618E+02  cycle=   11519  iter=    1  delt= 1.8588E-02 mesh block  1
+1:6月:22y 03:53:05:443 |   restarting cycle with smaller time step
+1:6月:22y 03:53:05:444 |  maximum failure ratio =  1.02320E+00  is in z-coordinate direction
+1:6月:22y 03:53:05:445 |  at cell (   42,   70,   21)     mesh block    1
+1:6月:22y 03:53:05:445 | 
+1:6月:22y 03:53:05:446 | 
+1:6月:22y 03:57:26:428 |  46
+1:6月:22y 03:59:45:004 |  1.38983E+02    11690   1.35E-02  1.35E-02/cz       1  4.24E-01   6.8600E+06  -3.44E-01  0.05      06:49:23   86  03:59:44      07:52:59
+1:6月:22y 04:02:24:058 |  ***
+1:6月:22y 04:02:24:059 |   restart and spatial data available at t= 1.40008E+02
+1:6月:22y 04:02:24:059 |  ***
+1:6月:22y 04:02:24:060 |  1.40008E+02    11753   2.35E-02  2.35E-02/cz       2  5.64E-02   6.8363E+06  -3.45E-01  0.05      06:51:49   86  04:02:10      07:49:19
+1:6月:22y 04:04:38:797 |  47
+1:6月:22y 04:06:37:458 |  1.41985E+02    11858   1.79E-02  1.79E-02/vs       1  8.39E-01   6.8061E+06  -3.47E-01  0.05      06:56:16   85  04:06:37      07:42:01
+1:6月:22y 04:12:10:798 |  48
+1:6月:22y 04:15:40:637 |  1.44995E+02    12094   1.00E-02  1.00E-02/vs       1  3.89E-01   6.7992E+06  -3.46E-01  0.05      07:05:19   84  04:15:40      07:33:29
+1:6月:22y 04:24:21:673 |  49
+1:6月:22y 04:25:41:482 |  1.47274E+02    12358   7.63E-03  7.63E-03/vs       1  1.91E-01   6.7855E+06  -3.43E-01  0.05      07:15:20   85  04:25:41      07:30:17
+1:6月:22y 04:35:41:922 |  1.49121E+02    12621   6.48E-03  6.48E-03/vs       1  2.67E-01   6.7774E+06  -3.40E-01  0.05      07:25:20   85  04:35:41      07:29:27
+1:6月:22y 04:41:14:899 |  ***
+1:6月:22y 04:41:14:899 |   restart and spatial data available at t= 1.49999E+02
+1:6月:22y 04:41:14:900 |  ***
+1:6月:22y 04:41:14:900 |  1.49999E+02    12761   6.03E-03  6.03E-03/vs       1  2.00E-01   6.7758E+06  -3.38E-01  0.05      07:30:40   85  04:41:01      07:29:33
+1:6月:22y 04:41:25:428 |  50
+1:6月:22y 04:42:49:661 |  1.50220E+02    12799   3.99E-06  3.99E-06/vs       3  7.44E-02   6.7751E+06  -3.38E-01  0.05      07:32:28   84  04:42:49      07:30:01
+1:6月:22y 04:44:36:298 | 
+1:6月:22y 04:44:36:299 |  ============= mentor tip ===============
+1:6月:22y 04:44:36:300 |      persistent f-packing location at t= 1.50221E+02
+1:6月:22y 04:44:36:300 |      x= 1.87500E+02,  y=-7.25000E+01,  z=-3.30000E+01
+1:6月:22y 04:44:36:301 |      i=  105,  j=   48,  k=   30,  mesh block=  2
+1:6月:22y 04:44:36:301 |      f=  6.25498E-01
+1:6月:22y 04:44:36:302 |  ========================================
+1:6月:22y 04:44:36:302 | 
+1:6月:22y 04:44:36:303 |      recommend reducing cfpk by factor of 10
+1:6月:22y 04:52:50:535 |  1.51270E+02    13061   9.65E-03  9.65E-03/cz       1  2.01E-01   6.7713E+06  -3.36E-01  0.05      07:42:29   86  04:52:50      07:33:37
+1:6月:22y 04:56:13:052 |  convective flux exceeded stability limit
+1:6月:22y 04:56:13:053 |   at t= 1.5259E+02  cycle=   13149  iter=    1  delt= 1.8203E-02 mesh block  1
+1:6月:22y 04:56:13:054 |   restarting cycle with smaller time step
+1:6月:22y 04:56:13:055 |  convective flux exceeded stability limit
+1:6月:22y 04:56:13:055 |   at t= 1.5259E+02  cycle=   13149  iter=    1  delt= 1.8203E-02 mesh block  1
+1:6月:22y 04:56:13:056 |   restarting cycle with smaller time step
+1:6月:22y 04:56:13:057 |  maximum failure ratio =  1.00563E+00  is in z-coordinate direction
+1:6月:22y 04:56:13:057 |  at cell (  169,  358,    8)     mesh block    1
+1:6月:22y 04:56:13:058 | 
+1:6月:22y 04:56:13:059 | 
+1:6月:22y 04:57:17:994 |  51
+1:6月:22y 04:59:59:728 |  1.54280E+02    13246   1.75E-02  2.21E-02/cz       1  6.03E-01   6.7043E+06  -3.39E-01  0.05      07:49:38   85  04:59:59      07:22:31
+1:6月:22y 05:03:43:121 |  52
+1:6月:22y 05:06:38:142 |  1.57292E+02    13418   1.67E-02  1.67E-02/vs       1  5.21E-01   6.6647E+06  -3.39E-01  0.05      07:56:16   85  05:06:38      07:11:06
+1:6月:22y 05:07:36:687 |  convective flux exceeded stability limit
+1:6月:22y 05:07:36:687 |   at t= 1.5771E+02  cycle=   13444  iter=    1  delt= 1.6185E-02 mesh block  1
+1:6月:22y 05:07:36:688 |   restarting cycle with smaller time step
+1:6月:22y 05:07:36:689 |  convective flux exceeded stability limit
+1:6月:22y 05:07:36:689 |   at t= 1.5771E+02  cycle=   13444  iter=    1  delt= 1.6185E-02 mesh block  1
+1:6月:22y 05:07:36:690 |   restarting cycle with smaller time step
+1:6月:22y 05:07:36:690 |  maximum failure ratio =  1.01074E+00  is in z-coordinate direction
+1:6月:22y 05:07:36:691 |  at cell (  213,  300,   11)     mesh block    1
+1:6月:22y 05:07:36:691 | 
+1:6月:22y 05:07:36:692 | 
+1:6月:22y 05:11:06:867 |  53
+1:6月:22y 05:14:01:824 |  ***
+1:6月:22y 05:14:01:824 |   restart and spatial data available at t= 1.59994E+02
+1:6月:22y 05:14:01:825 |  ***
+1:6月:22y 05:14:01:826 |  1.59994E+02    13604   1.37E-02  1.37E-02/vs       1  5.44E-01   6.6654E+06  -3.37E-01  0.05      08:03:27   85  05:13:48      07:02:04
+1:6月:22y 05:15:00:684 |  1.60293E+02    13626   1.34E-02  1.34E-02/vs       1  2.53E-01   6.6655E+06  -3.37E-01  0.05      08:04:39   86  05:15:00      07:01:26
+1:6月:22y 05:20:11:655 |  54
+1:6月:22y 05:21:41:955 |  1.62551E+02    13800   2.23E-07  2.23E-07/vs       4  3.69E-01   6.6532E+06  -3.36E-01  0.05      08:11:20   84  05:21:41      06:54:31
+1:6月:22y 05:26:49:971 | 
+1:6月:22y 05:26:49:972 |  ============= mentor tip ===============
+1:6月:22y 05:26:49:973 |      persistent f-packing location at t= 1.62554E+02
+1:6月:22y 05:26:49:974 |      x= 1.12500E+02,  y=-1.42500E+02,  z=-3.00000E+00
+1:6月:22y 05:26:49:974 |      i=   90,  j=   34,  k=   45,  mesh block=  2
+1:6月:22y 05:26:49:975 |      f=  4.24064E-01
+1:6月:22y 05:26:49:975 |  ========================================
+1:6月:22y 05:26:49:976 | 
+1:6月:22y 05:26:49:976 |      recommend reducing cfpk by factor of 10
+1:6月:22y 05:31:44:013 |  1.62873E+02    14060   7.67E-03  7.67E-03/cz       1  2.11E-01   6.7132E+06  -3.32E-01  0.05      08:21:22   85  05:31:43      07:01:10
+1:6月:22y 05:39:14:502 |  55
+1:6月:22y 05:41:44:691 |  1.65669E+02    14319   1.27E-02  1.27E-02/cy       1  2.51E-01   6.6909E+06  -3.50E-01  0.05      08:31:23   88  05:41:44      06:53:44
+1:6月:22y 05:48:03:096 |  1.67636E+02    14482   3.36E-07  3.36E-07/vs       3  5.85E-01   6.6802E+06  -3.56E-01  0.05      08:37:41   85  05:48:03      06:47:52
+1:6月:22y 05:58:04:352 |  1.67778E+02    14740   2.00E-03  2.00E-03/cz       1  8.53E-02   6.8215E+06  -3.47E-01  0.05      08:47:43   86  05:58:04      06:54:59
+1:6月:22y 06:00:07:249 |  56
+1:6月:22y 06:05:22:343 |  1.69086E+02    14928   5.21E-05  5.21E-05/vs       2  5.01E-02   6.7996E+06  -3.67E-01  0.05      08:55:01   84  06:05:22      06:53:22
+1:6月:22y 06:06:58:166 | 
+1:6月:22y 06:06:58:168 |  ============= mentor tip ===============
+1:6月:22y 06:06:58:169 |      persistent f-packing location at t= 1.69092E+02
+1:6月:22y 06:06:58:170 |      x= 4.57500E+02,  y= 1.10250E+03,  z=-7.10000E+01
+1:6月:22y 06:06:58:171 |      i=  253,  j=  183,  k=   11,  mesh block=  1
+1:6月:22y 06:06:58:172 |      f=  9.75691E-01
+1:6月:22y 06:06:58:173 |  ========================================
+1:6月:22y 06:06:58:173 | 
+1:6月:22y 06:06:58:174 |      recommend reducing cfpk by factor of 10
+1:6月:22y 06:12:24:363 |  ***
+1:6月:22y 06:12:24:363 |   restart and spatial data available at t= 1.70004E+02
+1:6月:22y 06:12:24:364 |  ***
+1:6月:22y 06:12:24:365 |  1.70004E+02    15100   1.25E-02  1.25E-02/cy       1  5.41E-01   6.7883E+06  -3.78E-01  0.05      09:01:49   85  06:12:11      06:53:27
+1:6月:22y 06:15:23:129 |  1.70885E+02    15172   1.25E-02  1.25E-02/cy       1  1.91E-01   6.7877E+06  -4.14E-01  0.05      09:05:01   86  06:15:23      06:50:57
+1:6月:22y 06:15:46:679 |  57
+1:6月:22y 06:24:59:980 |  1.73891E+02    15418   1.47E-02  1.47E-02/cy       1  2.75E-01   6.7625E+06  -5.81E-01  0.05      09:14:38   83  06:24:59      06:41:25
+1:6月:22y 06:25:18:703 |  58
+1:6月:22y 06:35:00:331 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+1:6月:22y 06:35:00:332 |         progress               time step            pressure                fluid #1                           performance              
+1:6月:22y 06:35:00:333 |    sim_time     cycle     delt   dt_stbl/code    iter  res/epsi     volume      %loss    frac      el_time  %PE   clk_time  est_rem_time
+1:6月:22y 06:35:00:335 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+1:6月:22y 06:35:00:336 |  1.76738E+02    15676   8.09E-03  1.10E-02/cx       1  6.80E-01   6.7520E+06  -6.91E-01  0.05      09:24:39   87  06:35:00      06:33:01
+1:6月:22y 06:36:05:487 |  59
+1:6月:22y 06:45:01:918 |  1.79438E+02    15935   1.26E-02  1.71E-02/cz       1  2.89E-01   6.7159E+06  -7.13E-01  0.05      09:34:40   86  06:45:01      06:25:21
+1:6月:22y 06:46:51:203 |  60
+1:6月:22y 06:47:04:367 |  ***
+1:6月:22y 06:47:04:367 |   restart and spatial data available at t= 1.80000E+02
+1:6月:22y 06:47:04:368 |  ***
+1:6月:22y 06:47:04:368 |  1.80000E+02    15982   1.12E-02  1.45E-02/cy       1  1.68E-01   6.7164E+06  -7.13E-01  0.05      09:36:29   85  06:46:51      06:23:35
+1:6月:22y 06:50:22:112 |  1.81053E+02    16064   2.61E-03  2.61E-03/vs       1  4.24E-01   6.7009E+06  -7.13E-01  0.05      09:40:00   85  06:50:22      06:20:19
+1:6月:22y 06:56:07:455 |  61
+1:6月:22y 06:58:28:688 |  1.84054E+02    16274   1.57E-02  1.57E-02/cz       1  4.61E-01   6.6097E+06  -7.19E-01  0.05      09:48:07   85  06:58:28      06:09:47
+1:6月:22y 07:02:46:879 |  62
+1:6月:22y 07:05:13:861 |  1.86945E+02    16448   1.80E-05  1.80E-05/vs       2  3.97E-01   6.5837E+06  -7.19E-01  0.05      09:54:52   85  07:05:13      05:59:04
+1:6月:22y 07:08:25:986 | 
+1:6月:22y 07:08:25:987 |  ============= mentor tip ===============
+1:6月:22y 07:08:25:988 |      persistent f-packing location at t= 1.86965E+02
+1:6月:22y 07:08:25:988 |      x= 2.32500E+02,  y=-1.42500E+02,  z=-3.00000E+00
+1:6月:22y 07:08:25:989 |      i=  114,  j=   34,  k=   45,  mesh block=  2
+1:6月:22y 07:08:25:989 |      f=  3.27081E-01
+1:6月:22y 07:08:25:990 |  ========================================
+1:6月:22y 07:08:25:990 | 
+1:6月:22y 07:08:25:991 |      recommend reducing cfpk by factor of 10
+1:6月:22y 07:15:15:804 |  1.88987E+02    16708   1.35E-02  1.35E-02/cz       1  1.83E-01   6.5808E+06  -7.15E-01  0.05      10:04:54   83  07:15:15      05:54:40
+1:6月:22y 07:15:18:094 |  63
+1:6月:22y 07:18:56:808 |  ***
+1:6月:22y 07:18:56:809 |   restart and spatial data available at t= 1.90000E+02
+1:6月:22y 07:18:56:809 |  ***
+1:6月:22y 07:18:56:810 |  1.90000E+02    16798   9.69E-03  9.69E-03/cz       1  9.64E-02   6.5937E+06  -7.11E-01  0.05      10:08:22   85  07:18:43      05:51:34
+1:6月:22y 07:24:43:614 |  1.91999E+02    16944   1.64E-02  1.64E-02/vs       1  5.99E-01   6.5581E+06  -7.12E-01  0.05      10:14:22   87  07:24:43      05:44:57
+1:6月:22y 07:24:45:911 |  64
+1:6月:22y 07:33:30:926 |  1.94697E+02    17171   1.96E-07  1.96E-07/vs       5  2.61E-01   6.5412E+06  -7.10E-01  0.05      10:23:09   85  07:33:30      05:36:26
+1:6月:22y 07:34:49:143 | 
+1:6月:22y 07:34:49:144 |  ============= mentor tip ===============
+1:6月:22y 07:34:49:145 |      persistent f-packing location at t= 1.94697E+02
+1:6月:22y 07:34:49:145 |      x= 1.27500E+02,  y=-1.12500E+02,  z=-1.50000E+01
+1:6月:22y 07:34:49:146 |      i=   93,  j=   40,  k=   39,  mesh block=  2
+1:6月:22y 07:34:49:147 |      f=  3.85797E-01
+1:6月:22y 07:34:49:147 |  ========================================
+1:6月:22y 07:34:49:148 | 
+1:6月:22y 07:34:49:148 |      recommend reducing cfpk by factor of 10
+1:6月:22y 07:35:53:092 | 
+1:6月:22y 07:35:53:093 |  ============= mentor tip ===============
+1:6月:22y 07:35:53:094 |      persistent f-packing location at t= 1.94697E+02
+1:6月:22y 07:35:53:095 |      x=-2.87500E+02,  y=-1.27500E+02,  z=-9.00000E+00
+1:6月:22y 07:35:53:095 |      i=   10,  j=   37,  k=   42,  mesh block=  2
+1:6月:22y 07:35:53:096 |      f=  6.62480E-01
+1:6月:22y 07:35:53:096 |  ========================================
+1:6月:22y 07:35:53:097 | 
+1:6月:22y 07:35:53:097 |      recommend reducing cfpk by factor of 10
+1:6月:22y 07:43:32:108 |  1.94953E+02    17427   5.00E-03  5.00E-03/cz       1  1.15E-01   6.5819E+06  -7.05E-01  0.05      10:33:10   85  07:43:32      05:40:34
+1:6月:22y 07:43:52:919 |  65
+1:6月:22y 07:53:33:927 |  1.96840E+02    17685   8.06E-03  8.06E-03/cy       1  8.20E-02   6.5793E+06  -6.99E-01  0.05      10:43:12   84  07:53:33      05:36:30
+1:6月:22y 07:58:55:483 |  66
+1:6月:22y 08:03:36:101 |  1.99016E+02    17942   8.53E-03  8.53E-03/cy       1  1.91E-01   6.5787E+06  -6.95E-01  0.05      10:53:14   86  08:03:36      05:30:54
+1:6月:22y 08:08:20:118 |  ***
+1:6月:22y 08:08:20:119 |   restart and spatial data available at t= 2.00000E+02
+1:6月:22y 08:08:20:119 |  ***
+1:6月:22y 08:08:20:120 |  2.00000E+02    18058   8.49E-03  8.49E-03/cy       1  4.38E-02   6.5800E+06  -6.96E-01  0.05      10:57:45   84  08:08:06      05:28:19
+1:6月:22y 08:13:20:735 |  67
+1:6月:22y 08:13:37:046 |  2.01061E+02    18190   8.55E-03  8.55E-03/cy       1  8.59E-02   6.5782E+06  -6.96E-01  0.05      11:03:15   86  08:13:36      05:25:50
+1:6月:22y 08:23:37:521 |  2.02945E+02    18447   4.92E-03  5.94E-03/cz       1  7.29E-02   6.5601E+06  -6.98E-01  0.05      11:13:16   87  08:23:37      05:21:26
+1:6月:22y 08:27:02:997 |  68
+1:6月:22y 08:32:19:717 |  2.05947E+02    18671   1.19E-02  1.19E-02/vs       1  1.47E-01   6.4439E+06  -7.09E-01  0.04      11:21:58   85  08:32:19      05:10:56
+1:6月:22y 08:36:10:343 |  69
+1:6月:22y 08:42:19:710 |  2.08431E+02    18927   8.21E-03  8.21E-03/vs       1  1.41E-01   6.4538E+06  -7.06E-01  0.05      11:31:58   83  08:42:19      05:03:30
+1:6月:22y 08:50:40:923 |  ***
+1:6月:22y 08:50:40:923 |   restart and spatial data available at t= 2.09998E+02
+1:6月:22y 08:50:40:924 |  ***
+1:6月:22y 08:50:40:925 |  2.09998E+02    19136   6.91E-03  6.91E-03/vs       1  1.20E-01   6.4652E+06  -7.02E-01  0.05      11:40:06   88  08:50:27      04:59:34
+1:6月:22y 08:50:51:423 |  70
+1:6月:22y 08:52:19:936 |  2.10264E+02    19175   6.73E-03  6.73E-03/vs       1  1.17E-01   6.4638E+06  -7.02E-01  0.05      11:41:58   82  08:52:19      04:59:06
+1:6月:22y 09:02:21:382 |  2.11948E+02    19444   5.93E-03  5.93E-03/vs       1  5.46E-02   6.4715E+06  -6.98E-01  0.05      11:51:60   90  09:02:21      04:55:20
+1:6月:22y 09:08:56:911 |  71
+1:6月:22y 09:12:21:589 |  2.13538E+02    19723   5.47E-03  5.47E-03/vs       1  8.19E-02   6.4747E+06  -6.95E-01  0.05      12:01:60   92  09:12:21      04:51:53
+1:6月:22y 09:22:23:153 |  2.15010E+02    20002   5.10E-03  5.10E-03/vs       1  9.00E-02   6.4828E+06  -6.92E-01  0.05      12:12:01   91  09:22:23      04:48:55
+1:6月:22y 09:29:36:121 |  72
+1:6月:22y 09:32:24:945 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+1:6月:22y 09:32:24:947 |         progress               time step            pressure                fluid #1                           performance              
+1:6月:22y 09:32:24:948 |    sim_time     cycle     delt   dt_stbl/code    iter  res/epsi     volume      %loss    frac      el_time  %PE   clk_time  est_rem_time
+1:6月:22y 09:32:24:948 |  --------------------   ---------------------   ---------------   ---------------------------      -------------------------------------
+1:6月:22y 09:32:24:949 |  2.16368E+02    20277   4.78E-03  4.78E-03/vs       1  4.16E-01   6.4730E+06  -6.91E-01  0.05      12:22:03   88  09:32:24      04:46:23
+1:6月:22y 09:42:27:051 |  2.17762E+02    20551   5.23E-03  5.23E-03/vs       1  4.27E-02   6.4857E+06  -6.88E-01  0.05      12:32:05   90  09:42:26      04:43:36
+1:6月:22y 09:51:49:880 |  73
+1:6月:22y 09:52:27:074 |  2.19080E+02    20821   4.54E-03  4.54E-03/vs       1  1.18E-01   6.4863E+06  -6.86E-01  0.05      12:42:05   90  09:52:27      04:41:04
+1:6月:22y 09:52:48:167 | Entering RunnerConnectionHandler::processMessage
+1:6月:22y 09:52:48:168 | Solver::SignalFile - writing 2 into signal file HYdr3D_SIgnAL.dat while solving.
+1:6月:22y 09:52:48:170 | Solver Terminating
+1:6月:22y 09:52:53:032 | 
+1:6月:22y 09:52:53:033 | 
+1:6月:22y 09:52:53:034 |  ***  operator abort ***
+1:6月:22y 09:52:53:035 | 
+1:6月:22y 09:52:53:036 | 
+1:6月:22y 09:53:06:199 |  ***
+1:6月:22y 09:53:06:200 |   restart and spatial data available at t= 2.19135E+02
+1:6月:22y 09:53:06:200 |  ***
+1:6月:22y 09:53:06:201 |  2.19135E+02    20833   4.52E-03  4.52E-03/vs       1  1.33E-01   6.4866E+06  -6.86E-01  0.05      12:42:31   90  09:52:53      04:40:58
+1:6月:22y 09:53:14:199 | 
+1:6月:22y 09:53:14:199 |            end of calculation    at t=    2.19135E+02      cycle =   20833
+1:6月:22y 09:53:14:200 |            terminated by operator                                      
+1:6月:22y 09:53:14:200 | 
+1:6月:22y 09:53:14:200 | 
+1:6月:22y 09:53:14:201 |            elapsed time =    4.57724E+04 seconds, or
+1:6月:22y 09:53:14:201 |                              0 days : 12 hours : 42 minutes : 52 seconds
+1:6月:22y 09:53:14:201 | 
+1:6月:22y 09:53:14:202 |            cpu =    6.25823E+05 seconds
+1:6月:22y 09:53:14:202 | 
+1:6月:22y 09:53:14:203 |            date of completion = 06/01/2022
+1:6月:22y 09:53:14:203 |            time               = 09:53:14
+1:6月:22y 09:53:14:322 | Aborting reading of D:/flow/120/plot.120.
+1:6月:22y 09:53:14:322 |  73
+1:6月:22y 09:53:14:323 | Solver Terminated
+1:6月:22y 09:53:14:325 |  All Done
+1:6月:22y 09:53:14:326 | Project::scheduleQuit: sending DoneMessage.
+1:6月:22y 09:53:14:326 | Closing D:/flow/120/hd3msg.120 in ~PermanentFile()
+1:6月:22y 09:53:14:326 | Closing D:/flow/120/hd3err.120 in ~PermanentFile()
+1:6月:22y 09:53:14:327 | Closing D:/flow/120/temp2.tmp in ~TempOutputFile()
+1:6月:22y 09:53:14:327 | Closing D:/flow/120/prpmsg.tmp in ~PermanentFile()
+1:6月:22y 09:53:14:328 | Closing D:/flow/120/prperr.120 in ~PermanentFile()
+1:6月:22y 09:53:14:328 | Closing D:/flow/120/temp.tmp in ~TempOutputFile()
+1:6月:22y 09:53:14:329 | 127.0.0.1 port 53424: ConnectionHandler::disconnected()
+1:6月:22y 09:53:14:330 | RunnerSocketServer::handlerDisconnected
+1:6月:22y 09:53:14:330 | Project::handleNoConnections m_doneRunning: 1
+1:6月:22y 09:53:14:331 | Project::handleNoConnections quitting application.
+1:6月:22y 09:53:14:331 | ~RunnerConnectionHandler

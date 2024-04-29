@@ -1,0 +1,197 @@
+
+
+CO2: 32313133 33313132 1 1 0 0 0 95
+hydr3dp  11.1  945    0   95
+
+
+ convective flux exceeded stability limit
+  at t= 3.2035E-01  cycle=       1  iter=   27  delt= 3.2035E-01 mesh block  2
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.63280E+00  is in z-coordinate direction
+ at cell (   80,   63,   46)     mesh block    2
+
+
+ convective flux exceeded stability limit
+  at t= 1.6316E+01  cycle=     406  iter=    1  delt= 2.6995E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.04229E+00  is in z-coordinate direction
+ at cell (  159,   49,   20)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 2.1309E+01  cycle=     619  iter=    2  delt= 3.0822E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.06020E+00  is in z-coordinate direction
+ at cell (  147,   47,   19)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 3.0328E+01  cycle=     997  iter=    2  delt= 3.6687E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.19195E+00  is in z-coordinate direction
+ at cell (  179,  102,   17)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 3.2061E+01  cycle=    1061  iter=    2  delt= 3.5321E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.10811E+00  is in z-coordinate direction
+ at cell (  200,   76,   20)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 4.1148E+01  cycle=    1617  iter=    2  delt= 2.6251E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.28468E+00  is in z-coordinate direction
+ at cell (  201,  231,   12)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 4.2933E+01  cycle=    1702  iter=    2  delt= 2.2076E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.34641E+00  is in z-coordinate direction
+ at cell (  152,  306,   10)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 8.3709E+01  cycle=    5118  iter=    2  delt= 1.6969E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.29222E+00  is in z-coordinate direction
+ at cell (  341,  358,    7)     mesh block    1
+
+
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.04302E+02
+     x= 7.50000E+00,  y=-1.07500E+02,  z=-1.70000E+01
+     i=   69,  j=   41,  k=   38,  mesh block=  2
+     f=  8.00488E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+ convective flux exceeded stability limit
+  at t= 1.0495E+02  cycle=    7406  iter=    1  delt= 8.8044E-03 mesh block  2
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.16659E+00  is in z-coordinate direction
+ at cell (   21,   63,   33)     mesh block    2
+
+
+ convective flux exceeded stability limit
+  at t= 1.0613E+02  cycle=    7571  iter=    1  delt= 1.1219E-02 mesh block  2
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.12939E+00  is in z-coordinate direction
+ at cell (   21,   63,   33)     mesh block    2
+
+
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.07680E+02
+     x= 1.25000E+01,  y= 2.47500E+02,  z=-5.30000E+01
+     i=  164,  j=   12,  k=   20,  mesh block=  1
+     f=  9.89942E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.07680E+02
+     x= 3.82500E+02,  y=-1.27500E+02,  z=-9.00000E+00
+     i=  144,  j=   37,  k=   42,  mesh block=  2
+     f=  7.78056E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+ convective flux exceeded stability limit
+  at t= 1.1519E+02  cycle=    9089  iter=    1  delt= 1.0192E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.31668E+00  is in z-coordinate direction
+ at cell (  183,  289,   11)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 1.2834E+02  cycle=   10140  iter=    1  delt= 1.7147E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.04132E+00  is in z-coordinate direction
+ at cell (  271,  251,    8)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 1.3618E+02  cycle=   11519  iter=    1  delt= 1.8588E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.02320E+00  is in z-coordinate direction
+ at cell (   42,   70,   21)     mesh block    1
+
+
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.50221E+02
+     x= 1.87500E+02,  y=-7.25000E+01,  z=-3.30000E+01
+     i=  105,  j=   48,  k=   30,  mesh block=  2
+     f=  6.25498E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+ convective flux exceeded stability limit
+  at t= 1.5259E+02  cycle=   13149  iter=    1  delt= 1.8203E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.00563E+00  is in z-coordinate direction
+ at cell (  169,  358,    8)     mesh block    1
+
+
+ convective flux exceeded stability limit
+  at t= 1.5771E+02  cycle=   13444  iter=    1  delt= 1.6185E-02 mesh block  1
+  restarting cycle with smaller time step
+ maximum failure ratio =  1.01074E+00  is in z-coordinate direction
+ at cell (  213,  300,   11)     mesh block    1
+
+
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.62554E+02
+     x= 1.12500E+02,  y=-1.42500E+02,  z=-3.00000E+00
+     i=   90,  j=   34,  k=   45,  mesh block=  2
+     f=  4.24064E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.69092E+02
+     x= 4.57500E+02,  y= 1.10250E+03,  z=-7.10000E+01
+     i=  253,  j=  183,  k=   11,  mesh block=  1
+     f=  9.75691E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.86965E+02
+     x= 2.32500E+02,  y=-1.42500E+02,  z=-3.00000E+00
+     i=  114,  j=   34,  k=   45,  mesh block=  2
+     f=  3.27081E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.94697E+02
+     x= 1.27500E+02,  y=-1.12500E+02,  z=-1.50000E+01
+     i=   93,  j=   40,  k=   39,  mesh block=  2
+     f=  3.85797E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+
+ ============= mentor tip ===============
+     persistent f-packing location at t= 1.94697E+02
+     x=-2.87500E+02,  y=-1.27500E+02,  z=-9.00000E+00
+     i=   10,  j=   37,  k=   42,  mesh block=  2
+     f=  6.62480E-01
+ ========================================
+
+     recommend reducing cfpk by factor of 10
+
+
+ ***  operator abort ***
+
+

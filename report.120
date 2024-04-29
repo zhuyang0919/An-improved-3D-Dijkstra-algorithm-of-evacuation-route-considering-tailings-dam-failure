@@ -1,0 +1,163 @@
+
+ DOUBLE precision version
+
+  Title                                                                         
+       hydr3d   version  11.2.0.16 win64     11/21/2016                              
+      version id: double
+
+
+   *** Tabular property data is present in prepin file
+
+   mesh block   1 summary:
+     x direction: # of real cells=  520
+       smallest cell      =  5.0000E+00
+       largest cell       =  5.0000E+00
+       maximum cell ratio =  1.0000E+00    (at cell #  400)
+     y direction: # of real cells=  620
+       smallest cell      =  5.0000E+00
+       largest cell       =  5.0000E+00
+       maximum cell ratio =  1.0000E+00    (at cell #  371)
+     z direction: # of real cells=   35
+       smallest cell      =  2.5714E+00
+       largest cell       =  2.5714E+00
+       maximum cell ratio =  1.0000E+00    (at cell #   28)
+   mesh block   2 summary:
+     x direction: # of real cells=  240
+       smallest cell      =  5.0000E+00
+       largest cell       =  5.0000E+00
+       maximum cell ratio =  1.0000E+00    (at cell #  200)
+     y direction: # of real cells=  100
+       smallest cell      =  5.0000E+00
+       largest cell       =  5.0000E+00
+       maximum cell ratio =  1.0000E+00    (at cell #  102)
+     z direction: # of real cells=   48
+       smallest cell      =  2.2917E+00
+       largest cell       =  2.2917E+00
+       maximum cell ratio =  1.0000E+00    (at cell #   18)
+   mesh block   3 summary:
+     x direction: # of real cells=  240
+       smallest cell      =  5.0000E+00
+       largest cell       =  5.0000E+00
+       maximum cell ratio =  1.0000E+00    (at cell #  200)
+     y direction: # of real cells=  240
+       smallest cell      =  5.0000E+00
+       largest cell       =  5.0000E+00
+       maximum cell ratio =  1.0000E+00    (at cell #  200)
+     z direction: # of real cells=   48
+       smallest cell      =  2.2917E+00
+       largest cell       =  2.2917E+00
+       maximum cell ratio =  1.0000E+00    (at cell #   18)
+
+     ************************
+     total requested number of cells in all blocks:   15200800
+     ************************
+
+   cad data min/max x coordinates =       -3.696336E+02,        4.567065E+02
+   cad data min/max y coordinates =       -1.487269E+02,        1.982794E+02
+   cad data min/max z coordinates =       -7.397623E+01,        3.580392E-12
+
+   number of mesh cells in smallest box around cad  object: nvtot=    4785
+
+   number of mesh cells in smallest box around cad  object: nvtot=  375705
+
+   number of mesh cells in smallest box around cad  object: nvtot=  375705
+
+   cad data min/max x coordinates =       -2.092524E+03,        1.745586E+03
+   cad data min/max y coordinates =       -1.185982E+03,        3.616139E+03
+   cad data min/max z coordinates =       -1.500000E+02,        5.400000E+01
+
+   number of mesh cells in smallest box around cad  object: nvtot=11990294
+
+   number of mesh cells in smallest box around cad  object: nvtot= 1241150
+
+   number of mesh cells in smallest box around cad  object: nvtot= 2916100
+
+   cad data min/max x coordinates =       -2.491384E+02,        2.415176E+02
+   cad data min/max y coordinates =        1.478906E+02,        3.308553E+02
+   cad data min/max z coordinates =       -8.437995E+01,       -3.924300E+01
+
+   number of mesh cells in smallest box around cad  object: nvtot=   46648
+
+   number of mesh cells in smallest box around cad  object: nvtot=   23520
+
+   number of mesh cells in smallest box around cad  object: nvtot=   23520
+
+   cad data min/max x coordinates =       -5.139440E+02,        4.584701E+02
+   cad data min/max y coordinates =       -6.372483E+02,        1.692911E+01
+   cad data min/max z coordinates =       -7.911425E+01,        2.131628E-14
+
+   number of mesh cells in smallest box around cad  object: nvtot=    6014
+
+   number of mesh cells in smallest box around cad  object: nvtot=  441350
+
+   number of mesh cells in smallest box around cad  object: nvtot=  889490
+
+ **************************************************
+ ** summary of mesh boundaries for mesh block   1 **
+ **************************************************
+
+              Xmin boundary           - symmetry plane    
+              Xmax boundary           - symmetry plane    
+              Ymin boundary           - inter-block       
+                        open area               =  4.42661E+04
+              Ymax boundary           - symmetry plane    
+              Zmin boundary           - solid wall        
+              Zmax boundary           - specified pressure
+                        open area               =  8.04681E+06
+
+ **************************************************
+ ** summary of mesh boundaries for mesh block   2 **
+ **************************************************
+
+              Xmin boundary           - solid wall        
+              Xmax boundary           - solid wall        
+              Ymin boundary           - inter-block       
+                        open area               =  2.90874E+04
+              Ymax boundary           - inter-block       
+                        open area               =  4.35132E+04
+              Zmin boundary           - solid wall        
+              Zmax boundary           - specified pressure
+                        open area               =  5.96134E+05
+
+ **************************************************
+ ** summary of mesh boundaries for mesh block   3 **
+ **************************************************
+
+              Xmin boundary           - solid wall        
+              Xmax boundary           - solid wall        
+              Ymin boundary           - solid wall        
+              Ymax boundary           - inter-block       
+                        open area               =  4.35132E+04
+              Zmin boundary           - solid wall        
+              Zmax boundary           - specified pressure
+                        open area               =  8.16202E+05
+
+   open area mismatch at inter-block boundaries of all blocks
+   as % of total open area at these mesh boundaries =  1.02640E+00
+
+
+     number of open regions in mesh is =     22
+
+                     volume
+                 1   5.65088E+08
+                 2   4.01063E+02
+                 3   9.40568E+01
+                 4   2.89557E+02
+                 5   7.17720E+02
+                 6   6.72983E+02
+                 7   2.24567E+01
+                 8   4.42198E+01
+                 9   2.94315E+02
+                10   1.25287E+02
+                11   1.72735E+03
+                12   5.13316E+01
+                13   1.19364E+03
+                14   2.82652E+02
+                15   4.54488E+01
+                16   3.43713E+03
+                17   6.46739E+02
+                18   4.27979E+00
+                19   1.09257E+00
+                20   2.06301E+00
+                21   7.26770E-01
+                22   4.83504E+01

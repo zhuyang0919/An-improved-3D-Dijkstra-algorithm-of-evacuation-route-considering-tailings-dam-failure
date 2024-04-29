@@ -1,0 +1,68 @@
+----------------------------------------
+	Program started:	FLOW-3D Solver Runner
+	Version:		11.2.0.15
+	Start date:		31. 05. 2022
+	Start time:		17:53:15:094
+----------------------------------------
+
+31:5月:22y 17:53:15:096 | JobPackage::factory(QStringList& argumentList)
+31:5月:22y 17:53:15:100 | Version Number = 2
+31:5月:22y 17:53:15:100 | Package Type = Local
+31:5月:22y 17:53:15:101 | Number of Arguments = 43
+31:5月:22y 17:53:15:102 | F3D_HOME = C:\flow3d\v11.2\
+31:5月:22y 17:53:15:103 | Processor Mode = InitRender
+31:5月:22y 17:53:15:104 | IP Address = 127.0.0.1
+31:5月:22y 17:53:15:105 | Port Number = 62724
+31:5月:22y 17:53:15:106 | Project Name = 120
+31:5月:22y 17:53:15:106 | Project Extension = 120
+31:5月:22y 17:53:15:107 | Input File Extension = 120
+31:5月:22y 17:53:15:108 | Project Path = D:/flow/120
+31:5月:22y 17:53:15:108 | Project Filename = prepin.120
+31:5月:22y 17:53:15:109 | UUID = {631adaeb-8b53-4e91-a6d0-3d3b82506a0e}
+31:5月:22y 17:53:15:109 | Version Code Name = double
+31:5月:22y 17:53:15:110 | Use MPI = 0
+31:5月:22y 17:53:15:110 | MPI Scheduler = 0
+31:5月:22y 17:53:15:111 | MPI Number of Ranks = 1
+31:5月:22y 17:53:15:111 | Number of Requested Nodes = 1
+31:5月:22y 17:53:15:112 | Number of Processors Per Node = 0
+31:5月:22y 17:53:15:112 | Desired Number of Threads = 16
+31:5月:22y 17:53:15:113 | Mesh Block Count = 3
+31:5月:22y 17:53:15:113 | MPI Max Wall Clock Time = 20160
+31:5月:22y 17:53:15:114 | MPI Max Memory = 0
+31:5月:22y 17:53:15:114 | MPI Max Memory Units String = mb
+31:5月:22y 17:53:15:115 | Additional Arguments = 
+31:5月:22y 17:53:15:115 | MPI Job Name = 120.631adaeb-8b53-4e91-a6d0-3d3b82506a0e
+31:5月:22y 17:53:15:116 | MPI Decomposition Number of Ranks = 0
+31:5月:22y 17:53:15:116 | MPI Decomposition Avoid X = 0
+31:5月:22y 17:53:15:117 | MPI Decomposition Avoid Y = 0
+31:5月:22y 17:53:15:117 | MPI Decomposition Avoid Z = 0
+31:5月:22y 17:53:15:118 | Threads Per Rank = 0
+31:5月:22y 17:53:15:118 | MPI Fabrics = shm:dapl
+31:5月:22y 17:53:15:119 | MPI Domain = node
+31:5月:22y 17:53:15:119 | MPI Platform = auto
+31:5月:22y 17:53:15:120 | MPI Debug = 0
+31:5月:22y 17:53:15:120 | MPI Debug Output = 
+31:5月:22y 17:53:15:121 | MPI Scheduler Run Cmd = 
+31:5月:22y 17:53:15:121 | MPI Scheduler Terminate Cmd = 
+31:5月:22y 17:53:15:122 | MPI Scheduler Status Cmd = 
+31:5月:22y 17:53:15:123 | Results file name = flsgrf.120
+31:5月:22y 17:53:15:125 | Results file path = D:/flow/120/flsgrf.120
+31:5月:22y 17:53:15:126 | Original Path = D:/flow/120
+31:5月:22y 17:53:15:126 | Original Filename = prepin.120
+31:5月:22y 17:53:15:152 | Started the GUI communications server.
+31:5月:22y 17:53:15:873 | Postprocessor::spawning 'C:\flow3d\v11.2\\local\flscon.exe' with 2 argument(s): '-1, flsgrf.120'
+31:5月:22y 17:53:15:876 | RunnerSocketServer::handleNewConnection
+31:5月:22y 17:53:15:876 | 127.0.0.1 port 53714: ConnectionHandler: sending hello message
+31:5月:22y 17:53:15:877 | Project::newGuiConnection()
+31:5月:22y 17:53:20:752 | Closing D:/flow/120/Batch_Progress.120 in ~PermanentFile()
+31:5月:22y 17:53:20:752 | Closing D:/flow/120/Batch_Status.120 in ~PermanentFile()
+31:5月:22y 17:53:20:753 | Closing D:/flow/120/batchout.120 in ~PermanentFile()
+31:5月:22y 17:53:20:754 | Closing D:/flow/120/batcherr.120 in ~PermanentFile()
+31:5月:22y 17:53:20:754 | Closing D:/flow/120/flsmsg.tmp in ~PermanentFile()
+31:5月:22y 17:53:20:755 | Closing D:/flow/120/flscon.err in ~PermanentFile()
+31:5月:22y 17:53:20:756 | Project::scheduleQuit: sending DoneMessage.
+31:5月:22y 17:53:20:758 | 127.0.0.1 port 53714: ConnectionHandler::disconnected()
+31:5月:22y 17:53:20:758 | RunnerSocketServer::handlerDisconnected
+31:5月:22y 17:53:20:759 | Project::handleNoConnections m_doneRunning: 1
+31:5月:22y 17:53:20:759 | Project::handleNoConnections quitting application.
+31:5月:22y 17:53:20:760 | ~RunnerConnectionHandler
